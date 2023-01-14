@@ -40,7 +40,7 @@ async function getLeaderBoard () {
 
 	let leaderboard = [];
 	$rows.each((_, el) => {
-		const leaderBoardEntries = leaderBoardSelectorEntries.map(([key, {selector, typeOf}]) => {
+		const leaderBoardEntries = leaderBoardSelectorEntries.map(([key, { selector, typeOf }]) => {
 			const rawValue = $(el).find(selector).text();
 			const cleanedValue = cleanText(rawValue);
 
