@@ -20,12 +20,12 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 18
-      - uses: pnpm/action-setup@v2
-        with:
-          version: 7.18.2
-          run_install: true
-      - run: |
-          node scrapping/leaderboard.js
+      - name: NPM dependency installation
+        run: npm install
+      - name: Scrapping Kings League web
+        run: node scrapping/leaderboard.js
+      - name: Commit & Push to main branch
+        run: |
           git config user.name kings-league-bot
           git add -A
           git commit -m "[BOT] Updated Kings League Database"
