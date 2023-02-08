@@ -24,14 +24,14 @@ jobs:
         run: npm install
       - name: Scrapping Kings League web
         run: node scrapping/leaderboard.js
-      - name: Commit & Push to main branch
+      - name: Adding new changes to staging area
         run: |
           git config user.name kings-league-bot
           git add -A
-        - name: Verifying updated data and commiting
-          run: if git diff-index --quiet HEAD;
-                then git commit -m "[BOT] Nothing to commit, all data was up to date.";
-                else git commit -m "[BOT] Updated Kings League Database.";
-               fi
-        - name: Pushing
-          run: git push origin main
+      - name: Verifying updated data & commiting
+        run: if git diff-index --quiet HEAD;
+              then git commit -m "[BOT] Nothing to commit, all data was up to date.";
+              else git commit -m "[BOT] Updated Kings League Database.";
+              fi
+      - name: Pushing to main branch
+        run: git push origin main
