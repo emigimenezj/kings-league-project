@@ -28,5 +28,10 @@ jobs:
         run: |
           git config user.name kings-league-bot
           git add -A
-          git commit -m "[BOT] Updated Kings League Database"
-          git push origin main
+        - name: Verifying updated data and commiting
+          run: if git diff-index --quiet HEAD;
+                then git commit -m "[BOT] Nothing to commit, all data was up to date.";
+                else git commit -m "[BOT] Updated Kings League Database.";
+               fi
+        - name: Pushing
+          run: git push origin main
