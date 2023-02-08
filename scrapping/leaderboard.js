@@ -1,6 +1,6 @@
 import * as cheerio from 'cheerio';
 
-import { writeDBFile, TEAMS, PRESIDENTS } from '../db';
+import { writeDBFile, TEAMS, PRESIDENTS } from '../db/index.js';
 
 const URLS = {
 	leaderboard: 'https://kingsleague.pro/estadisticas/clasificacion/',
