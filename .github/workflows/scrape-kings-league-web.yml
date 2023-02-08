@@ -12,11 +12,9 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
       - uses: actions/setup-node@v3
         with:
           node-version: 18
@@ -32,6 +30,6 @@ jobs:
         run: if git diff-index --quiet HEAD;
               then git commit --allow-empty -m "[BOT] Nothing to commit, all data was up to date.";
               else git commit -m "[BOT] Updated Kings League Database.";
-              fi
+             fi
       - name: Pushing to main branch
         run: git push origin main
