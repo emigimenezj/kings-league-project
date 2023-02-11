@@ -6,9 +6,25 @@ on:
       - main
 
 jobs:
+
+  test:
+    runs-on: ubuntu-22.04
+    name: Test Suite run
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
+      - name: NPM dependency installation
+        run: npm install
+      - name: Running tests
+        run: npm run test
+
   deploy:
+    needs: test
     runs-on: ubuntu-22.04
     name: Deploy API to Cloudflare Workers
+    if: ${{ github.event.pull_request.head.repo.full_name == github.repository }}
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
