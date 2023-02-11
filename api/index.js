@@ -53,4 +53,14 @@ app.get('/teams/:id', (ctx) => {
 
 app.get('/static/*', serveStatic({ root: './' }));
 
+app.notFound((ctx) => {
+	const url = ctx.req.url;
+	const { pathname } = new URL(url);
+	
+	if (url.at(-1) === '/')
+		return ctx.redirect(pathname.slice(0, -1))
+	
+	return ctx.json({ message: 'Not Found'}, 404);
+});
+
 export default app;
