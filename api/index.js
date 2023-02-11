@@ -1,5 +1,5 @@
 import { Hono } from 'hono';
-import { serveStatic } from 'hono/serve-static.module'
+import { serveStatic } from 'hono/serve-static.module';
 import leaderboard from '../db/leaderboard.json';
 import presidents from '../db/presidents.json';
 import teams from '../db/teams.json';
@@ -20,7 +20,7 @@ app.get('/', (ctx) => {
 			endpoint: '/teams',
 			description: 'Returns Kings League teams'
 		},
-	])
+	]);
 });
 
 app.get('/leaderboard', (ctx) => {
@@ -38,10 +38,17 @@ app.get('/presidents/:id', (ctx) => {
 	return targetPresident
 		? ctx.json(targetPresident)
 		: ctx.json({ message: 'President not found' }, 404);
-})
+});
 
 app.get('/teams', (ctx) => {
 	return ctx.json(teams);
+});
+
+app.get('/teams/:id', (ctx) => {
+	const id = ctx.req.param('id');
+	const team = teams.find(team => team.id === id);
+	
+	return team ? ctx.json(team) : ctx.json({ message: 'Team not found' }, 404);
 });
 
 app.get('/static/*', serveStatic({ root: './' }));
