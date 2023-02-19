@@ -1,10 +1,10 @@
 [
   {
-    "wins": 4,
+    "wins": 5,
     "loses": 1,
-    "scoredGoals": 12,
-    "concededGoals": 5,
-    "yellowCards": 6,
+    "scoredGoals": 14,
+    "concededGoals": 7,
+    "yellowCards": 3,
     "redCards": 1,
     "team": {
       "id": "saiyans-fc",
@@ -26,10 +26,10 @@
     }
   },
   {
-    "wins": 4,
+    "wins": 5,
     "loses": 1,
-    "scoredGoals": 18,
-    "concededGoals": 12,
+    "scoredGoals": 22,
+    "concededGoals": 15,
     "yellowCards": 1,
     "redCards": 0,
     "team": {
@@ -53,11 +53,11 @@
     }
   },
   {
-    "wins": 4,
+    "wins": 5,
     "loses": 1,
-    "scoredGoals": 10,
-    "concededGoals": 6,
-    "yellowCards": 6,
+    "scoredGoals": 13,
+    "concededGoals": 8,
+    "yellowCards": 2,
     "redCards": 0,
     "team": {
       "id": "kunisports",
@@ -79,10 +79,10 @@
     }
   },
   {
-    "wins": 3,
+    "wins": 4,
     "loses": 2,
-    "scoredGoals": 15,
-    "concededGoals": 12,
+    "scoredGoals": 18,
+    "concededGoals": 14,
     "yellowCards": 1,
     "redCards": 0,
     "team": {
@@ -106,10 +106,10 @@
   },
   {
     "wins": 3,
-    "loses": 2,
-    "scoredGoals": 16,
-    "concededGoals": 15,
-    "yellowCards": 1,
+    "loses": 3,
+    "scoredGoals": 18,
+    "concededGoals": 17,
+    "yellowCards": 0,
     "redCards": 0,
     "team": {
       "id": "1k",
@@ -135,9 +135,9 @@
   },
   {
     "wins": 3,
-    "loses": 2,
-    "scoredGoals": 15,
-    "concededGoals": 15,
+    "loses": 3,
+    "scoredGoals": 17,
+    "concededGoals": 18,
     "yellowCards": 1,
     "redCards": 0,
     "team": {
@@ -161,9 +161,9 @@
   },
   {
     "wins": 3,
-    "loses": 2,
-    "scoredGoals": 11,
-    "concededGoals": 12,
+    "loses": 3,
+    "scoredGoals": 14,
+    "concededGoals": 16,
     "yellowCards": 3,
     "redCards": 0,
     "team": {
@@ -186,68 +186,10 @@
     }
   },
   {
-    "wins": 2,
+    "wins": 3,
     "loses": 3,
-    "scoredGoals": 13,
-    "concededGoals": 10,
-    "yellowCards": 2,
-    "redCards": 0,
-    "team": {
-      "id": "el-barrio",
-      "name": "El Barrio",
-      "image": "https://kings-league-api.midudev.workers.dev/static/logos/el-barrio.svg",
-      "url": "",
-      "channel": "https://twitch.tv/1k",
-      "coach": "???",
-      "socialNetworks": [
-        "https://www.instagram.com/elbarrioklk/?hl=es",
-        "https://www.tiktok.com/@adricontreras4",
-        "https://twitter.com/elbarrioklk_",
-        "https://www.tiktok.com/@elbarrioklk"
-      ],
-      "players": [],
-      "president": {
-        "id": "gerard-romero",
-        "name": "Iker Casillas",
-        "image": "https://kings-league-api.emigimenezj.workers.dev/static/presidents/iker-casillas.png",
-        "teamId": 0
-      }
-    }
-  },
-  {
-    "wins": 2,
-    "loses": 3,
-    "scoredGoals": 15,
-    "concededGoals": 18,
-    "yellowCards": 1,
-    "redCards": 0,
-    "team": {
-      "id": "rayo-barcelona",
-      "name": "Rayo de Barcelona",
-      "image": "https://kings-league-api.midudev.workers.dev/static/logos/rayo-barcelona.svg",
-      "url": "",
-      "channel": "https://twitch.tv/spursito",
-      "coach": "???",
-      "socialNetworks": [
-        "https://www.twitch.tv/spursito",
-        "https://www.instagram.com/rayodebarcelona/?hl=es",
-        "https://twitter.com/RayodeBarcelona",
-        "https://www.tiktok.com/@rayodebarcelona"
-      ],
-      "players": [],
-      "president": {
-        "id": "gerard-romero",
-        "name": "Iker Casillas",
-        "image": "https://kings-league-api.emigimenezj.workers.dev/static/presidents/iker-casillas.png",
-        "teamId": 0
-      }
-    }
-  },
-  {
-    "wins": 2,
-    "loses": 3,
-    "scoredGoals": 17,
-    "concededGoals": 22,
+    "scoredGoals": 20,
+    "concededGoals": 25,
     "yellowCards": 2,
     "redCards": 1,
     "team": {
@@ -273,11 +215,69 @@
     }
   },
   {
-    "wins": 0,
+    "wins": 2,
+    "loses": 4,
+    "scoredGoals": 16,
+    "concededGoals": 13,
+    "yellowCards": 1,
+    "redCards": 0,
+    "team": {
+      "id": "el-barrio",
+      "name": "El Barrio",
+      "image": "https://kings-league-api.midudev.workers.dev/static/logos/el-barrio.svg",
+      "url": "",
+      "channel": "https://twitch.tv/1k",
+      "coach": "???",
+      "socialNetworks": [
+        "https://www.instagram.com/elbarrioklk/?hl=es",
+        "https://www.tiktok.com/@adricontreras4",
+        "https://twitter.com/elbarrioklk_",
+        "https://www.tiktok.com/@elbarrioklk"
+      ],
+      "players": [],
+      "president": {
+        "id": "gerard-romero",
+        "name": "Iker Casillas",
+        "image": "https://kings-league-api.emigimenezj.workers.dev/static/presidents/iker-casillas.png",
+        "teamId": 0
+      }
+    }
+  },
+  {
+    "wins": 2,
+    "loses": 4,
+    "scoredGoals": 17,
+    "concededGoals": 21,
+    "yellowCards": 0,
+    "redCards": 0,
+    "team": {
+      "id": "rayo-barcelona",
+      "name": "Rayo de Barcelona",
+      "image": "https://kings-league-api.midudev.workers.dev/static/logos/rayo-barcelona.svg",
+      "url": "",
+      "channel": "https://twitch.tv/spursito",
+      "coach": "???",
+      "socialNetworks": [
+        "https://www.twitch.tv/spursito",
+        "https://www.instagram.com/rayodebarcelona/?hl=es",
+        "https://twitter.com/RayodeBarcelona",
+        "https://www.tiktok.com/@rayodebarcelona"
+      ],
+      "players": [],
+      "president": {
+        "id": "gerard-romero",
+        "name": "Iker Casillas",
+        "image": "https://kings-league-api.emigimenezj.workers.dev/static/presidents/iker-casillas.png",
+        "teamId": 0
+      }
+    }
+  },
+  {
+    "wins": 1,
     "loses": 5,
-    "scoredGoals": 9,
+    "scoredGoals": 14,
     "concededGoals": 16,
-    "yellowCards": 5,
+    "yellowCards": 4,
     "redCards": 0,
     "team": {
       "id": "pio-fc",
@@ -301,10 +301,10 @@
   },
   {
     "wins": 0,
-    "loses": 5,
+    "loses": 6,
     "scoredGoals": 11,
-    "concededGoals": 19,
-    "yellowCards": 3,
+    "concededGoals": 24,
+    "yellowCards": 2,
     "redCards": 0,
     "team": {
       "id": "jijantes-fc",
