@@ -3,7 +3,7 @@ import * as cheerio from 'cheerio';
 import { writeDBFile, TEAMS, PRESIDENTS } from '../db/index.js';
 
 const URLS = {
-	leaderboard: 'https://kingsleague.pro/estadisticas/clasificacion/',
+	leaderboard: 'https://kingsleague.pro/clasificacion/'
 }
 
 async function scrape (url) {
@@ -17,18 +17,17 @@ async function getLeaderBoard () {
 	const $rows = $('table tbody tr');
 
 	const LEADERBOARD_SELECTORS = {
-		team: { selector: '.fs-table-text_3', typeOf: 'string' },
-		wins: { selector: '.fs-table-text_4', typeOf: 'number' },
-		loses: { selector: '.fs-table-text_5', typeOf: 'number' },
-		scoredGoals: { selector: '.fs-table-text_6', typeOf: 'number' },
-		concededGoals: { selector: '.fs-table-text_7', typeOf: 'number' },
-		yellowCards: { selector: '.fs-table-text_8', typeOf: 'number' },
-		redCards: { selector: '.fs-table-text_9', typeOf: 'number' },
+		team: '.fs-table-text_3',
+		wins: '.fs-table-text_4',
+		loses: '.fs-table-text_5',
+		goalsScored: '.fs-table-text_6',
+		goalsConceded: '.fs-table-text_7',
+		goalsDifference: '.fs-table-text_8'
 	}
 
-	const getTeamFrom = ({ name }) => {
+	const getTeamFromDB = name => {
 		const { presidentId, ...restOfTeam } = TEAMS.find(team => team.name === name);
-		const president = PRESIDENTS.find(president => president.id = presidentId);
+		const president = PRESIDENTS.find(president => president.id === presidentId);
 		return { ...restOfTeam, president };
 	}
 
@@ -37,31 +36,31 @@ async function getLeaderBoard () {
 		.replace(/.*:/g, ' ')
 		.trim()
 
-	const leaderBoardSelectorEntries = Object.entries(LEADERBOARD_SELECTORS);
-
-	let leaderboard = [];
+	const leaderboard = [];
 	$rows.each((_, el) => {
-		const leaderBoardEntries = leaderBoardSelectorEntries.map(([key, { selector, typeOf }]) => {
-			const rawValue = $(el).find(selector).text();
-			const cleanedValue = cleanText(rawValue);
 
-			const value = typeOf === 'number' ? Number(cleanText(cleanedValue)) : cleanText(cleanedValue);
+		const leaderboardForTeam = {};
 
-			return [key, value];
-		});
+		for (const key of Object.keys(LEADERBOARD_SELECTORS)) {
+			const selector = LEADERBOARD_SELECTORS[key];
+			const value = cleanText($(el).find(selector).text());
 
-		const { team: teamName, ...leaderboardForTeam } = Object.fromEntries(leaderBoardEntries);
-		const team = getTeamFrom({ name: teamName });
+			leaderboardForTeam[key] = value;
+		}
+
+		const team = getTeamFromDB(leaderboardForTeam.team);
 
 		leaderboard.push({
 			...leaderboardForTeam,
 			team
-		})
+		});
 	});
 
 	return leaderboard;
 }
 
 const leaderboard = await getLeaderBoard();
+
+console.log(leaderboard);
 
 await writeDBFile('leaderboard', leaderboard);
