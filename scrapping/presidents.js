@@ -1,3 +1,6 @@
+// THIS WAS JUST FOR GETTING SOME DATA AT THE PROJECT BEGINNING
+// THIS CODE GOTS OLD, MAYBE IT BE REMOVED SOON
+
 import { writeFile, readFile } from 'node:fs/promises';
 import path from 'node:path';
 
