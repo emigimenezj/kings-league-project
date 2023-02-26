@@ -1,41 +1,9 @@
 [
   {
-    "wins": 5,
-    "loses": 1,
-    "scoredGoals": 14,
-    "concededGoals": 7,
-    "yellowCards": 3,
-    "redCards": 1,
-    "team": {
-      "id": "saiyans-fc",
-      "name": "Saiyans FC",
-      "image": "https://kings-league-api.midudev.workers.dev/static/logos/saiyans-fc.svg",
-      "url": "",
-      "channel": "https://twitch.tv/thegrefg",
-      "coach": "???",
-      "socialNetworks": [
-        "https://www.twitch.tv/thegrefg"
-      ],
-      "players": [],
-      "president": {
-        "id": "gerard-romero",
-        "name": "Iker Casillas",
-        "image": "https://kings-league-api.emigimenezj.workers.dev/static/presidents/iker-casillas.png",
-        "teamId": 0
-      }
-    }
-  },
-  {
-    "wins": 6,
-    "loses": 1,
-    "scoredGoals": 27,
-    "concededGoals": 16,
-    "yellowCards": 1,
-    "redCards": 0,
     "team": {
       "id": "porcinos-fc",
       "name": "Porcinos FC",
-      "image": "https://kings-league-api.midudev.workers.dev/static/logos/porcinos-fc.svg",
+      "image": "https://kings-league-api.emigimenezj.workers.dev/static/logos/porcinos-fc.svg",
       "url": "",
       "channel": "https://twitch.tv/ibai",
       "coach": "???",
@@ -45,50 +13,48 @@
       ],
       "players": [],
       "president": {
-        "id": "gerard-romero",
-        "name": "Iker Casillas",
-        "image": "https://kings-league-api.emigimenezj.workers.dev/static/presidents/iker-casillas.png",
-        "teamId": 0
+        "id": "ibai-llanos",
+        "name": "Ibai Llanos",
+        "image": "https://kings-league-api.emigimenezj.workers.dev/static/presidents/ibai-llanos.png",
+        "teamId": "porcinos-fc"
       }
-    }
+    },
+    "wins": "6",
+    "loses": "1",
+    "goalsScored": "27",
+    "goalsConceded": "17",
+    "goalsDifference": "10"
   },
   {
-    "wins": 5,
-    "loses": 1,
-    "scoredGoals": 13,
-    "concededGoals": 8,
-    "yellowCards": 2,
-    "redCards": 0,
     "team": {
-      "id": "kunisports",
-      "name": "Kunisports",
-      "image": "https://kings-league-api.midudev.workers.dev/static/logos/kunisports.svg",
+      "id": "saiyans-fc",
+      "name": "Saiyans FC",
+      "image": "https://kings-league-api.emigimenezj.workers.dev/static/logos/saiyans-fc.svg",
       "url": "",
-      "channel": "https://twitch.tv/slakun10",
+      "channel": "https://twitch.tv/thegrefg",
       "coach": "???",
       "socialNetworks": [
-        "https://www.twitch.tv/slakun10"
+        "https://www.twitch.tv/thegrefg"
       ],
       "players": [],
       "president": {
-        "id": "gerard-romero",
-        "name": "Iker Casillas",
-        "image": "https://kings-league-api.emigimenezj.workers.dev/static/presidents/iker-casillas.png",
-        "teamId": 0
+        "id": "thegrefg",
+        "name": "TheGrefg",
+        "image": "https://kings-league-api.emigimenezj.workers.dev/static/presidents/thegrefg.png",
+        "teamId": "saiyans-fc"
       }
-    }
+    },
+    "wins": "6",
+    "loses": "1",
+    "goalsScored": "15",
+    "goalsConceded": "7",
+    "goalsDifference": "8"
   },
   {
-    "wins": 4,
-    "loses": 2,
-    "scoredGoals": 18,
-    "concededGoals": 14,
-    "yellowCards": 1,
-    "redCards": 0,
     "team": {
       "id": "ultimate-mostoles",
       "name": "Ultimate Móstoles",
-      "image": "https://kings-league-api.midudev.workers.dev/static/logos/ultimate-mostoles.svg",
+      "image": "https://kings-league-api.emigimenezj.workers.dev/static/logos/ultimate-mostoles.svg",
       "url": "",
       "channel": "https://youtube.com/DjMaRiiO",
       "coach": "???",
@@ -97,24 +63,76 @@
       ],
       "players": [],
       "president": {
-        "id": "gerard-romero",
-        "name": "Iker Casillas",
-        "image": "https://kings-league-api.emigimenezj.workers.dev/static/presidents/iker-casillas.png",
-        "teamId": 0
+        "id": "djmariio",
+        "name": "DjMaRiiO",
+        "image": "https://kings-league-api.emigimenezj.workers.dev/static/presidents/djmariio.png",
+        "teamId": "ultimate-mostoles"
       }
-    }
+    },
+    "wins": "5",
+    "loses": "2",
+    "goalsScored": "22",
+    "goalsConceded": "17",
+    "goalsDifference": "5"
   },
   {
-    "wins": 3,
-    "loses": 3,
-    "scoredGoals": 18,
-    "concededGoals": 17,
-    "yellowCards": 0,
-    "redCards": 0,
+    "team": {
+      "id": "kunisports",
+      "name": "Kunisports",
+      "image": "https://kings-league-api.emigimenezj.workers.dev/static/logos/kunisports.svg",
+      "url": "",
+      "channel": "https://twitch.tv/slakun10",
+      "coach": "???",
+      "socialNetworks": [
+        "https://www.twitch.tv/slakun10"
+      ],
+      "players": [],
+      "president": {
+        "id": "kun-aguero",
+        "name": "Kun Agüero",
+        "image": "https://kings-league-api.emigimenezj.workers.dev/static/presidents/kun-aguero.png",
+        "teamId": "kunisports"
+      }
+    },
+    "wins": "5",
+    "loses": "2",
+    "goalsScored": "15",
+    "goalsConceded": "14",
+    "goalsDifference": "1"
+  },
+  {
+    "team": {
+      "id": "el-barrio",
+      "name": "El Barrio",
+      "image": "https://kings-league-api.emigimenezj.workers.dev/static/logos/el-barrio.svg",
+      "url": "",
+      "channel": "",
+      "coach": "???",
+      "socialNetworks": [
+        "https://www.instagram.com/elbarrioklk/?hl=es",
+        "https://www.tiktok.com/@adricontreras4",
+        "https://twitter.com/elbarrioklk_",
+        "https://www.tiktok.com/@elbarrioklk"
+      ],
+      "players": [],
+      "president": {
+        "id": "adri-contreras",
+        "name": "Adri Contreras",
+        "image": "https://kings-league-api.emigimenezj.workers.dev/static/presidents/adri-contreras.png",
+        "teamId": "el-barrio"
+      }
+    },
+    "wins": "3",
+    "loses": "4",
+    "goalsScored": "22",
+    "goalsConceded": "15",
+    "goalsDifference": "7"
+  },
+  {
     "team": {
       "id": "1k",
       "name": "1K FC",
-      "image": "https://kings-league-api.midudev.workers.dev/static/logos/1k.svg",
+      "image": "https://kings-league-api.emigimenezj.workers.dev/static/logos/1k.svg",
       "url": "",
       "channel": "https://www.youtube.com/@IkerCasillas",
       "coach": "???",
@@ -126,24 +144,23 @@
       ],
       "players": [],
       "president": {
-        "id": "gerard-romero",
+        "id": "iker-casillas",
         "name": "Iker Casillas",
         "image": "https://kings-league-api.emigimenezj.workers.dev/static/presidents/iker-casillas.png",
-        "teamId": 0
+        "teamId": "1k"
       }
-    }
+    },
+    "wins": "3",
+    "loses": "4",
+    "goalsScored": "20",
+    "goalsConceded": "22",
+    "goalsDifference": "-2"
   },
   {
-    "wins": 3,
-    "loses": 4,
-    "scoredGoals": 19,
-    "concededGoals": 21,
-    "yellowCards": 1,
-    "redCards": 0,
     "team": {
       "id": "aniquiladores-fc",
       "name": "Aniquiladores FC",
-      "image": "https://kings-league-api.midudev.workers.dev/static/logos/aniquiladores.svg",
+      "image": "https://kings-league-api.emigimenezj.workers.dev/static/logos/aniquiladores.svg",
       "url": "",
       "channel": "https://twitch.tv/juansguarnizo",
       "coach": "???",
@@ -152,108 +169,23 @@
       ],
       "players": [],
       "president": {
-        "id": "gerard-romero",
-        "name": "Iker Casillas",
-        "image": "https://kings-league-api.emigimenezj.workers.dev/static/presidents/iker-casillas.png",
-        "teamId": 0
+        "id": "juan-guarnizo",
+        "name": "Juan Guarnizo",
+        "image": "https://kings-league-api.emigimenezj.workers.dev/static/presidents/juan-guarnizo.png",
+        "teamId": "aniquiladores-fc"
       }
-    }
+    },
+    "wins": "3",
+    "loses": "4",
+    "goalsScored": "19",
+    "goalsConceded": "21",
+    "goalsDifference": "-2"
   },
   {
-    "wins": 3,
-    "loses": 3,
-    "scoredGoals": 14,
-    "concededGoals": 16,
-    "yellowCards": 3,
-    "redCards": 0,
-    "team": {
-      "id": "xbuyer-team",
-      "name": "XBUYER TEAM",
-      "image": "https://kings-league-api.midudev.workers.dev/static/logos/xbuyer.svg",
-      "url": "",
-      "channel": "https://www.youtube.com/xbuyer",
-      "coach": "???",
-      "socialNetworks": [
-        "https://www.youtube.com/xbuyer"
-      ],
-      "players": [],
-      "president": {
-        "id": "gerard-romero",
-        "name": "Iker Casillas",
-        "image": "https://kings-league-api.emigimenezj.workers.dev/static/presidents/iker-casillas.png",
-        "teamId": 0
-      }
-    }
-  },
-  {
-    "wins": 3,
-    "loses": 3,
-    "scoredGoals": 20,
-    "concededGoals": 25,
-    "yellowCards": 2,
-    "redCards": 1,
-    "team": {
-      "id": "los-troncos-fc",
-      "name": "Los Troncos FC",
-      "image": "https://kings-league-api.midudev.workers.dev/static/logos/los-troncos.png",
-      "url": "",
-      "channel": "https://twitch.tv/perxitaa",
-      "coach": "???",
-      "socialNetworks": [
-        "https://www.twitch.tv/perxitaa",
-        "https://www.instagram.com/troncosfc.oficial/",
-        "https://twitter.com/lostroncosfc_/",
-        "https://www.tiktok.com/@lostroncosfc_"
-      ],
-      "players": [],
-      "president": {
-        "id": "gerard-romero",
-        "name": "Iker Casillas",
-        "image": "https://kings-league-api.emigimenezj.workers.dev/static/presidents/iker-casillas.png",
-        "teamId": 0
-      }
-    }
-  },
-  {
-    "wins": 2,
-    "loses": 4,
-    "scoredGoals": 16,
-    "concededGoals": 13,
-    "yellowCards": 1,
-    "redCards": 0,
-    "team": {
-      "id": "el-barrio",
-      "name": "El Barrio",
-      "image": "https://kings-league-api.midudev.workers.dev/static/logos/el-barrio.svg",
-      "url": "",
-      "channel": "https://twitch.tv/1k",
-      "coach": "???",
-      "socialNetworks": [
-        "https://www.instagram.com/elbarrioklk/?hl=es",
-        "https://www.tiktok.com/@adricontreras4",
-        "https://twitter.com/elbarrioklk_",
-        "https://www.tiktok.com/@elbarrioklk"
-      ],
-      "players": [],
-      "president": {
-        "id": "gerard-romero",
-        "name": "Iker Casillas",
-        "image": "https://kings-league-api.emigimenezj.workers.dev/static/presidents/iker-casillas.png",
-        "teamId": 0
-      }
-    }
-  },
-  {
-    "wins": 3,
-    "loses": 4,
-    "scoredGoals": 20,
-    "concededGoals": 23,
-    "yellowCards": 0,
-    "redCards": 0,
     "team": {
       "id": "rayo-barcelona",
       "name": "Rayo de Barcelona",
-      "image": "https://kings-league-api.midudev.workers.dev/static/logos/rayo-barcelona.svg",
+      "image": "https://kings-league-api.emigimenezj.workers.dev/static/logos/rayo-barcelona.svg",
       "url": "",
       "channel": "https://twitch.tv/spursito",
       "coach": "???",
@@ -265,24 +197,76 @@
       ],
       "players": [],
       "president": {
-        "id": "gerard-romero",
-        "name": "Iker Casillas",
-        "image": "https://kings-league-api.emigimenezj.workers.dev/static/presidents/iker-casillas.png",
-        "teamId": 0
+        "id": "spursito",
+        "name": "Spursito",
+        "image": "https://kings-league-api.emigimenezj.workers.dev/static/presidents/spursito.png",
+        "teamId": "rayo-barcelona"
       }
-    }
+    },
+    "wins": "3",
+    "loses": "4",
+    "goalsScored": "20",
+    "goalsConceded": "23",
+    "goalsDifference": "-3"
   },
   {
-    "wins": 1,
-    "loses": 5,
-    "scoredGoals": 14,
-    "concededGoals": 16,
-    "yellowCards": 4,
-    "redCards": 0,
+    "team": {
+      "id": "xbuyer-team",
+      "name": "XBUYER TEAM",
+      "image": "https://kings-league-api.emigimenezj.workers.dev/static/logos/xbuyer.svg",
+      "url": "",
+      "channel": "https://www.youtube.com/xbuyer",
+      "coach": "???",
+      "socialNetworks": [
+        "https://www.youtube.com/xbuyer"
+      ],
+      "players": [],
+      "president": {
+        "id": "hnos-buyer",
+        "name": "Hnos. Buyer",
+        "image": "https://kings-league-api.emigimenezj.workers.dev/static/presidents/hnos-buyer.png",
+        "teamId": "xbuyer-team"
+      }
+    },
+    "wins": "3",
+    "loses": "4",
+    "goalsScored": "16",
+    "goalsConceded": "21",
+    "goalsDifference": "-5"
+  },
+  {
+    "team": {
+      "id": "los-troncos-fc",
+      "name": "Los Troncos FC",
+      "image": "https://kings-league-api.emigimenezj.workers.dev/static/logos/los-troncos.png",
+      "url": "",
+      "channel": "https://twitch.tv/perxitaa",
+      "coach": "???",
+      "socialNetworks": [
+        "https://www.twitch.tv/perxitaa",
+        "https://www.instagram.com/troncosfc.oficial/",
+        "https://twitter.com/lostroncosfc_/",
+        "https://www.tiktok.com/@lostroncosfc_"
+      ],
+      "players": [],
+      "president": {
+        "id": "perxitaa",
+        "name": "Perxitaa",
+        "image": "https://kings-league-api.emigimenezj.workers.dev/static/presidents/perxitaa.png",
+        "teamId": "los-troncos-fc"
+      }
+    },
+    "wins": "3",
+    "loses": "4",
+    "goalsScored": "20",
+    "goalsConceded": "26",
+    "goalsDifference": "-6"
+  },
+  {
     "team": {
       "id": "pio-fc",
       "name": "PIO FC",
-      "image": "https://kings-league-api.midudev.workers.dev/static/logos/pio.svg",
+      "image": "https://kings-league-api.emigimenezj.workers.dev/static/logos/pio.svg",
       "url": "",
       "channel": "https://twitch.tv/rivers_gg",
       "coach": "???",
@@ -292,24 +276,23 @@
       ],
       "players": [],
       "president": {
-        "id": "gerard-romero",
-        "name": "Iker Casillas",
-        "image": "https://kings-league-api.emigimenezj.workers.dev/static/presidents/iker-casillas.png",
-        "teamId": 0
+        "id": "rivers",
+        "name": "Rivers",
+        "image": "https://kings-league-api.emigimenezj.workers.dev/static/presidents/rivers.png",
+        "teamId": "pio-fc"
       }
-    }
+    },
+    "wins": "2",
+    "loses": "5",
+    "goalsScored": "19",
+    "goalsConceded": "18",
+    "goalsDifference": "1"
   },
   {
-    "wins": 0,
-    "loses": 6,
-    "scoredGoals": 11,
-    "concededGoals": 24,
-    "yellowCards": 2,
-    "redCards": 0,
     "team": {
       "id": "jijantes-fc",
       "name": "Jijantes FC",
-      "image": "https://kings-league-api.midudev.workers.dev/static/logos/jijantes.svg",
+      "image": "https://kings-league-api.emigimenezj.workers.dev/static/logos/jijantes.svg",
       "url": "",
       "channel": "https://twitch.tv/gerardromero",
       "coach": "???",
@@ -322,10 +305,15 @@
       "players": [],
       "president": {
         "id": "gerard-romero",
-        "name": "Iker Casillas",
-        "image": "https://kings-league-api.emigimenezj.workers.dev/static/presidents/iker-casillas.png",
-        "teamId": 0
+        "name": "Gerard Romero",
+        "image": "https://kings-league-api.emigimenezj.workers.dev/static/presidents/gerard-romero.png",
+        "teamId": "jijantes-fc"
       }
-    }
+    },
+    "wins": "0",
+    "loses": "7",
+    "goalsScored": "14",
+    "goalsConceded": "28",
+    "goalsDifference": "-14"
   }
 ]
