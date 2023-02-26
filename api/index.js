@@ -20,6 +20,10 @@ app.get('/', (ctx) => {
 			endpoint: '/teams',
 			description: 'Returns Kings League teams'
 		},
+		{
+			endpoint: '/emi',
+			description: 'totally pwned by emi :v'
+		}
 	]);
 });
 
@@ -50,6 +54,10 @@ app.get('/teams/:id', (ctx) => {
 	
 	return team ? ctx.json(team) : ctx.json({ message: 'Team not found' }, 404);
 });
+
+app.get('/emi', (ctx) => {
+	return ctx.json({message: 'emi was here :v'});
+})
 
 app.get('/static/*', serveStatic({ root: './' }));
 
