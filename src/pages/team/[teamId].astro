@@ -1,0 +1,25 @@
+---
+
+import Layout from "@layouts/Layout.astro";
+
+export async function getStaticPaths() {
+  const response = await fetch('asd') // TODO arreglar esto con el link real
+  const teams = await response.json();
+
+  return teams.map(({id, image, name}) => ({
+    params: { teamId: id },
+    props: { id, name, image }
+  }));
+}
+
+const { id, name, image } = Astro.props;
+
+---
+
+<Layout title={name}>
+  <div>
+    <h1 class="container mx-auto px-4">{name}</h1>
+    <img src={image} alt={`Escudo del equipo ${name}`} width="200" height="200">
+    <a class="text-blue-500 underline" href="/">Regresar al inicio</a>
+  </div>
+</Layout>
