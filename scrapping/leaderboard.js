@@ -1,22 +1,13 @@
-import * as cheerio from 'cheerio';
-
+import { SCRAPPING_URLS, scrape, cleanText } from './utils.js';
 import { writeDBFile, TEAMS, PRESIDENTS } from '../db/index.js';
-
-const SCRAPPING_URL = 'https://kingsleague.pro/clasificacion/';
 
 const LEADERBOARD_SELECTORS = {
 	team: '.fs-table-text_3',
 	wins: '.fs-table-text_4',
-	loses: '.fs-table-text_5',
+	losses: '.fs-table-text_5',
 	goalsScored: '.fs-table-text_6',
 	goalsConceded: '.fs-table-text_7',
 	goalsDifference: '.fs-table-text_8'
-}
-
-async function scrape(url) {
-	const res = await fetch(url);
-	const html = await res.text();
-	return cheerio.load(html);
 }
 
 function getTeamFromDB(name) {
@@ -25,14 +16,7 @@ function getTeamFromDB(name) {
 	return { ...restOfTeam, president };
 }
 
-function cleanText(text) {
-	return text
-		.replace(/\t|\n|\s:/g, '')
-		.replace(/.*:/g, ' ')
-		.trim()
-}
-
-const $ = await scrape(SCRAPPING_URL);
+const $ = await scrape(SCRAPPING_URLS.leaderboard);
 const $rows = $('table tbody tr');
 
 const leaderboard = [];
