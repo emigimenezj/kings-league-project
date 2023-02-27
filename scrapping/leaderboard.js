@@ -50,5 +50,6 @@ try {
 	logSuccess('Leaderboard list scrapped successfully.');
 
 } catch(error) {
+	logError('Error scrapping leaderboard list.');
 	logError(error);
 }

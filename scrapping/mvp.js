@@ -49,5 +49,6 @@ try {
   logSuccess('MPV list scrapped successfully.');
 
 } catch(error) {
+  logError('Error scrapping MVP list.');
   logError(error);
 }
