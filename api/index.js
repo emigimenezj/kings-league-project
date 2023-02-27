@@ -3,6 +3,9 @@ import { serveStatic } from 'hono/serve-static.module';
 import leaderboard from '../db/leaderboard.json';
 import presidents from '../db/presidents.json';
 import teams from '../db/teams.json';
+import mvp from '../db/mvp.json';
+import top_scorers from '../db/top_scorers.json';
+
 
 const app = new Hono();
 
@@ -10,7 +13,7 @@ app.get('/', (ctx) => {
 	return ctx.json([
 		{
 			endpoint: '/leaderboard',
-			description: 'Returns the leaderboard'
+			description: 'Returns Kings League leaderboard'
 		},
 		{
 			endpoint: '/presidents',
@@ -19,6 +22,14 @@ app.get('/', (ctx) => {
 		{
 			endpoint: '/teams',
 			description: 'Returns Kings League teams'
+		},
+		{
+			endpoint: '/mvp',
+			description: 'Returns Kings League most valuable player'
+		},
+		{
+			endpoint: '/top-scorers',
+			description: 'Returns Kings League top scorer players'
 		},
 		{
 			endpoint: '/emi',
@@ -53,6 +64,14 @@ app.get('/teams/:id', (ctx) => {
 	const team = teams.find(team => team.id === id);
 	
 	return team ? ctx.json(team) : ctx.json({ message: 'Team not found' }, 404);
+});
+
+app.get('/mvp', (ctx) => {
+	return ctx.json(mvp);
+});
+
+app.get('/top-scorers', (ctx) => {
+	return ctx.json(top_scorers);
 });
 
 app.get('/emi', (ctx) => {
