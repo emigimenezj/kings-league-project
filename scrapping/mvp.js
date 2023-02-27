@@ -1,5 +1,6 @@
 import { writeDBFile, TEAMS } from '../db/index.js';
 import { SCRAPPING_URLS, scrape, cleanText } from './utils.js';
+import { logError, logInfo, logSuccess } from './log.js';
 
 const MVP_SELECTORS = {
   team: '.fs-table-text_3',
@@ -7,6 +8,8 @@ const MVP_SELECTORS = {
   gamesPlayed: '.fs-table-text_5',
   mvps: '.fs-table-text_6'
 }
+
+logInfo('Scrapping MVP list...');
 
 const $ = await scrape(SCRAPPING_URLS.mvp);
 const $rows = $('table tbody tr');
@@ -38,4 +41,13 @@ $rows.each((index, el) => {
   });
 });
 
-await writeDBFile('mvpList', mvpList);
+logSuccess('MVP list scrapped successfully.');
+
+logInfo('Writing MVP list to database...');
+try {
+  await writeDBFile('mvpList', mvpList);
+  logSuccess('MPV list scrapped successfully.');
+
+} catch(error) {
+  logError(error);
+}

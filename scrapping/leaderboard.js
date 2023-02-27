@@ -1,5 +1,6 @@
-import { SCRAPPING_URLS, scrape, cleanText } from './utils.js';
 import { writeDBFile, TEAMS, PRESIDENTS } from '../db/index.js';
+import { SCRAPPING_URLS, scrape, cleanText } from './utils.js';
+import { logError, logInfo, logSuccess } from './log.js';
 
 const LEADERBOARD_SELECTORS = {
 	team: '.fs-table-text_3',
@@ -15,6 +16,8 @@ function getTeamFromDB(name) {
 	const president = PRESIDENTS.find(president => president.id === presidentId);
 	return { ...restOfTeam, president };
 }
+
+logInfo('Scrapping leaderboard list...');
 
 const $ = await scrape(SCRAPPING_URLS.leaderboard);
 const $rows = $('table tbody tr');
@@ -39,4 +42,13 @@ $rows.each((_, el) => {
 	});
 });
 
-await writeDBFile('leaderboard', leaderboard);
+logSuccess('leaderboard list scrapped successfully.');
+
+logInfo('Writing leaderboard list to database...');
+try {
+	await writeDBFile('leaderboard', leaderboard);
+	logSuccess('Leaderboard list scrapped successfully.');
+
+} catch(error) {
+	logError(error);
+}
