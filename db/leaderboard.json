@@ -20,7 +20,7 @@
       }
     },
     "wins": "6",
-    "loses": "1",
+    "losses": "2",
     "goalsScored": "27",
     "goalsConceded": "17",
     "goalsDifference": "10"
@@ -45,10 +45,10 @@
       }
     },
     "wins": "6",
-    "loses": "1",
-    "goalsScored": "15",
-    "goalsConceded": "7",
-    "goalsDifference": "8"
+    "losses": "2",
+    "goalsScored": "16",
+    "goalsConceded": "10",
+    "goalsDifference": "6"
   },
   {
     "team": {
@@ -69,11 +69,11 @@
         "teamId": "ultimate-mostoles"
       }
     },
-    "wins": "5",
-    "loses": "2",
-    "goalsScored": "22",
-    "goalsConceded": "17",
-    "goalsDifference": "5"
+    "wins": "6",
+    "losses": "2",
+    "goalsScored": "24",
+    "goalsConceded": "18",
+    "goalsDifference": "6"
   },
   {
     "team": {
@@ -94,11 +94,11 @@
         "teamId": "kunisports"
       }
     },
-    "wins": "5",
-    "loses": "2",
-    "goalsScored": "15",
-    "goalsConceded": "14",
-    "goalsDifference": "1"
+    "wins": "6",
+    "losses": "2",
+    "goalsScored": "18",
+    "goalsConceded": "15",
+    "goalsDifference": "3"
   },
   {
     "team": {
@@ -122,39 +122,11 @@
         "teamId": "el-barrio"
       }
     },
-    "wins": "3",
-    "loses": "4",
-    "goalsScored": "22",
-    "goalsConceded": "15",
-    "goalsDifference": "7"
-  },
-  {
-    "team": {
-      "id": "1k",
-      "name": "1K FC",
-      "image": "https://kings-league-api.emigimenezj.workers.dev/static/logos/1k.svg",
-      "url": "",
-      "channel": "https://www.youtube.com/@IkerCasillas",
-      "coach": "???",
-      "socialNetworks": [
-        "https://www.instagram.com/1kfutbolclub/?hl=es",
-        "https://twitter.com/1kfutbolclub",
-        "https://www.youtube.com/c/IkerCasillas",
-        "https://www.tiktok.com/@1kfutbolclub"
-      ],
-      "players": [],
-      "president": {
-        "id": "iker-casillas",
-        "name": "Iker Casillas",
-        "image": "https://kings-league-api.emigimenezj.workers.dev/static/presidents/iker-casillas.png",
-        "teamId": "1k"
-      }
-    },
-    "wins": "3",
-    "loses": "4",
-    "goalsScored": "20",
-    "goalsConceded": "22",
-    "goalsDifference": "-2"
+    "wins": "4",
+    "losses": "4",
+    "goalsScored": "26",
+    "goalsConceded": "17",
+    "goalsDifference": "9"
   },
   {
     "team": {
@@ -175,11 +147,93 @@
         "teamId": "aniquiladores-fc"
       }
     },
+    "wins": "4",
+    "losses": "4",
+    "goalsScored": "23",
+    "goalsConceded": "23",
+    "goalsDifference": "0"
+  },
+  {
+    "team": {
+      "id": "los-troncos-fc",
+      "name": "Los Troncos FC",
+      "image": "https://kings-league-api.emigimenezj.workers.dev/static/logos/los-troncos.png",
+      "url": "",
+      "channel": "https://twitch.tv/perxitaa",
+      "coach": "???",
+      "socialNetworks": [
+        "https://www.twitch.tv/perxitaa",
+        "https://www.instagram.com/troncosfc.oficial/",
+        "https://twitter.com/lostroncosfc_/",
+        "https://www.tiktok.com/@lostroncosfc_"
+      ],
+      "players": [],
+      "president": {
+        "id": "perxitaa",
+        "name": "Perxitaa",
+        "image": "https://kings-league-api.emigimenezj.workers.dev/static/presidents/perxitaa.png",
+        "teamId": "los-troncos-fc"
+      }
+    },
+    "wins": "4",
+    "losses": "4",
+    "goalsScored": "25",
+    "goalsConceded": "30",
+    "goalsDifference": "-5"
+  },
+  {
+    "team": {
+      "id": "pio-fc",
+      "name": "PIO FC",
+      "image": "https://kings-league-api.emigimenezj.workers.dev/static/logos/pio.svg",
+      "url": "",
+      "channel": "https://twitch.tv/rivers_gg",
+      "coach": "???",
+      "socialNetworks": [
+        "https://www.twitch.tv/rivers_gg",
+        "https://twitter.com/PIO_FC"
+      ],
+      "players": [],
+      "president": {
+        "id": "rivers",
+        "name": "Rivers",
+        "image": "https://kings-league-api.emigimenezj.workers.dev/static/presidents/rivers.png",
+        "teamId": "pio-fc"
+      }
+    },
     "wins": "3",
-    "loses": "4",
+    "losses": "5",
     "goalsScored": "19",
-    "goalsConceded": "21",
-    "goalsDifference": "-2"
+    "goalsConceded": "18",
+    "goalsDifference": "1"
+  },
+  {
+    "team": {
+      "id": "1k",
+      "name": "1K FC",
+      "image": "https://kings-league-api.emigimenezj.workers.dev/static/logos/1k.svg",
+      "url": "",
+      "channel": "https://www.youtube.com/IkerCasillas",
+      "coach": "???",
+      "socialNetworks": [
+        "https://www.instagram.com/1kfutbolclub/?hl=es",
+        "https://twitter.com/1kfutbolclub",
+        "https://www.youtube.com/c/IkerCasillas",
+        "https://www.tiktok.com/@1kfutbolclub"
+      ],
+      "players": [],
+      "president": {
+        "id": "iker-casillas",
+        "name": "Iker Casillas",
+        "image": "https://kings-league-api.emigimenezj.workers.dev/static/presidents/iker-casillas.png",
+        "teamId": "1k"
+      }
+    },
+    "wins": "3",
+    "losses": "5",
+    "goalsScored": "24",
+    "goalsConceded": "27",
+    "goalsDifference": "-3"
   },
   {
     "team": {
@@ -204,10 +258,10 @@
       }
     },
     "wins": "3",
-    "loses": "4",
-    "goalsScored": "20",
-    "goalsConceded": "23",
-    "goalsDifference": "-3"
+    "losses": "5",
+    "goalsScored": "22",
+    "goalsConceded": "27",
+    "goalsDifference": "-5"
   },
   {
     "team": {
@@ -229,64 +283,10 @@
       }
     },
     "wins": "3",
-    "loses": "4",
-    "goalsScored": "16",
-    "goalsConceded": "21",
-    "goalsDifference": "-5"
-  },
-  {
-    "team": {
-      "id": "los-troncos-fc",
-      "name": "Los Troncos FC",
-      "image": "https://kings-league-api.emigimenezj.workers.dev/static/logos/los-troncos.png",
-      "url": "",
-      "channel": "https://twitch.tv/perxitaa",
-      "coach": "???",
-      "socialNetworks": [
-        "https://www.twitch.tv/perxitaa",
-        "https://www.instagram.com/troncosfc.oficial/",
-        "https://twitter.com/lostroncosfc_/",
-        "https://www.tiktok.com/@lostroncosfc_"
-      ],
-      "players": [],
-      "president": {
-        "id": "perxitaa",
-        "name": "Perxitaa",
-        "image": "https://kings-league-api.emigimenezj.workers.dev/static/presidents/perxitaa.png",
-        "teamId": "los-troncos-fc"
-      }
-    },
-    "wins": "3",
-    "loses": "4",
-    "goalsScored": "20",
-    "goalsConceded": "26",
+    "losses": "5",
+    "goalsScored": "17",
+    "goalsConceded": "23",
     "goalsDifference": "-6"
-  },
-  {
-    "team": {
-      "id": "pio-fc",
-      "name": "PIO FC",
-      "image": "https://kings-league-api.emigimenezj.workers.dev/static/logos/pio.svg",
-      "url": "",
-      "channel": "https://twitch.tv/rivers_gg",
-      "coach": "???",
-      "socialNetworks": [
-        "https://www.twitch.tv/rivers_gg",
-        "https://twitter.com/PIO_FC"
-      ],
-      "players": [],
-      "president": {
-        "id": "rivers",
-        "name": "Rivers",
-        "image": "https://kings-league-api.emigimenezj.workers.dev/static/presidents/rivers.png",
-        "teamId": "pio-fc"
-      }
-    },
-    "wins": "2",
-    "loses": "5",
-    "goalsScored": "19",
-    "goalsConceded": "18",
-    "goalsDifference": "1"
   },
   {
     "team": {
@@ -311,9 +311,9 @@
       }
     },
     "wins": "0",
-    "loses": "7",
-    "goalsScored": "14",
-    "goalsConceded": "28",
-    "goalsDifference": "-14"
+    "losses": "8",
+    "goalsScored": "16",
+    "goalsConceded": "32",
+    "goalsDifference": "-16"
   }
 ]
