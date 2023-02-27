@@ -1,3 +1,4 @@
+import { getTopScorersList } from '../scrapers/top_scorers.js';
 import { getLeaderboardList } from '../scrapers/leaderboard.js';
 import { getMvpList } from '../scrapers/mvp.js';
 
@@ -9,5 +10,9 @@ export const SCRAPPING_DATA = {
   mvp: {
     url: 'https://kingsleague.pro/estadisticas/mvp/',
     scraper: getMvpList
+  },
+  top_scorers: {
+    url: 'https://kingsleague.pro/estadisticas/goles/',
+    scraper: getTopScorersList
   }
 }
