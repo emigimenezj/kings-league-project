@@ -40,6 +40,10 @@ app.get('/', (ctx) => {
 			description: 'Returns Kings League top scorer players'
 		},
 		{
+			endpoint: '/top-scorers/:rank',
+			description: "Returns the Kings League's player at the rank provided only if he is in the top 50."
+		},
+		{
 			endpoint: '/emi',
 			description: 'totally pwned by emi :v'
 		}
@@ -80,6 +84,13 @@ app.get('/mvp', (ctx) => {
 
 app.get('/top-scorers', (ctx) => {
 	return ctx.json(top_scorers);
+});
+
+app.get('/top-scorers/:rank', (ctx) => {
+	const rank = ~~ctx.req.param('rank');
+	const player = top_scorers.find(player => player.rank === rank);
+
+	return player ? ctx.json(player) : ctx.json({ message: 'Received range is out of limits.'}, 404);
 });
 
 app.get('/emi', (ctx) => {
