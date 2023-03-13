@@ -20,8 +20,16 @@ app.get('/', (ctx) => {
 			description: 'Returns Kings League presidents'
 		},
 		{
+			endpoint: '/presidents/:id',
+			description: "Returns a specific Kings League's president"
+		},
+		{
 			endpoint: '/teams',
 			description: 'Returns Kings League teams'
+		},
+		{
+			endpoint: '/teams/:id',
+			description: "Returns a specific Kings League's team"
 		},
 		{
 			endpoint: '/mvp',
