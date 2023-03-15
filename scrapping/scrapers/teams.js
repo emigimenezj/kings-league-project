@@ -1,10 +1,9 @@
 import path from 'node:path';
 import sharp from 'sharp';
 
-import { cleanText } from '../utils/cleanText.js';
-import { scrape } from '../utils/scrape.js';
 import { TEAMS, writeDBFile } from '../../db/index.js';
-import * as cheerio from 'cheerio';
+import { scrape } from '../utils/scrape.js';
+import { cleanText } from '../utils/cleanText.js';
 
 const TEAMS_ASSETS_PATH = path.join(process.cwd(), './assets/static/teams/');
 
@@ -30,9 +29,7 @@ async function getTeamsList() {
       + '.webp';
     
     const imageFilePath = path.join(TEAMS_ASSETS_PATH, folder, formattedName);
-    console.log(imageFilePath, '[CREO QUE HASTA ACÁ LLEGA]')
     await sharp(buffer).webp().toFile(imageFilePath);
-    console.log(imageFilePath, '[PERO ACÁ NO]')
 
     return formattedName;
   }
@@ -44,7 +41,7 @@ async function getTeamsList() {
     const $ = await scrape('https://kingsleague.pro/team/' + teamId);
     const $list = $('ul.uk-slider-items li');
 
-    console.log(`--- TEAM: ${name} ---`);
+    console.log(`---------- [TEAM] ${name} ----------`);
 
     for (const elem of $list) {
       const $el = $(elem);
@@ -63,6 +60,8 @@ async function getTeamsList() {
         ? $role.contents().first().text()
         : $role.find('p').contents().first().text();
       const role = cleanText(roleRawValue);
+      
+      console.log(`${fullName.padEnd(25, ' ')} - ${role}`);
 
       let clubStats = {};
       let playerStats = {};
@@ -85,6 +84,9 @@ async function getTeamsList() {
         }
 
         case 'jugador 11': {
+
+          image = await saveImage({ url: imageUrl, folder: 'players', fileName: `${teamId}-${dorsalName}` });
+
           const $clubStats = $('.jugador-11 > div > div > div')
           .first()
           .children()
@@ -137,9 +139,6 @@ async function getTeamsList() {
 
         }
       }
-
-      //console.log('-----------------------------------------------');
-      //console.log(`[${fullName}] [${dorsalName}] [${role}] [${playerStatsClass}]\n`, clubStats, playerStats);
 
       players.push({
         id: `${teamId}-${dorsalRole}`,
