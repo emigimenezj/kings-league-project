@@ -61,7 +61,7 @@ async function getTeamsList() {
         : $role.find('p').contents().first().text();
       const role = cleanText(roleRawValue);
       
-      console.log(`${fullName.padEnd(25, ' ')} - ${role}`);
+      console.log(`${role === 'presidente' ? dorsalName.padEnd(25, ' ') : fullName.padEnd(25, ' ')} - ${role.toUpperCase()}`);
 
       let clubStats = {};
       let playerStats = {};

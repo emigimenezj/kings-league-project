@@ -60,7 +60,7 @@
           "pase": 76,
           "talento": 86,
           "defensa": 66,
-          "score": 73.33333333333333
+          "score": 73
         }
       },
       {
@@ -85,7 +85,7 @@
           "pase": 58,
           "talento": 78,
           "defensa": 73,
-          "score": 77.16666666666667
+          "score": 77
         }
       },
       {
@@ -110,7 +110,7 @@
           "pase": 83,
           "talento": 68,
           "defensa": 69,
-          "score": 72.16666666666667
+          "score": 72
         }
       },
       {
@@ -135,7 +135,7 @@
           "pase": 72,
           "talento": 81,
           "defensa": 70,
-          "score": 68.5
+          "score": 69
         }
       },
       {
@@ -210,7 +210,7 @@
           "pase": 70,
           "talento": 87,
           "defensa": 71,
-          "score": 72.66666666666667
+          "score": 73
         }
       },
       {
@@ -235,7 +235,7 @@
           "pase": 60,
           "talento": 87,
           "defensa": 75,
-          "score": 73.5
+          "score": 74
         }
       },
       {
@@ -260,7 +260,7 @@
           "pase": 70,
           "talento": 69,
           "defensa": 70,
-          "score": 70.33333333333333
+          "score": 70
         }
       },
       {
@@ -285,7 +285,7 @@
           "pase": 55,
           "talento": 78,
           "defensa": 71,
-          "score": 72.33333333333333
+          "score": 72
         }
       }
     ]
@@ -351,7 +351,7 @@
           "pase": 81,
           "talento": 84,
           "defensa": 67,
-          "score": 78.33333333333333
+          "score": 78
         }
       },
       {
@@ -376,7 +376,7 @@
           "pase": 83,
           "talento": 74,
           "defensa": 79,
-          "score": 76.83333333333333
+          "score": 77
         }
       },
       {
@@ -401,7 +401,7 @@
           "pase": 66,
           "talento": 86,
           "defensa": 71,
-          "score": 72.83333333333333
+          "score": 73
         }
       },
       {
@@ -476,7 +476,7 @@
           "pase": 68,
           "talento": 74,
           "defensa": 76,
-          "score": 70.33333333333333
+          "score": 70
         }
       },
       {
@@ -551,7 +551,7 @@
           "pase": 69,
           "talento": 74,
           "defensa": 68,
-          "score": 67.66666666666667
+          "score": 68
         }
       },
       {
@@ -576,7 +576,7 @@
           "pase": 70,
           "talento": 77,
           "defensa": 78,
-          "score": 69.33333333333333
+          "score": 69
         }
       }
     ]
@@ -637,7 +637,7 @@
           "pase": 78,
           "talento": 77,
           "defensa": 65,
-          "score": 73.33333333333333
+          "score": 73
         }
       },
       {
@@ -662,7 +662,7 @@
           "paradas": 84,
           "saque": 79,
           "estirada": 83,
-          "score": 79.25
+          "score": 79
         }
       },
       {
@@ -737,7 +737,7 @@
           "pase": 59,
           "talento": 66,
           "defensa": 67,
-          "score": 65.16666666666667
+          "score": 65
         }
       },
       {
@@ -762,7 +762,7 @@
           "pase": 84,
           "talento": 69,
           "defensa": 71,
-          "score": 73.83333333333333
+          "score": 74
         }
       },
       {
@@ -787,7 +787,7 @@
           "pase": 54,
           "talento": 74,
           "defensa": 76,
-          "score": 68.16666666666667
+          "score": 68
         }
       },
       {
@@ -812,7 +812,7 @@
           "pase": 53,
           "talento": 75,
           "defensa": 79,
-          "score": 66.66666666666667
+          "score": 67
         }
       },
       {
@@ -862,7 +862,7 @@
           "pase": 50,
           "talento": 77,
           "defensa": 83,
-          "score": 72.66666666666667
+          "score": 73
         }
       }
     ]
@@ -926,7 +926,7 @@
           "pase": 55,
           "talento": 85,
           "defensa": 70,
-          "score": 74.33333333333333
+          "score": 74
         }
       },
       {
@@ -951,7 +951,7 @@
           "paradas": 84,
           "saque": 70,
           "estirada": 60,
-          "score": 73.75
+          "score": 74
         }
       },
       {
@@ -976,7 +976,7 @@
           "pase": 78,
           "talento": 56,
           "defensa": 57,
-          "score": 68.66666666666667
+          "score": 69
         }
       },
       {
@@ -1001,7 +1001,7 @@
           "pase": 79,
           "talento": 82,
           "defensa": 84,
-          "score": 71.33333333333333
+          "score": 71
         }
       },
       {
@@ -1026,7 +1026,7 @@
           "pase": 70,
           "talento": 89,
           "defensa": 67,
-          "score": 74.33333333333333
+          "score": 74
         }
       },
       {
@@ -1051,7 +1051,7 @@
           "pase": 84,
           "talento": 81,
           "defensa": 78,
-          "score": 77.33333333333333
+          "score": 77
         }
       },
       {
@@ -1101,7 +1101,7 @@
           "pase": 54,
           "talento": 71,
           "defensa": 72,
-          "score": 66.83333333333333
+          "score": 67
         }
       },
       {
@@ -1126,7 +1126,7 @@
           "pase": 61,
           "talento": 83,
           "defensa": 73,
-          "score": 71.66666666666667
+          "score": 72
         }
       },
       {
@@ -1151,7 +1151,7 @@
           "paradas": 70,
           "saque": 60,
           "estirada": 73,
-          "score": 66.25
+          "score": 66
         }
       }
     ]
@@ -1212,7 +1212,7 @@
           "paradas": 81,
           "saque": 80,
           "estirada": 84,
-          "score": 81.75
+          "score": 82
         }
       },
       {
@@ -1237,7 +1237,7 @@
           "pase": 75,
           "talento": 85,
           "defensa": 77,
-          "score": 74.83333333333333
+          "score": 75
         }
       },
       {
@@ -1262,7 +1262,7 @@
           "pase": 78,
           "talento": 78,
           "defensa": 83,
-          "score": 73.66666666666667
+          "score": 74
         }
       },
       {
@@ -1287,7 +1287,7 @@
           "pase": 74,
           "talento": 73,
           "defensa": 70,
-          "score": 68.16666666666667
+          "score": 68
         }
       },
       {
@@ -1312,7 +1312,7 @@
           "pase": 86,
           "talento": 78,
           "defensa": 66,
-          "score": 71.5
+          "score": 72
         }
       },
       {
@@ -1337,7 +1337,7 @@
           "pase": 73,
           "talento": 69,
           "defensa": 60,
-          "score": 64.33333333333333
+          "score": 64
         }
       },
       {
@@ -1362,7 +1362,7 @@
           "pase": 60,
           "talento": 82,
           "defensa": 84,
-          "score": 74.16666666666667
+          "score": 74
         }
       },
       {
@@ -1437,7 +1437,7 @@
           "paradas": 60,
           "saque": 74,
           "estirada": 63,
-          "score": 64.5
+          "score": 65
         }
       }
     ]
@@ -1498,7 +1498,7 @@
           "pase": 76,
           "talento": 75,
           "defensa": 72,
-          "score": 71.33333333333333
+          "score": 71
         }
       },
       {
@@ -1548,7 +1548,7 @@
           "pase": 77,
           "talento": 83,
           "defensa": 83,
-          "score": 75.16666666666667
+          "score": 75
         }
       },
       {
@@ -1573,7 +1573,7 @@
           "pase": 64,
           "talento": 64,
           "defensa": 63,
-          "score": 66.83333333333333
+          "score": 67
         }
       },
       {
@@ -1598,7 +1598,7 @@
           "paradas": 84,
           "saque": 74,
           "estirada": 76,
-          "score": 78.75
+          "score": 79
         }
       },
       {
@@ -1623,7 +1623,7 @@
           "pase": 68,
           "talento": 81,
           "defensa": 85,
-          "score": 71.33333333333333
+          "score": 71
         }
       },
       {
@@ -1648,7 +1648,7 @@
           "pase": 79,
           "talento": 64,
           "defensa": 64,
-          "score": 66.66666666666667
+          "score": 67
         }
       },
       {
@@ -1673,7 +1673,7 @@
           "pase": 65,
           "talento": 68,
           "defensa": 74,
-          "score": 67.66666666666667
+          "score": 68
         }
       },
       {
@@ -1698,7 +1698,7 @@
           "pase": 67,
           "talento": 78,
           "defensa": 77,
-          "score": 68.16666666666667
+          "score": 68
         }
       },
       {
@@ -1723,7 +1723,7 @@
           "pase": 58,
           "talento": 55,
           "defensa": 69,
-          "score": 65.16666666666667
+          "score": 65
         }
       }
     ]
@@ -1787,7 +1787,7 @@
           "pase": 76,
           "talento": 84,
           "defensa": 73,
-          "score": 81.16666666666667
+          "score": 81
         }
       },
       {
@@ -1812,7 +1812,7 @@
           "paradas": 87,
           "saque": 84,
           "estirada": 94,
-          "score": 87.75
+          "score": 88
         }
       },
       {
@@ -1837,7 +1837,7 @@
           "pase": 66,
           "talento": 76,
           "defensa": 77,
-          "score": 76.83333333333333
+          "score": 77
         }
       },
       {
@@ -1862,7 +1862,7 @@
           "pase": 86,
           "talento": 83,
           "defensa": 74,
-          "score": 77.66666666666667
+          "score": 78
         }
       },
       {
@@ -1887,7 +1887,7 @@
           "pase": 60,
           "talento": 68,
           "defensa": 82,
-          "score": 71.16666666666667
+          "score": 71
         }
       },
       {
@@ -1929,7 +1929,7 @@
           "pase": 72,
           "talento": 87,
           "defensa": 75,
-          "score": 75.83333333333333
+          "score": 76
         }
       },
       {
@@ -1954,7 +1954,7 @@
           "pase": 64,
           "talento": 72,
           "defensa": 68,
-          "score": 68.16666666666667
+          "score": 68
         }
       },
       {
@@ -1979,7 +1979,7 @@
           "pase": 71,
           "talento": 78,
           "defensa": 58,
-          "score": 68.5
+          "score": 69
         }
       },
       {
@@ -2004,7 +2004,7 @@
           "paradas": 73,
           "saque": 62,
           "estirada": 80,
-          "score": 71.5
+          "score": 72
         }
       }
     ]
@@ -2066,7 +2066,7 @@
           "paradas": 92,
           "saque": 86,
           "estirada": 86,
-          "score": 87.25
+          "score": 87
         }
       },
       {
@@ -2091,7 +2091,7 @@
           "pase": 75,
           "talento": 76,
           "defensa": 74,
-          "score": 68.83333333333333
+          "score": 69
         }
       },
       {
@@ -2116,7 +2116,7 @@
           "pase": 62,
           "talento": 81,
           "defensa": 75,
-          "score": 69.33333333333333
+          "score": 69
         }
       },
       {
@@ -2141,7 +2141,7 @@
           "pase": 69,
           "talento": 78,
           "defensa": 73,
-          "score": 71.66666666666667
+          "score": 72
         }
       },
       {
@@ -2183,7 +2183,7 @@
           "pase": 69,
           "talento": 78,
           "defensa": 73,
-          "score": 74.83333333333333
+          "score": 75
         }
       },
       {
@@ -2208,7 +2208,7 @@
           "pase": 66,
           "talento": 71,
           "defensa": 65,
-          "score": 65.66666666666667
+          "score": 66
         }
       },
       {
@@ -2250,7 +2250,7 @@
           "pase": 65,
           "talento": 74,
           "defensa": 77,
-          "score": 74.5
+          "score": 75
         }
       },
       {
@@ -2275,7 +2275,7 @@
           "paradas": 73,
           "saque": 81,
           "estirada": 71,
-          "score": 73.75
+          "score": 74
         }
       }
     ]
@@ -2339,7 +2339,7 @@
           "pase": 78,
           "talento": 86,
           "defensa": 72,
-          "score": 73.66666666666667
+          "score": 74
         }
       },
       {
@@ -2389,7 +2389,7 @@
           "pase": 63,
           "talento": 81,
           "defensa": 80,
-          "score": 71.5
+          "score": 72
         }
       },
       {
@@ -2414,7 +2414,7 @@
           "pase": 72,
           "talento": 73,
           "defensa": 69,
-          "score": 68.16666666666667
+          "score": 68
         }
       },
       {
@@ -2464,7 +2464,7 @@
           "pase": 88,
           "talento": 66,
           "defensa": 62,
-          "score": 77.5
+          "score": 78
         }
       },
       {
@@ -2489,7 +2489,7 @@
           "pase": 70,
           "talento": 68,
           "defensa": 74,
-          "score": 65.33333333333333
+          "score": 65
         }
       },
       {
@@ -2514,7 +2514,7 @@
           "pase": 88,
           "talento": 68,
           "defensa": 70,
-          "score": 72.66666666666667
+          "score": 73
         }
       },
       {
@@ -2539,7 +2539,7 @@
           "pase": 60,
           "talento": 62,
           "defensa": 62,
-          "score": 70.33333333333333
+          "score": 70
         }
       },
       {
@@ -2564,7 +2564,7 @@
           "pase": 57,
           "talento": 81,
           "defensa": 87,
-          "score": 70.5
+          "score": 71
         }
       }
     ]
@@ -2625,7 +2625,7 @@
           "paradas": 74,
           "saque": 75,
           "estirada": 84,
-          "score": 78.75
+          "score": 79
         }
       },
       {
@@ -2650,7 +2650,7 @@
           "pase": 79,
           "talento": 79,
           "defensa": 73,
-          "score": 72.66666666666667
+          "score": 73
         }
       },
       {
@@ -2675,7 +2675,7 @@
           "pase": 75,
           "talento": 70,
           "defensa": 70,
-          "score": 71.83333333333333
+          "score": 72
         }
       },
       {
@@ -2700,7 +2700,7 @@
           "pase": 55,
           "talento": 75,
           "defensa": 83,
-          "score": 70.83333333333333
+          "score": 71
         }
       },
       {
@@ -2725,7 +2725,7 @@
           "pase": 65,
           "talento": 56,
           "defensa": 72,
-          "score": 66.16666666666667
+          "score": 66
         }
       },
       {
@@ -2750,7 +2750,7 @@
           "pase": 51,
           "talento": 71,
           "defensa": 60,
-          "score": 67.83333333333333
+          "score": 68
         }
       },
       {
@@ -2775,7 +2775,7 @@
           "pase": 76,
           "talento": 76,
           "defensa": 80,
-          "score": 73.66666666666667
+          "score": 74
         }
       },
       {
@@ -2800,7 +2800,7 @@
           "pase": 87,
           "talento": 81,
           "defensa": 74,
-          "score": 71.5
+          "score": 72
         }
       },
       {
@@ -2825,7 +2825,7 @@
           "pase": 77,
           "talento": 77,
           "defensa": 75,
-          "score": 72.33333333333333
+          "score": 72
         }
       },
       {
@@ -2850,7 +2850,7 @@
           "paradas": 74,
           "saque": 60,
           "estirada": 60,
-          "score": 63.5
+          "score": 64
         }
       }
     ]
@@ -2911,7 +2911,7 @@
           "paradas": 83,
           "saque": 84,
           "estirada": 86,
-          "score": 85.75
+          "score": 86
         }
       },
       {
@@ -2961,7 +2961,7 @@
           "pase": 71,
           "talento": 63,
           "defensa": 77,
-          "score": 70.5
+          "score": 71
         }
       },
       {
@@ -3011,7 +3011,7 @@
           "pase": 77,
           "talento": 80,
           "defensa": 69,
-          "score": 76.66666666666667
+          "score": 77
         }
       },
       {
@@ -3036,7 +3036,7 @@
           "pase": 83,
           "talento": 66,
           "defensa": 71,
-          "score": 72.16666666666667
+          "score": 72
         }
       },
       {
@@ -3061,7 +3061,7 @@
           "pase": 81,
           "talento": 81,
           "defensa": 73,
-          "score": 73.33333333333333
+          "score": 73
         }
       },
       {
@@ -3086,7 +3086,7 @@
           "pase": 57,
           "talento": 58,
           "defensa": 68,
-          "score": 62.833333333333336
+          "score": 63
         }
       },
       {
@@ -3111,7 +3111,7 @@
           "pase": 73,
           "talento": 85,
           "defensa": 68,
-          "score": 74.16666666666667
+          "score": 74
         }
       },
       {
@@ -3198,7 +3198,7 @@
           "paradas": 83,
           "saque": 82,
           "estirada": 78,
-          "score": 81.75
+          "score": 82
         }
       },
       {
@@ -3223,7 +3223,7 @@
           "pase": 71,
           "talento": 81,
           "defensa": 85,
-          "score": 75.16666666666667
+          "score": 75
         }
       },
       {
@@ -3248,7 +3248,7 @@
           "pase": 82,
           "talento": 75,
           "defensa": 82,
-          "score": 73.83333333333333
+          "score": 74
         }
       },
       {
@@ -3315,7 +3315,7 @@
           "pase": 77,
           "talento": 80,
           "defensa": 80,
-          "score": 73.5
+          "score": 74
         }
       },
       {
@@ -3340,7 +3340,7 @@
           "pase": 89,
           "talento": 82,
           "defensa": 81,
-          "score": 74.5
+          "score": 75
         }
       },
       {
@@ -3365,7 +3365,7 @@
           "pase": 75,
           "talento": 80,
           "defensa": 71,
-          "score": 69.83333333333333
+          "score": 70
         }
       },
       {
@@ -3390,7 +3390,7 @@
           "pase": 72,
           "talento": 72,
           "defensa": 68,
-          "score": 70.5
+          "score": 71
         }
       },
       {
@@ -3415,7 +3415,7 @@
           "pase": 74,
           "talento": 78,
           "defensa": 70,
-          "score": 67.66666666666667
+          "score": 68
         }
       }
     ]
