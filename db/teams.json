@@ -20,22 +20,12 @@
     ],
     "players": [
       {
-        "id": "1k-1K-IKER-CASILLAS",
-        "fullName": "",
-        "dorsalName": "Iker Casillas",
-        "dorsalRole": "1K-IKER-CASILLAS",
-        "role": "presidente",
-        "image": "",
-        "clubStats": {},
-        "playerStats": {}
-      },
-      {
         "id": "1k-1",
         "fullName": "Ricardo López",
         "dorsalName": "Ricardo",
         "dorsalRole": "1",
         "role": "jugador 11",
-        "image": "",
+        "image": "1k-ricardo.webp",
         "clubStats": {
           "partidos": 10,
           "goles": 0,
@@ -63,7 +53,15 @@
           "t.roja": 0,
           "mvp": 0
         },
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 73,
+          "físico": 71,
+          "tiro": 68,
+          "pase": 76,
+          "talento": 86,
+          "defensa": 66,
+          "score": 73.33333333333333
+        }
       },
       {
         "id": "1k-7",
@@ -80,7 +78,15 @@
           "t.roja": 0,
           "mvp": 1
         },
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 93,
+          "físico": 74,
+          "tiro": 87,
+          "pase": 58,
+          "talento": 78,
+          "defensa": 73,
+          "score": 77.16666666666667
+        }
       },
       {
         "id": "1k-97",
@@ -97,7 +103,15 @@
           "t.roja": 0,
           "mvp": 0
         },
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 73,
+          "físico": 59,
+          "tiro": 81,
+          "pase": 83,
+          "talento": 68,
+          "defensa": 69,
+          "score": 72.16666666666667
+        }
       },
       {
         "id": "1k-3",
@@ -114,7 +128,15 @@
           "t.roja": 0,
           "mvp": 0
         },
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 67,
+          "físico": 51,
+          "tiro": 70,
+          "pase": 72,
+          "talento": 81,
+          "defensa": 70,
+          "score": 68.5
+        }
       },
       {
         "id": "1k-8",
@@ -131,7 +153,15 @@
           "t.roja": 0,
           "mvp": 0
         },
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 73,
+          "físico": 69,
+          "tiro": 69,
+          "pase": 62,
+          "talento": 65,
+          "defensa": 82,
+          "score": 70
+        }
       },
       {
         "id": "1k-14",
@@ -148,7 +178,15 @@
           "t.roja": 0,
           "mvp": 0
         },
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 66,
+          "físico": 51,
+          "tiro": 77,
+          "pase": 76,
+          "talento": 78,
+          "defensa": 84,
+          "score": 72
+        }
       },
       {
         "id": "1k-80",
@@ -165,7 +203,15 @@
           "t.roja": 0,
           "mvp": 0
         },
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 72,
+          "físico": 58,
+          "tiro": 78,
+          "pase": 70,
+          "talento": 87,
+          "defensa": 71,
+          "score": 72.66666666666667
+        }
       },
       {
         "id": "1k-10",
@@ -182,7 +228,15 @@
           "t.roja": 0,
           "mvp": 0
         },
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 73,
+          "físico": 64,
+          "tiro": 82,
+          "pase": 60,
+          "talento": 87,
+          "defensa": 75,
+          "score": 73.5
+        }
       },
       {
         "id": "1k-9",
@@ -199,7 +253,15 @@
           "t.roja": 0,
           "mvp": 0
         },
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 79,
+          "físico": 59,
+          "tiro": 75,
+          "pase": 70,
+          "talento": 69,
+          "defensa": 70,
+          "score": 70.33333333333333
+        }
       },
       {
         "id": "1k-11",
@@ -216,17 +278,15 @@
           "t.roja": 0,
           "mvp": 0
         },
-        "playerStats": {}
-      },
-      {
-        "id": "1k-entrenador",
-        "fullName": "Julio García Mera",
-        "dorsalName": "Julio García Mera",
-        "dorsalRole": "entrenador",
-        "role": "entrenador",
-        "image": "1k-julio-garcia-mera.webp",
-        "clubStats": {},
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 71,
+          "físico": 76,
+          "tiro": 83,
+          "pase": 55,
+          "talento": 78,
+          "defensa": 71,
+          "score": 72.33333333333333
+        }
       }
     ]
   },
@@ -251,22 +311,12 @@
     ],
     "players": [
       {
-        "id": "el-barrio-EL-BARRIO-ADRI-CONTRERAS",
-        "fullName": "",
-        "dorsalName": "Adri Contreras",
-        "dorsalRole": "EL-BARRIO-ADRI-CONTRERAS",
-        "role": "presidente",
-        "image": "",
-        "clubStats": {},
-        "playerStats": {}
-      },
-      {
         "id": "el-barrio-1",
         "fullName": "José Juan Figueiras",
         "dorsalName": "José Juan",
         "dorsalRole": "1",
         "role": "jugador 11",
-        "image": "",
+        "image": "el-barrio-jose-juan.webp",
         "clubStats": {
           "partidos": 10,
           "goles": 0,
@@ -294,7 +344,15 @@
           "t.roja": 0,
           "mvp": 1
         },
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 86,
+          "físico": 68,
+          "tiro": 84,
+          "pase": 81,
+          "talento": 84,
+          "defensa": 67,
+          "score": 78.33333333333333
+        }
       },
       {
         "id": "el-barrio-6",
@@ -311,7 +369,15 @@
           "t.roja": 0,
           "mvp": 0
         },
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 71,
+          "físico": 76,
+          "tiro": 78,
+          "pase": 83,
+          "talento": 74,
+          "defensa": 79,
+          "score": 76.83333333333333
+        }
       },
       {
         "id": "el-barrio-9",
@@ -328,7 +394,15 @@
           "t.roja": 0,
           "mvp": 0
         },
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 73,
+          "físico": 57,
+          "tiro": 84,
+          "pase": 66,
+          "talento": 86,
+          "defensa": 71,
+          "score": 72.83333333333333
+        }
       },
       {
         "id": "el-barrio-14",
@@ -345,7 +419,15 @@
           "t.roja": 0,
           "mvp": 0
         },
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 72,
+          "físico": 78,
+          "tiro": 86,
+          "pase": 75,
+          "talento": 83,
+          "defensa": 80,
+          "score": 79
+        }
       },
       {
         "id": "el-barrio-8",
@@ -362,7 +444,15 @@
           "t.roja": 0,
           "mvp": 4
         },
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 69,
+          "físico": 52,
+          "tiro": 78,
+          "pase": 73,
+          "talento": 81,
+          "defensa": 85,
+          "score": 73
+        }
       },
       {
         "id": "el-barrio-19",
@@ -379,7 +469,15 @@
           "t.roja": 0,
           "mvp": 1
         },
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 72,
+          "físico": 56,
+          "tiro": 76,
+          "pase": 68,
+          "talento": 74,
+          "defensa": 76,
+          "score": 70.33333333333333
+        }
       },
       {
         "id": "el-barrio-23",
@@ -396,7 +494,15 @@
           "t.roja": 0,
           "mvp": 0
         },
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 81,
+          "físico": 70,
+          "tiro": 75,
+          "pase": 77,
+          "talento": 80,
+          "defensa": 67,
+          "score": 75
+        }
       },
       {
         "id": "el-barrio-11",
@@ -413,7 +519,15 @@
           "t.roja": 0,
           "mvp": 0
         },
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 72,
+          "físico": 53,
+          "tiro": 80,
+          "pase": 63,
+          "talento": 79,
+          "defensa": 73,
+          "score": 70
+        }
       },
       {
         "id": "el-barrio-7",
@@ -430,7 +544,15 @@
           "t.roja": 0,
           "mvp": 0
         },
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 73,
+          "físico": 60,
+          "tiro": 62,
+          "pase": 69,
+          "talento": 74,
+          "defensa": 68,
+          "score": 67.66666666666667
+        }
       },
       {
         "id": "el-barrio-12",
@@ -447,17 +569,15 @@
           "t.roja": 0,
           "mvp": 0
         },
-        "playerStats": {}
-      },
-      {
-        "id": "el-barrio-entrenador",
-        "fullName": "Juan Arroita",
-        "dorsalName": "Juan Arroita",
-        "dorsalRole": "entrenador",
-        "role": "entrenador",
-        "image": "el-barrio-juan-arroita.webp",
-        "clubStats": {},
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 73,
+          "físico": 40,
+          "tiro": 78,
+          "pase": 70,
+          "talento": 77,
+          "defensa": 78,
+          "score": 69.33333333333333
+        }
       }
     ]
   },
@@ -479,22 +599,12 @@
     ],
     "players": [
       {
-        "id": "ultimate-mostoles-DJMARIIO-ULTIMATE-MOSTOLES",
-        "fullName": "",
-        "dorsalName": "DjMaRiiO",
-        "dorsalRole": "DJMARIIO-ULTIMATE-MOSTOLES",
-        "role": "presidente",
-        "image": "",
-        "clubStats": {},
-        "playerStats": {}
-      },
-      {
         "id": "ultimate-mostoles-22",
         "fullName": "Juanma González",
         "dorsalName": "Juanma Glez.",
         "dorsalRole": "22",
         "role": "jugador 11",
-        "image": "",
+        "image": "ultimate-mostoles-juanma-glez.webp",
         "clubStats": {
           "partidos": 10,
           "goles": 10,
@@ -520,7 +630,15 @@
           "t.roja": 0,
           "mvp": 1
         },
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 72,
+          "físico": 69,
+          "tiro": 79,
+          "pase": 78,
+          "talento": 77,
+          "defensa": 65,
+          "score": 73.33333333333333
+        }
       },
       {
         "id": "ultimate-mostoles-1",
@@ -539,7 +657,13 @@
           "goles": 0,
           "asist.": 0
         },
-        "playerStats": {}
+        "playerStats": {
+          "reflejo": 71,
+          "paradas": 84,
+          "saque": 79,
+          "estirada": 83,
+          "score": 79.25
+        }
       },
       {
         "id": "ultimate-mostoles-11",
@@ -556,7 +680,15 @@
           "t.roja": 0,
           "mvp": 1
         },
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 73,
+          "físico": 62,
+          "tiro": 76,
+          "pase": 58,
+          "talento": 74,
+          "defensa": 77,
+          "score": 70
+        }
       },
       {
         "id": "ultimate-mostoles-6",
@@ -573,7 +705,15 @@
           "t.roja": 0,
           "mvp": 0
         },
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 87,
+          "físico": 64,
+          "tiro": 65,
+          "pase": 72,
+          "talento": 74,
+          "defensa": 70,
+          "score": 72
+        }
       },
       {
         "id": "ultimate-mostoles-19",
@@ -590,7 +730,15 @@
           "t.roja": 0,
           "mvp": 0
         },
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 71,
+          "físico": 53,
+          "tiro": 75,
+          "pase": 59,
+          "talento": 66,
+          "defensa": 67,
+          "score": 65.16666666666667
+        }
       },
       {
         "id": "ultimate-mostoles-4",
@@ -607,7 +755,15 @@
           "t.roja": 0,
           "mvp": 0
         },
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 73,
+          "físico": 67,
+          "tiro": 79,
+          "pase": 84,
+          "talento": 69,
+          "defensa": 71,
+          "score": 73.83333333333333
+        }
       },
       {
         "id": "ultimate-mostoles-3",
@@ -624,7 +780,15 @@
           "t.roja": 0,
           "mvp": 0
         },
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 87,
+          "físico": 54,
+          "tiro": 64,
+          "pase": 54,
+          "talento": 74,
+          "defensa": 76,
+          "score": 68.16666666666667
+        }
       },
       {
         "id": "ultimate-mostoles-7",
@@ -641,7 +805,15 @@
           "t.roja": 0,
           "mvp": 0
         },
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 72,
+          "físico": 49,
+          "tiro": 72,
+          "pase": 53,
+          "talento": 75,
+          "defensa": 79,
+          "score": 66.66666666666667
+        }
       },
       {
         "id": "ultimate-mostoles-13",
@@ -660,7 +832,13 @@
           "goles": 0,
           "asist.": 0
         },
-        "playerStats": {}
+        "playerStats": {
+          "reflejo": 72,
+          "paradas": 77,
+          "saque": 79,
+          "estirada": 80,
+          "score": 77
+        }
       },
       {
         "id": "ultimate-mostoles-20",
@@ -677,17 +855,15 @@
           "t.roja": 0,
           "mvp": 0
         },
-        "playerStats": {}
-      },
-      {
-        "id": "ultimate-mostoles-entrenador",
-        "fullName": "Nacho Castro",
-        "dorsalName": "Nacho Castro",
-        "dorsalRole": "entrenador",
-        "role": "entrenador",
-        "image": "ultimate-mostoles-nacho-castro.webp",
-        "clubStats": {},
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 72,
+          "físico": 77,
+          "tiro": 77,
+          "pase": 50,
+          "talento": 77,
+          "defensa": 83,
+          "score": 72.66666666666667
+        }
       }
     ]
   },
@@ -712,22 +888,12 @@
     ],
     "players": [
       {
-        "id": "los-troncos-fc-PERXITAA-LOS-TRONCOS-FC",
-        "fullName": "",
-        "dorsalName": "Perxitaa",
-        "dorsalRole": "PERXITAA-LOS-TRONCOS-FC",
-        "role": "presidente",
-        "image": "",
-        "clubStats": {},
-        "playerStats": {}
-      },
-      {
         "id": "los-troncos-fc-21",
         "fullName": "Carles Planas",
         "dorsalName": "C. Planas",
         "dorsalRole": "21",
         "role": "jugador 11",
-        "image": "",
+        "image": "los-troncos-fc-c-planas.webp",
         "clubStats": {
           "partidos": 7,
           "goles": 0,
@@ -753,7 +919,15 @@
           "t.roja": 0,
           "mvp": 2
         },
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 73,
+          "físico": 82,
+          "tiro": 81,
+          "pase": 55,
+          "talento": 85,
+          "defensa": 70,
+          "score": 74.33333333333333
+        }
       },
       {
         "id": "los-troncos-fc-13",
@@ -772,7 +946,13 @@
           "goles": 1,
           "asist.": 0
         },
-        "playerStats": {}
+        "playerStats": {
+          "reflejo": 81,
+          "paradas": 84,
+          "saque": 70,
+          "estirada": 60,
+          "score": 73.75
+        }
       },
       {
         "id": "los-troncos-fc-4",
@@ -789,7 +969,15 @@
           "t.roja": 0,
           "mvp": 0
         },
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 71,
+          "físico": 70,
+          "tiro": 80,
+          "pase": 78,
+          "talento": 56,
+          "defensa": 57,
+          "score": 68.66666666666667
+        }
       },
       {
         "id": "los-troncos-fc-8",
@@ -806,7 +994,15 @@
           "t.roja": 0,
           "mvp": 0
         },
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 65,
+          "físico": 43,
+          "tiro": 75,
+          "pase": 79,
+          "talento": 82,
+          "defensa": 84,
+          "score": 71.33333333333333
+        }
       },
       {
         "id": "los-troncos-fc-5",
@@ -823,7 +1019,15 @@
           "t.roja": 0,
           "mvp": 0
         },
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 73,
+          "físico": 68,
+          "tiro": 79,
+          "pase": 70,
+          "talento": 89,
+          "defensa": 67,
+          "score": 74.33333333333333
+        }
       },
       {
         "id": "los-troncos-fc-10",
@@ -840,7 +1044,15 @@
           "t.roja": 0,
           "mvp": 0
         },
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 73,
+          "físico": 72,
+          "tiro": 76,
+          "pase": 84,
+          "talento": 81,
+          "defensa": 78,
+          "score": 77.33333333333333
+        }
       },
       {
         "id": "los-troncos-fc-7",
@@ -857,7 +1069,15 @@
           "t.roja": 0,
           "mvp": 0
         },
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 73,
+          "físico": 50,
+          "tiro": 70,
+          "pase": 76,
+          "talento": 84,
+          "defensa": 73,
+          "score": 71
+        }
       },
       {
         "id": "los-troncos-fc-11",
@@ -874,7 +1094,15 @@
           "t.roja": 0,
           "mvp": 0
         },
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 72,
+          "físico": 54,
+          "tiro": 78,
+          "pase": 54,
+          "talento": 71,
+          "defensa": 72,
+          "score": 66.83333333333333
+        }
       },
       {
         "id": "los-troncos-fc-6",
@@ -891,7 +1119,15 @@
           "t.roja": 0,
           "mvp": 0
         },
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 70,
+          "físico": 63,
+          "tiro": 80,
+          "pase": 61,
+          "talento": 83,
+          "defensa": 73,
+          "score": 71.66666666666667
+        }
       },
       {
         "id": "los-troncos-fc-1",
@@ -910,17 +1146,13 @@
           "goles": 0,
           "asist.": 0
         },
-        "playerStats": {}
-      },
-      {
-        "id": "los-troncos-fc-entrenador",
-        "fullName": "Pol Font",
-        "dorsalName": "Pol Font",
-        "dorsalRole": "entrenador",
-        "role": "entrenador",
-        "image": "los-troncos-fc-pol-font.webp",
-        "clubStats": {},
-        "playerStats": {}
+        "playerStats": {
+          "reflejo": 62,
+          "paradas": 70,
+          "saque": 60,
+          "estirada": 73,
+          "score": 66.25
+        }
       }
     ]
   },
@@ -942,22 +1174,12 @@
     ],
     "players": [
       {
-        "id": "saiyans-fc-THEGREFG-SAIYANS-FC",
-        "fullName": "",
-        "dorsalName": "TheGrefg",
-        "dorsalRole": "THEGREFG-SAIYANS-FC",
-        "role": "presidente",
-        "image": "",
-        "clubStats": {},
-        "playerStats": {}
-      },
-      {
         "id": "saiyans-fc-Saiyans_8",
         "fullName": "Pol Almellones",
         "dorsalName": "Pol Alme",
         "dorsalRole": "Saiyans_8",
         "role": "jugador 11",
-        "image": "",
+        "image": "saiyans-fc-pol-alme.webp",
         "clubStats": {
           "partidos": 7,
           "goles": 0,
@@ -985,7 +1207,13 @@
           "goles": 0,
           "asist.": 0
         },
-        "playerStats": {}
+        "playerStats": {
+          "reflejo": 82,
+          "paradas": 81,
+          "saque": 80,
+          "estirada": 84,
+          "score": 81.75
+        }
       },
       {
         "id": "saiyans-fc-9",
@@ -1002,7 +1230,15 @@
           "t.roja": 0,
           "mvp": 0
         },
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 71,
+          "físico": 67,
+          "tiro": 74,
+          "pase": 75,
+          "talento": 85,
+          "defensa": 77,
+          "score": 74.83333333333333
+        }
       },
       {
         "id": "saiyans-fc-4",
@@ -1019,7 +1255,15 @@
           "t.roja": 1,
           "mvp": 0
         },
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 70,
+          "físico": 53,
+          "tiro": 80,
+          "pase": 78,
+          "talento": 78,
+          "defensa": 83,
+          "score": 73.66666666666667
+        }
       },
       {
         "id": "saiyans-fc-7",
@@ -1036,7 +1280,15 @@
           "t.roja": 0,
           "mvp": 0
         },
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 72,
+          "físico": 45,
+          "tiro": 75,
+          "pase": 74,
+          "talento": 73,
+          "defensa": 70,
+          "score": 68.16666666666667
+        }
       },
       {
         "id": "saiyans-fc-14",
@@ -1053,7 +1305,15 @@
           "t.roja": 0,
           "mvp": 0
         },
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 71,
+          "físico": 52,
+          "tiro": 76,
+          "pase": 86,
+          "talento": 78,
+          "defensa": 66,
+          "score": 71.5
+        }
       },
       {
         "id": "saiyans-fc-5",
@@ -1070,7 +1330,15 @@
           "t.roja": 1,
           "mvp": 0
         },
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 71,
+          "físico": 39,
+          "tiro": 74,
+          "pase": 73,
+          "talento": 69,
+          "defensa": 60,
+          "score": 64.33333333333333
+        }
       },
       {
         "id": "saiyans-fc-20",
@@ -1087,7 +1355,15 @@
           "t.roja": 0,
           "mvp": 1
         },
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 72,
+          "físico": 64,
+          "tiro": 83,
+          "pase": 60,
+          "talento": 82,
+          "defensa": 84,
+          "score": 74.16666666666667
+        }
       },
       {
         "id": "saiyans-fc-10",
@@ -1104,7 +1380,15 @@
           "t.roja": 0,
           "mvp": 0
         },
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 75,
+          "físico": 75,
+          "tiro": 80,
+          "pase": 65,
+          "talento": 73,
+          "defensa": 64,
+          "score": 72
+        }
       },
       {
         "id": "saiyans-fc-11",
@@ -1121,7 +1405,15 @@
           "t.roja": 0,
           "mvp": 2
         },
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 71,
+          "físico": 49,
+          "tiro": 63,
+          "pase": 67,
+          "talento": 66,
+          "defensa": 62,
+          "score": 63
+        }
       },
       {
         "id": "saiyans-fc-22",
@@ -1140,17 +1432,13 @@
           "goles": 0,
           "asist.": 0
         },
-        "playerStats": {}
-      },
-      {
-        "id": "saiyans-fc-entrenador",
-        "fullName": "Daniel Romo",
-        "dorsalName": "Daniel Romo",
-        "dorsalRole": "entrenador",
-        "role": "entrenador",
-        "image": "saiyans-fc-daniel-romo.webp",
-        "clubStats": {},
-        "playerStats": {}
+        "playerStats": {
+          "reflejo": 61,
+          "paradas": 60,
+          "saque": 74,
+          "estirada": 63,
+          "score": 64.5
+        }
       }
     ]
   },
@@ -1172,22 +1460,12 @@
     ],
     "players": [
       {
-        "id": "kunisports-KUNSPORTS-KUN-AGUERO",
-        "fullName": "",
-        "dorsalName": "Kun Agüero",
-        "dorsalRole": "KUNSPORTS-KUN-AGUERO",
-        "role": "presidente",
-        "image": "",
-        "clubStats": {},
-        "playerStats": {}
-      },
-      {
         "id": "kunisports-Kunisports_23",
         "fullName": "Ferran Corominas",
         "dorsalName": "Coro",
         "dorsalRole": "Kunisports_23",
         "role": "jugador 11",
-        "image": "",
+        "image": "kunisports-coro.webp",
         "clubStats": {
           "partidos": 10,
           "goles": 7,
@@ -1213,7 +1491,15 @@
           "t.roja": 0,
           "mvp": 3
         },
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 73,
+          "físico": 59,
+          "tiro": 73,
+          "pase": 76,
+          "talento": 75,
+          "defensa": 72,
+          "score": 71.33333333333333
+        }
       },
       {
         "id": "kunisports-1",
@@ -1232,7 +1518,13 @@
           "goles": 0,
           "asist.": 0
         },
-        "playerStats": {}
+        "playerStats": {
+          "reflejo": 83,
+          "paradas": 92,
+          "saque": 86,
+          "estirada": 87,
+          "score": 87
+        }
       },
       {
         "id": "kunisports-4",
@@ -1249,7 +1541,15 @@
           "t.roja": 0,
           "mvp": 0
         },
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 71,
+          "físico": 55,
+          "tiro": 82,
+          "pase": 77,
+          "talento": 83,
+          "defensa": 83,
+          "score": 75.16666666666667
+        }
       },
       {
         "id": "kunisports-8",
@@ -1266,7 +1566,15 @@
           "t.roja": 0,
           "mvp": 0
         },
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 72,
+          "físico": 60,
+          "tiro": 78,
+          "pase": 64,
+          "talento": 64,
+          "defensa": 63,
+          "score": 66.83333333333333
+        }
       },
       {
         "id": "kunisports-13",
@@ -1285,7 +1593,13 @@
           "goles": 0,
           "asist.": 0
         },
-        "playerStats": {}
+        "playerStats": {
+          "reflejo": 81,
+          "paradas": 84,
+          "saque": 74,
+          "estirada": 76,
+          "score": 78.75
+        }
       },
       {
         "id": "kunisports-5",
@@ -1302,7 +1616,15 @@
           "t.roja": 0,
           "mvp": 0
         },
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 70,
+          "físico": 56,
+          "tiro": 68,
+          "pase": 68,
+          "talento": 81,
+          "defensa": 85,
+          "score": 71.33333333333333
+        }
       },
       {
         "id": "kunisports-6",
@@ -1319,7 +1641,15 @@
           "t.roja": 0,
           "mvp": 0
         },
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 72,
+          "físico": 51,
+          "tiro": 70,
+          "pase": 79,
+          "talento": 64,
+          "defensa": 64,
+          "score": 66.66666666666667
+        }
       },
       {
         "id": "kunisports-9",
@@ -1336,7 +1666,15 @@
           "t.roja": 0,
           "mvp": 0
         },
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 72,
+          "físico": 56,
+          "tiro": 71,
+          "pase": 65,
+          "talento": 68,
+          "defensa": 74,
+          "score": 67.66666666666667
+        }
       },
       {
         "id": "kunisports-7",
@@ -1353,7 +1691,15 @@
           "t.roja": 0,
           "mvp": 0
         },
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 69,
+          "físico": 57,
+          "tiro": 61,
+          "pase": 67,
+          "talento": 78,
+          "defensa": 77,
+          "score": 68.16666666666667
+        }
       },
       {
         "id": "kunisports-3",
@@ -1370,17 +1716,15 @@
           "t.roja": 0,
           "mvp": 0
         },
-        "playerStats": {}
-      },
-      {
-        "id": "kunisports-entrenador",
-        "fullName": "Martín Posse",
-        "dorsalName": "Martín Posse",
-        "dorsalRole": "entrenador",
-        "role": "entrenador",
-        "image": "kunisports-martin-posse.webp",
-        "clubStats": {},
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 70,
+          "físico": 53,
+          "tiro": 86,
+          "pase": 58,
+          "talento": 55,
+          "defensa": 69,
+          "score": 65.16666666666667
+        }
       }
     ]
   },
@@ -1405,22 +1749,12 @@
     ],
     "players": [
       {
-        "id": "jijantes-fc-Gerard-Romero",
-        "fullName": "",
-        "dorsalName": "Gerard Romero",
-        "dorsalRole": "Gerard-Romero",
-        "role": "presidente",
-        "image": "",
-        "clubStats": {},
-        "playerStats": {}
-      },
-      {
         "id": "jijantes-fc-26",
         "fullName": "Jonathan Soriano",
         "dorsalName": "Soriano",
         "dorsalRole": "26",
         "role": "jugador 11",
-        "image": "",
+        "image": "jijantes-fc-soriano.webp",
         "clubStats": {
           "partidos": 6,
           "goles": 4,
@@ -1446,7 +1780,15 @@
           "t.roja": 0,
           "mvp": 0
         },
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 93,
+          "físico": 74,
+          "tiro": 87,
+          "pase": 76,
+          "talento": 84,
+          "defensa": 73,
+          "score": 81.16666666666667
+        }
       },
       {
         "id": "jijantes-fc-1",
@@ -1465,7 +1807,13 @@
           "goles": 0,
           "asist.": 1
         },
-        "playerStats": {}
+        "playerStats": {
+          "reflejo": 86,
+          "paradas": 87,
+          "saque": 84,
+          "estirada": 94,
+          "score": 87.75
+        }
       },
       {
         "id": "jijantes-fc-4",
@@ -1482,7 +1830,15 @@
           "t.roja": 0,
           "mvp": 0
         },
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 86,
+          "físico": 82,
+          "tiro": 74,
+          "pase": 66,
+          "talento": 76,
+          "defensa": 77,
+          "score": 76.83333333333333
+        }
       },
       {
         "id": "jijantes-fc-7",
@@ -1499,7 +1855,15 @@
           "t.roja": 0,
           "mvp": 0
         },
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 83,
+          "físico": 67,
+          "tiro": 73,
+          "pase": 86,
+          "talento": 83,
+          "defensa": 74,
+          "score": 77.66666666666667
+        }
       },
       {
         "id": "jijantes-fc-5",
@@ -1516,7 +1880,15 @@
           "t.roja": 0,
           "mvp": 0
         },
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 74,
+          "físico": 62,
+          "tiro": 81,
+          "pase": 60,
+          "talento": 68,
+          "defensa": 82,
+          "score": 71.16666666666667
+        }
       },
       {
         "id": "jijantes-fc-Jijantes_9",
@@ -1533,15 +1905,7 @@
           "t.roja": 0,
           "mvp": 1
         },
-        "playerStats": {
-          "velocidad": 0,
-          "físico": 0,
-          "tiro": 0,
-          "pase": 0,
-          "talento": 0,
-          "defensa": 0,
-          "score": 0
-        }
+        "playerStats": {}
       },
       {
         "id": "jijantes-fc-30",
@@ -1558,7 +1922,15 @@
           "t.roja": 0,
           "mvp": 0
         },
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 72,
+          "físico": 77,
+          "tiro": 72,
+          "pase": 72,
+          "talento": 87,
+          "defensa": 75,
+          "score": 75.83333333333333
+        }
       },
       {
         "id": "jijantes-fc-6",
@@ -1575,7 +1947,15 @@
           "t.roja": 0,
           "mvp": 0
         },
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 72,
+          "físico": 62,
+          "tiro": 71,
+          "pase": 64,
+          "talento": 72,
+          "defensa": 68,
+          "score": 68.16666666666667
+        }
       },
       {
         "id": "jijantes-fc-31",
@@ -1592,7 +1972,15 @@
           "t.roja": 0,
           "mvp": 0
         },
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 72,
+          "físico": 52,
+          "tiro": 80,
+          "pase": 71,
+          "talento": 78,
+          "defensa": 58,
+          "score": 68.5
+        }
       },
       {
         "id": "jijantes-fc-25",
@@ -1611,17 +1999,13 @@
           "goles": 0,
           "asist.": 0
         },
-        "playerStats": {}
-      },
-      {
-        "id": "jijantes-fc-entrenador",
-        "fullName": "Marc Carmona",
-        "dorsalName": "Marc Carmona",
-        "dorsalRole": "entrenador",
-        "role": "entrenador",
-        "image": "jijantes-fc-marc-carmona.webp",
-        "clubStats": {},
-        "playerStats": {}
+        "playerStats": {
+          "reflejo": 71,
+          "paradas": 73,
+          "saque": 62,
+          "estirada": 80,
+          "score": 71.5
+        }
       }
     ]
   },
@@ -1644,22 +2028,12 @@
     ],
     "players": [
       {
-        "id": "porcinos-fc-IBAI-LLANOS-PORCINOS-FC",
-        "fullName": "",
-        "dorsalName": "Ibai Llanos",
-        "dorsalRole": "IBAI-LLANOS-PORCINOS-FC",
-        "role": "presidente",
-        "image": "",
-        "clubStats": {},
-        "playerStats": {}
-      },
-      {
         "id": "porcinos-fc-8",
         "fullName": "Javier Espinosa",
         "dorsalName": "Espinosa",
         "dorsalRole": "8",
         "role": "jugador 11",
-        "image": "",
+        "image": "porcinos-fc-espinosa.webp",
         "clubStats": {
           "partidos": 9,
           "goles": 5,
@@ -1687,7 +2061,13 @@
           "goles": 0,
           "asist.": 0
         },
-        "playerStats": {}
+        "playerStats": {
+          "reflejo": 85,
+          "paradas": 92,
+          "saque": 86,
+          "estirada": 86,
+          "score": 87.25
+        }
       },
       {
         "id": "porcinos-fc-6",
@@ -1704,7 +2084,15 @@
           "t.roja": 0,
           "mvp": 1
         },
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 73,
+          "físico": 49,
+          "tiro": 66,
+          "pase": 75,
+          "talento": 76,
+          "defensa": 74,
+          "score": 68.83333333333333
+        }
       },
       {
         "id": "porcinos-fc-23",
@@ -1721,7 +2109,15 @@
           "t.roja": 0,
           "mvp": 0
         },
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 70,
+          "físico": 48,
+          "tiro": 80,
+          "pase": 62,
+          "talento": 81,
+          "defensa": 75,
+          "score": 69.33333333333333
+        }
       },
       {
         "id": "porcinos-fc-21",
@@ -1738,7 +2134,15 @@
           "t.roja": 0,
           "mvp": 0
         },
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 72,
+          "físico": 58,
+          "tiro": 80,
+          "pase": 69,
+          "talento": 78,
+          "defensa": 73,
+          "score": 71.66666666666667
+        }
       },
       {
         "id": "porcinos-fc-Porcinos_20",
@@ -1755,15 +2159,7 @@
           "t.roja": 0,
           "mvp": 0
         },
-        "playerStats": {
-          "velocidad": 0,
-          "físico": 0,
-          "tiro": 0,
-          "pase": 0,
-          "talento": 0,
-          "defensa": 0,
-          "score": 0
-        }
+        "playerStats": {}
       },
       {
         "id": "porcinos-fc-9",
@@ -1780,7 +2176,15 @@
           "t.roja": 0,
           "mvp": 0
         },
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 72,
+          "físico": 70,
+          "tiro": 87,
+          "pase": 69,
+          "talento": 78,
+          "defensa": 73,
+          "score": 74.83333333333333
+        }
       },
       {
         "id": "porcinos-fc-7",
@@ -1797,7 +2201,15 @@
           "t.roja": 0,
           "mvp": 0
         },
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 73,
+          "físico": 54,
+          "tiro": 65,
+          "pase": 66,
+          "talento": 71,
+          "defensa": 65,
+          "score": 65.66666666666667
+        }
       },
       {
         "id": "porcinos-fc-Porcinos_17",
@@ -1814,15 +2226,7 @@
           "t.roja": 0,
           "mvp": 0
         },
-        "playerStats": {
-          "velocidad": 0,
-          "físico": 0,
-          "tiro": 0,
-          "pase": 0,
-          "talento": 0,
-          "defensa": 0,
-          "score": 0
-        }
+        "playerStats": {}
       },
       {
         "id": "porcinos-fc-4",
@@ -1839,7 +2243,15 @@
           "t.roja": 0,
           "mvp": 1
         },
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 73,
+          "físico": 69,
+          "tiro": 89,
+          "pase": 65,
+          "talento": 74,
+          "defensa": 77,
+          "score": 74.5
+        }
       },
       {
         "id": "porcinos-fc-1",
@@ -1858,17 +2270,13 @@
           "goles": 0,
           "asist.": 0
         },
-        "playerStats": {}
-      },
-      {
-        "id": "porcinos-fc-entrenador",
-        "fullName": "Juvenal Edjogo-Owono",
-        "dorsalName": "Juvenal Edjogo-Owono",
-        "dorsalRole": "entrenador",
-        "role": "entrenador",
-        "image": "porcinos-fc-juvenal-edjogo-owono.webp",
-        "clubStats": {},
-        "playerStats": {}
+        "playerStats": {
+          "reflejo": 70,
+          "paradas": 73,
+          "saque": 81,
+          "estirada": 71,
+          "score": 73.75
+        }
       }
     ]
   },
@@ -1893,22 +2301,12 @@
     ],
     "players": [
       {
-        "id": "rayo-barcelona-SPURSITO-RAYO-BARCELONA",
-        "fullName": "",
-        "dorsalName": "Spursito",
-        "dorsalRole": "SPURSITO-RAYO-BARCELONA",
-        "role": "presidente",
-        "image": "",
-        "clubStats": {},
-        "playerStats": {}
-      },
-      {
         "id": "rayo-barcelona-45",
         "fullName": "Pol Marcó",
         "dorsalName": "Poloteli",
         "dorsalRole": "45",
         "role": "jugador 11",
-        "image": "",
+        "image": "rayo-barcelona-poloteli.webp",
         "clubStats": {
           "partidos": 7,
           "goles": 0,
@@ -1934,7 +2332,15 @@
           "t.roja": 0,
           "mvp": 1
         },
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 71,
+          "físico": 59,
+          "tiro": 76,
+          "pase": 78,
+          "talento": 86,
+          "defensa": 72,
+          "score": 73.66666666666667
+        }
       },
       {
         "id": "rayo-barcelona-41",
@@ -1953,7 +2359,13 @@
           "goles": 0,
           "asist.": 1
         },
-        "playerStats": {}
+        "playerStats": {
+          "reflejo": 84,
+          "paradas": 95,
+          "saque": 84,
+          "estirada": 85,
+          "score": 87
+        }
       },
       {
         "id": "rayo-barcelona-19",
@@ -1970,7 +2382,15 @@
           "t.roja": 0,
           "mvp": 0
         },
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 69,
+          "físico": 52,
+          "tiro": 84,
+          "pase": 63,
+          "talento": 81,
+          "defensa": 80,
+          "score": 71.5
+        }
       },
       {
         "id": "rayo-barcelona-22",
@@ -1987,7 +2407,15 @@
           "t.roja": 0,
           "mvp": 0
         },
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 66,
+          "físico": 53,
+          "tiro": 76,
+          "pase": 72,
+          "talento": 73,
+          "defensa": 69,
+          "score": 68.16666666666667
+        }
       },
       {
         "id": "rayo-barcelona-30",
@@ -2004,7 +2432,15 @@
           "t.roja": 0,
           "mvp": 0
         },
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 73,
+          "físico": 71,
+          "tiro": 74,
+          "pase": 66,
+          "talento": 82,
+          "defensa": 78,
+          "score": 74
+        }
       },
       {
         "id": "rayo-barcelona-8",
@@ -2021,7 +2457,15 @@
           "t.roja": 0,
           "mvp": 0
         },
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 96,
+          "físico": 75,
+          "tiro": 78,
+          "pase": 88,
+          "talento": 66,
+          "defensa": 62,
+          "score": 77.5
+        }
       },
       {
         "id": "rayo-barcelona-11",
@@ -2038,7 +2482,15 @@
           "t.roja": 0,
           "mvp": 0
         },
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 72,
+          "físico": 51,
+          "tiro": 57,
+          "pase": 70,
+          "talento": 68,
+          "defensa": 74,
+          "score": 65.33333333333333
+        }
       },
       {
         "id": "rayo-barcelona-9",
@@ -2055,7 +2507,15 @@
           "t.roja": 0,
           "mvp": 0
         },
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 72,
+          "físico": 58,
+          "tiro": 80,
+          "pase": 88,
+          "talento": 68,
+          "defensa": 70,
+          "score": 72.66666666666667
+        }
       },
       {
         "id": "rayo-barcelona-63",
@@ -2072,7 +2532,15 @@
           "t.roja": 0,
           "mvp": 0
         },
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 85,
+          "físico": 73,
+          "tiro": 80,
+          "pase": 60,
+          "talento": 62,
+          "defensa": 62,
+          "score": 70.33333333333333
+        }
       },
       {
         "id": "rayo-barcelona-77",
@@ -2089,17 +2557,15 @@
           "t.roja": 0,
           "mvp": 0
         },
-        "playerStats": {}
-      },
-      {
-        "id": "rayo-barcelona-entrenador",
-        "fullName": "JuanluDBZ",
-        "dorsalName": "JuanluDBZ",
-        "dorsalRole": "entrenador",
-        "role": "entrenador",
-        "image": "rayo-barcelona-juanludbz.webp",
-        "clubStats": {},
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 69,
+          "físico": 56,
+          "tiro": 73,
+          "pase": 57,
+          "talento": 81,
+          "defensa": 87,
+          "score": 70.5
+        }
       }
     ]
   },
@@ -2121,22 +2587,12 @@
     ],
     "players": [
       {
-        "id": "xbuyer-team-BUYER-TEAM-xbuyer",
-        "fullName": "",
-        "dorsalName": "Hnos. Buyer",
-        "dorsalRole": "BUYER-TEAM-xbuyer",
-        "role": "presidente",
-        "image": "",
-        "clubStats": {},
-        "playerStats": {}
-      },
-      {
         "id": "xbuyer-team-10",
         "fullName": "Carlos Castro",
         "dorsalName": "C. Castro",
         "dorsalRole": "10",
         "role": "jugador 11",
-        "image": "",
+        "image": "xbuyer-team-c-castro.webp",
         "clubStats": {
           "partidos": 10,
           "goles": 7,
@@ -2164,7 +2620,13 @@
           "goles": 0,
           "asist.": 0
         },
-        "playerStats": {}
+        "playerStats": {
+          "reflejo": 82,
+          "paradas": 74,
+          "saque": 75,
+          "estirada": 84,
+          "score": 78.75
+        }
       },
       {
         "id": "xbuyer-team-9",
@@ -2181,7 +2643,15 @@
           "t.roja": 0,
           "mvp": 2
         },
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 68,
+          "físico": 53,
+          "tiro": 84,
+          "pase": 79,
+          "talento": 79,
+          "defensa": 73,
+          "score": 72.66666666666667
+        }
       },
       {
         "id": "xbuyer-team-20",
@@ -2198,7 +2668,15 @@
           "t.roja": 0,
           "mvp": 0
         },
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 73,
+          "físico": 64,
+          "tiro": 79,
+          "pase": 75,
+          "talento": 70,
+          "defensa": 70,
+          "score": 71.83333333333333
+        }
       },
       {
         "id": "xbuyer-team-5",
@@ -2215,7 +2693,15 @@
           "t.roja": 0,
           "mvp": 0
         },
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 64,
+          "físico": 69,
+          "tiro": 79,
+          "pase": 55,
+          "talento": 75,
+          "defensa": 83,
+          "score": 70.83333333333333
+        }
       },
       {
         "id": "xbuyer-team-32",
@@ -2232,7 +2718,15 @@
           "t.roja": 0,
           "mvp": 0
         },
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 72,
+          "físico": 62,
+          "tiro": 70,
+          "pase": 65,
+          "talento": 56,
+          "defensa": 72,
+          "score": 66.16666666666667
+        }
       },
       {
         "id": "xbuyer-team-11",
@@ -2249,7 +2743,15 @@
           "t.roja": 0,
           "mvp": 0
         },
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 92,
+          "físico": 61,
+          "tiro": 72,
+          "pase": 51,
+          "talento": 71,
+          "defensa": 60,
+          "score": 67.83333333333333
+        }
       },
       {
         "id": "xbuyer-team-3",
@@ -2266,7 +2768,15 @@
           "t.roja": 0,
           "mvp": 0
         },
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 71,
+          "físico": 58,
+          "tiro": 81,
+          "pase": 76,
+          "talento": 76,
+          "defensa": 80,
+          "score": 73.66666666666667
+        }
       },
       {
         "id": "xbuyer-team-7",
@@ -2283,7 +2793,15 @@
           "t.roja": 0,
           "mvp": 0
         },
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 64,
+          "físico": 46,
+          "tiro": 77,
+          "pase": 87,
+          "talento": 81,
+          "defensa": 74,
+          "score": 71.5
+        }
       },
       {
         "id": "xbuyer-team-21",
@@ -2300,7 +2818,15 @@
           "t.roja": 0,
           "mvp": 0
         },
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 73,
+          "físico": 66,
+          "tiro": 66,
+          "pase": 77,
+          "talento": 77,
+          "defensa": 75,
+          "score": 72.33333333333333
+        }
       },
       {
         "id": "xbuyer-team-1",
@@ -2319,17 +2845,13 @@
           "goles": 0,
           "asist.": 0
         },
-        "playerStats": {}
-      },
-      {
-        "id": "xbuyer-team-entrenador",
-        "fullName": "Victor González",
-        "dorsalName": "Victor González",
-        "dorsalRole": "entrenador",
-        "role": "entrenador",
-        "image": "xbuyer-team-victor-gonzalez.webp",
-        "clubStats": {},
-        "playerStats": {}
+        "playerStats": {
+          "reflejo": 60,
+          "paradas": 74,
+          "saque": 60,
+          "estirada": 60,
+          "score": 63.5
+        }
       }
     ]
   },
@@ -2351,22 +2873,12 @@
     ],
     "players": [
       {
-        "id": "aniquiladores-fc-JUAN-GUARNIZO-ANIQUILADORES-FC",
-        "fullName": "",
-        "dorsalName": "Juan Guarnizo",
-        "dorsalRole": "JUAN-GUARNIZO-ANIQUILADORES-FC",
-        "role": "presidente",
-        "image": "",
-        "clubStats": {},
-        "playerStats": {}
-      },
-      {
         "id": "aniquiladores-fc-14",
         "fullName": "Fran Hernández",
         "dorsalName": "F. Hernandéz",
         "dorsalRole": "14",
         "role": "jugador 11",
-        "image": "",
+        "image": "aniquiladores-fc-f-hernandez.webp",
         "clubStats": {
           "partidos": 9,
           "goles": 6,
@@ -2394,7 +2906,13 @@
           "goles": 1,
           "asist.": 0
         },
-        "playerStats": {}
+        "playerStats": {
+          "reflejo": 90,
+          "paradas": 83,
+          "saque": 84,
+          "estirada": 86,
+          "score": 85.75
+        }
       },
       {
         "id": "aniquiladores-fc-8",
@@ -2411,7 +2929,15 @@
           "t.roja": 0,
           "mvp": 0
         },
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 73,
+          "físico": 63,
+          "tiro": 86,
+          "pase": 87,
+          "talento": 81,
+          "defensa": 90,
+          "score": 80
+        }
       },
       {
         "id": "aniquiladores-fc-5",
@@ -2428,7 +2954,15 @@
           "t.roja": 0,
           "mvp": 0
         },
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 74,
+          "físico": 69,
+          "tiro": 69,
+          "pase": 71,
+          "talento": 63,
+          "defensa": 77,
+          "score": 70.5
+        }
       },
       {
         "id": "aniquiladores-fc-31",
@@ -2445,7 +2979,15 @@
           "t.roja": 0,
           "mvp": 0
         },
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 73,
+          "físico": 64,
+          "tiro": 82,
+          "pase": 94,
+          "talento": 79,
+          "defensa": 64,
+          "score": 76
+        }
       },
       {
         "id": "aniquiladores-fc-24",
@@ -2462,7 +3004,15 @@
           "t.roja": 0,
           "mvp": 0
         },
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 83,
+          "físico": 69,
+          "tiro": 82,
+          "pase": 77,
+          "talento": 80,
+          "defensa": 69,
+          "score": 76.66666666666667
+        }
       },
       {
         "id": "aniquiladores-fc-22",
@@ -2479,7 +3029,15 @@
           "t.roja": 0,
           "mvp": 0
         },
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 74,
+          "físico": 69,
+          "tiro": 70,
+          "pase": 83,
+          "talento": 66,
+          "defensa": 71,
+          "score": 72.16666666666667
+        }
       },
       {
         "id": "aniquiladores-fc-9",
@@ -2496,7 +3054,15 @@
           "t.roja": 0,
           "mvp": 0
         },
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 82,
+          "físico": 58,
+          "tiro": 65,
+          "pase": 81,
+          "talento": 81,
+          "defensa": 73,
+          "score": 73.33333333333333
+        }
       },
       {
         "id": "aniquiladores-fc-21",
@@ -2513,7 +3079,15 @@
           "t.roja": 0,
           "mvp": 0
         },
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 72,
+          "físico": 55,
+          "tiro": 67,
+          "pase": 57,
+          "talento": 58,
+          "defensa": 68,
+          "score": 62.833333333333336
+        }
       },
       {
         "id": "aniquiladores-fc-11",
@@ -2530,7 +3104,15 @@
           "t.roja": 0,
           "mvp": 0
         },
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 71,
+          "físico": 75,
+          "tiro": 73,
+          "pase": 73,
+          "talento": 85,
+          "defensa": 68,
+          "score": 74.16666666666667
+        }
       },
       {
         "id": "aniquiladores-fc-10",
@@ -2549,17 +3131,13 @@
           "goles": 0,
           "asist.": 0
         },
-        "playerStats": {}
-      },
-      {
-        "id": "aniquiladores-fc-entrenador",
-        "fullName": "Sergio Verdirame",
-        "dorsalName": "Sergio Verdirame",
-        "dorsalRole": "entrenador",
-        "role": "entrenador",
-        "image": "aniquiladores-fc-sergio-verdirame.webp",
-        "clubStats": {},
-        "playerStats": {}
+        "playerStats": {
+          "reflejo": 83,
+          "paradas": 83,
+          "saque": 76,
+          "estirada": 74,
+          "score": 79
+        }
       }
     ]
   },
@@ -2582,22 +3160,12 @@
     ],
     "players": [
       {
-        "id": "pio-fc-RIVERS-PIO-FC",
-        "fullName": "",
-        "dorsalName": "Rivers",
-        "dorsalRole": "RIVERS-PIO-FC",
-        "role": "presidente",
-        "image": "",
-        "clubStats": {},
-        "playerStats": {}
-      },
-      {
         "id": "pio-fc-4",
         "fullName": "Albert Lopo",
         "dorsalName": "Lopo",
         "dorsalRole": "4",
         "role": "jugador 11",
-        "image": "",
+        "image": "pio-fc-lopo.webp",
         "clubStats": {
           "partidos": 10,
           "goles": 6,
@@ -2625,7 +3193,13 @@
           "goles": 1,
           "asist.": 0
         },
-        "playerStats": {}
+        "playerStats": {
+          "reflejo": 84,
+          "paradas": 83,
+          "saque": 82,
+          "estirada": 78,
+          "score": 81.75
+        }
       },
       {
         "id": "pio-fc-2",
@@ -2642,7 +3216,15 @@
           "t.roja": 0,
           "mvp": 1
         },
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 73,
+          "físico": 64,
+          "tiro": 77,
+          "pase": 71,
+          "talento": 81,
+          "defensa": 85,
+          "score": 75.16666666666667
+        }
       },
       {
         "id": "pio-fc-6",
@@ -2659,7 +3241,15 @@
           "t.roja": 0,
           "mvp": 0
         },
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 71,
+          "físico": 62,
+          "tiro": 71,
+          "pase": 82,
+          "talento": 75,
+          "defensa": 82,
+          "score": 73.83333333333333
+        }
       },
       {
         "id": "pio-fc-Pio_9",
@@ -2676,15 +3266,7 @@
           "t.roja": 0,
           "mvp": 0
         },
-        "playerStats": {
-          "velocidad": 0,
-          "físico": 0,
-          "tiro": 0,
-          "pase": 0,
-          "talento": 0,
-          "defensa": 0,
-          "score": 0
-        }
+        "playerStats": {}
       },
       {
         "id": "pio-fc-21",
@@ -2701,7 +3283,15 @@
           "t.roja": 0,
           "mvp": 0
         },
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 71,
+          "físico": 65,
+          "tiro": 75,
+          "pase": 55,
+          "talento": 71,
+          "defensa": 77,
+          "score": 69
+        }
       },
       {
         "id": "pio-fc-42",
@@ -2718,7 +3308,15 @@
           "t.roja": 0,
           "mvp": 0
         },
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 73,
+          "físico": 59,
+          "tiro": 72,
+          "pase": 77,
+          "talento": 80,
+          "defensa": 80,
+          "score": 73.5
+        }
       },
       {
         "id": "pio-fc-11",
@@ -2735,7 +3333,15 @@
           "t.roja": 0,
           "mvp": 0
         },
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 70,
+          "físico": 45,
+          "tiro": 80,
+          "pase": 89,
+          "talento": 82,
+          "defensa": 81,
+          "score": 74.5
+        }
       },
       {
         "id": "pio-fc-8",
@@ -2752,7 +3358,15 @@
           "t.roja": 0,
           "mvp": 0
         },
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 67,
+          "físico": 47,
+          "tiro": 79,
+          "pase": 75,
+          "talento": 80,
+          "defensa": 71,
+          "score": 69.83333333333333
+        }
       },
       {
         "id": "pio-fc-22",
@@ -2769,7 +3383,15 @@
           "t.roja": 0,
           "mvp": 0
         },
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 72,
+          "físico": 57,
+          "tiro": 82,
+          "pase": 72,
+          "talento": 72,
+          "defensa": 68,
+          "score": 70.5
+        }
       },
       {
         "id": "pio-fc-14",
@@ -2786,17 +3408,15 @@
           "t.roja": 0,
           "mvp": 0
         },
-        "playerStats": {}
-      },
-      {
-        "id": "pio-fc-entrenador",
-        "fullName": "Gerardo Torrado",
-        "dorsalName": "Gerardo Torrado",
-        "dorsalRole": "entrenador",
-        "role": "entrenador",
-        "image": "pio-fc-gerardo-torrado.webp",
-        "clubStats": {},
-        "playerStats": {}
+        "playerStats": {
+          "velocidad": 67,
+          "físico": 46,
+          "tiro": 71,
+          "pase": 74,
+          "talento": 78,
+          "defensa": 70,
+          "score": 67.66666666666667
+        }
       }
     ]
   }
