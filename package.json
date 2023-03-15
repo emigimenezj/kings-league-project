@@ -29,6 +29,7 @@
   "devDependencies": {
     "@vitest/coverage-c8": "0.28.4",
     "eslint-plugin-astro": "0.21.1",
+    "sharp": "0.31.3",
     "standard": "17.0.0",
     "vitest": "0.27.1",
     "wrangler": "2.7.1"
