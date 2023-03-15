@@ -1,29 +1,28 @@
 [
   {
     "team": {
-      "id": "porcinos-fc",
-      "name": "Porcinos FC",
-      "image": "https://kings-league-api.emigimenezj.workers.dev/static/logos/porcinos-fc.svg",
+      "id": "ultimate-mostoles",
+      "name": "Ultimate Móstoles",
+      "image": "https://kings-league-api.emigimenezj.workers.dev/static/logos/ultimate-mostoles.svg",
       "url": "",
-      "channel": "https://twitch.tv/ibai",
+      "channel": "https://youtube.com/DjMaRiiO",
       "coach": "???",
       "socialNetworks": [
-        "https://www.twitch.tv/ibai",
-        "https://twitter.com/FCPorcinos"
+        "https://m.youtube.com/user/DjMaRiiO/videos"
       ],
       "players": [],
       "president": {
-        "id": "ibai-llanos",
-        "name": "Ibai Llanos",
-        "image": "https://kings-league-api.emigimenezj.workers.dev/static/presidents/ibai-llanos.png",
-        "teamId": "porcinos-fc"
+        "id": "djmariio",
+        "name": "DjMaRiiO",
+        "image": "https://kings-league-api.emigimenezj.workers.dev/static/presidents/djmariio.png",
+        "teamId": "ultimate-mostoles"
       }
     },
-    "wins": "6",
-    "losses": "2",
-    "goalsScored": "27",
-    "goalsConceded": "17",
-    "goalsDifference": "10"
+    "wins": "7",
+    "losses": "3",
+    "goalsScored": "31",
+    "goalsConceded": "25",
+    "goalsDifference": "6"
   },
   {
     "team": {
@@ -44,114 +43,37 @@
         "teamId": "saiyans-fc"
       }
     },
-    "wins": "6",
-    "losses": "2",
-    "goalsScored": "16",
-    "goalsConceded": "10",
-    "goalsDifference": "6"
+    "wins": "7",
+    "losses": "3",
+    "goalsScored": "20",
+    "goalsConceded": "16",
+    "goalsDifference": "4"
   },
   {
     "team": {
-      "id": "ultimate-mostoles",
-      "name": "Ultimate Móstoles",
-      "image": "https://kings-league-api.emigimenezj.workers.dev/static/logos/ultimate-mostoles.svg",
+      "id": "porcinos-fc",
+      "name": "Porcinos FC",
+      "image": "https://kings-league-api.emigimenezj.workers.dev/static/logos/porcinos-fc.svg",
       "url": "",
-      "channel": "https://youtube.com/DjMaRiiO",
+      "channel": "https://twitch.tv/ibai",
       "coach": "???",
       "socialNetworks": [
-        "https://m.youtube.com/user/DjMaRiiO/videos"
+        "https://www.twitch.tv/ibai",
+        "https://twitter.com/FCPorcinos"
       ],
       "players": [],
       "president": {
-        "id": "djmariio",
-        "name": "DjMaRiiO",
-        "image": "https://kings-league-api.emigimenezj.workers.dev/static/presidents/djmariio.png",
-        "teamId": "ultimate-mostoles"
+        "id": "ibai-llanos",
+        "name": "Ibai Llanos",
+        "image": "https://kings-league-api.emigimenezj.workers.dev/static/presidents/ibai-llanos.png",
+        "teamId": "porcinos-fc"
       }
     },
     "wins": "6",
-    "losses": "2",
-    "goalsScored": "24",
-    "goalsConceded": "18",
-    "goalsDifference": "6"
-  },
-  {
-    "team": {
-      "id": "kunisports",
-      "name": "Kunisports",
-      "image": "https://kings-league-api.emigimenezj.workers.dev/static/logos/kunisports.svg",
-      "url": "",
-      "channel": "https://twitch.tv/slakun10",
-      "coach": "???",
-      "socialNetworks": [
-        "https://www.twitch.tv/slakun10"
-      ],
-      "players": [],
-      "president": {
-        "id": "kun-aguero",
-        "name": "Kun Agüero",
-        "image": "https://kings-league-api.emigimenezj.workers.dev/static/presidents/kun-aguero.png",
-        "teamId": "kunisports"
-      }
-    },
-    "wins": "6",
-    "losses": "2",
-    "goalsScored": "18",
-    "goalsConceded": "15",
-    "goalsDifference": "3"
-  },
-  {
-    "team": {
-      "id": "el-barrio",
-      "name": "El Barrio",
-      "image": "https://kings-league-api.emigimenezj.workers.dev/static/logos/el-barrio.svg",
-      "url": "",
-      "channel": "",
-      "coach": "???",
-      "socialNetworks": [
-        "https://www.instagram.com/elbarrioklk/?hl=es",
-        "https://www.tiktok.com/@adricontreras4",
-        "https://twitter.com/elbarrioklk_",
-        "https://www.tiktok.com/@elbarrioklk"
-      ],
-      "players": [],
-      "president": {
-        "id": "adri-contreras",
-        "name": "Adri Contreras",
-        "image": "https://kings-league-api.emigimenezj.workers.dev/static/presidents/adri-contreras.png",
-        "teamId": "el-barrio"
-      }
-    },
-    "wins": "4",
     "losses": "4",
-    "goalsScored": "26",
-    "goalsConceded": "17",
-    "goalsDifference": "9"
-  },
-  {
-    "team": {
-      "id": "aniquiladores-fc",
-      "name": "Aniquiladores FC",
-      "image": "https://kings-league-api.emigimenezj.workers.dev/static/logos/aniquiladores.svg",
-      "url": "",
-      "channel": "https://twitch.tv/juansguarnizo",
-      "coach": "???",
-      "socialNetworks": [
-        "https://www.twitch.tv/juansguarnizo"
-      ],
-      "players": [],
-      "president": {
-        "id": "juan-guarnizo",
-        "name": "Juan Guarnizo",
-        "image": "https://kings-league-api.emigimenezj.workers.dev/static/presidents/juan-guarnizo.png",
-        "teamId": "aniquiladores-fc"
-      }
-    },
-    "wins": "4",
-    "losses": "4",
-    "goalsScored": "23",
+    "goalsScored": "32",
     "goalsConceded": "23",
-    "goalsDifference": "0"
+    "goalsDifference": "9"
   },
   {
     "team": {
@@ -175,37 +97,89 @@
         "teamId": "los-troncos-fc"
       }
     },
-    "wins": "4",
+    "wins": "6",
     "losses": "4",
-    "goalsScored": "25",
-    "goalsConceded": "30",
-    "goalsDifference": "-5"
+    "goalsScored": "35",
+    "goalsConceded": "33",
+    "goalsDifference": "2"
   },
   {
     "team": {
-      "id": "pio-fc",
-      "name": "PIO FC",
-      "image": "https://kings-league-api.emigimenezj.workers.dev/static/logos/pio.svg",
+      "id": "kunisports",
+      "name": "Kunisports",
+      "image": "https://kings-league-api.emigimenezj.workers.dev/static/logos/kunisports.svg",
       "url": "",
-      "channel": "https://twitch.tv/rivers_gg",
+      "channel": "https://twitch.tv/slakun10",
       "coach": "???",
       "socialNetworks": [
-        "https://www.twitch.tv/rivers_gg",
-        "https://twitter.com/PIO_FC"
+        "https://www.twitch.tv/slakun10"
       ],
       "players": [],
       "president": {
-        "id": "rivers",
-        "name": "Rivers",
-        "image": "https://kings-league-api.emigimenezj.workers.dev/static/presidents/rivers.png",
-        "teamId": "pio-fc"
+        "id": "kun-aguero",
+        "name": "Kun Agüero",
+        "image": "https://kings-league-api.emigimenezj.workers.dev/static/presidents/kun-aguero.png",
+        "teamId": "kunisports"
       }
     },
-    "wins": "3",
-    "losses": "5",
+    "wins": "6",
+    "losses": "4",
     "goalsScored": "19",
-    "goalsConceded": "18",
-    "goalsDifference": "1"
+    "goalsConceded": "21",
+    "goalsDifference": "-2"
+  },
+  {
+    "team": {
+      "id": "el-barrio",
+      "name": "El Barrio",
+      "image": "https://kings-league-api.emigimenezj.workers.dev/static/logos/el-barrio.svg",
+      "url": "",
+      "channel": "",
+      "coach": "???",
+      "socialNetworks": [
+        "https://www.instagram.com/elbarrioklk/?hl=es",
+        "https://www.tiktok.com/@adricontreras4",
+        "https://twitter.com/elbarrioklk_",
+        "https://www.tiktok.com/@elbarrioklk"
+      ],
+      "players": [],
+      "president": {
+        "id": "adri-contreras",
+        "name": "Adri Contreras",
+        "image": "https://kings-league-api.emigimenezj.workers.dev/static/presidents/adri-contreras.png",
+        "teamId": "el-barrio"
+      }
+    },
+    "wins": "5",
+    "losses": "5",
+    "goalsScored": "30",
+    "goalsConceded": "20",
+    "goalsDifference": "10"
+  },
+  {
+    "team": {
+      "id": "xbuyer-team",
+      "name": "XBUYER TEAM",
+      "image": "https://kings-league-api.emigimenezj.workers.dev/static/logos/xbuyer.svg",
+      "url": "",
+      "channel": "https://www.youtube.com/xbuyer",
+      "coach": "???",
+      "socialNetworks": [
+        "https://www.youtube.com/xbuyer"
+      ],
+      "players": [],
+      "president": {
+        "id": "hnos-buyer",
+        "name": "Hnos. Buyer",
+        "image": "https://kings-league-api.emigimenezj.workers.dev/static/presidents/hnos-buyer.png",
+        "teamId": "xbuyer-team"
+      }
+    },
+    "wins": "5",
+    "losses": "5",
+    "goalsScored": "23",
+    "goalsConceded": "24",
+    "goalsDifference": "-1"
   },
   {
     "team": {
@@ -229,11 +203,62 @@
         "teamId": "1k"
       }
     },
-    "wins": "3",
+    "wins": "5",
+    "losses": "5",
+    "goalsScored": "30",
+    "goalsConceded": "31",
+    "goalsDifference": "-1"
+  },
+  {
+    "team": {
+      "id": "aniquiladores-fc",
+      "name": "Aniquiladores FC",
+      "image": "https://kings-league-api.emigimenezj.workers.dev/static/logos/aniquiladores.svg",
+      "url": "",
+      "channel": "https://twitch.tv/juansguarnizo",
+      "coach": "???",
+      "socialNetworks": [
+        "https://www.twitch.tv/juansguarnizo"
+      ],
+      "players": [],
+      "president": {
+        "id": "juan-guarnizo",
+        "name": "Juan Guarnizo",
+        "image": "https://kings-league-api.emigimenezj.workers.dev/static/presidents/juan-guarnizo.png",
+        "teamId": "aniquiladores-fc"
+      }
+    },
+    "wins": "5",
     "losses": "5",
     "goalsScored": "24",
-    "goalsConceded": "27",
-    "goalsDifference": "-3"
+    "goalsConceded": "28",
+    "goalsDifference": "-4"
+  },
+  {
+    "team": {
+      "id": "pio-fc",
+      "name": "PIO FC",
+      "image": "https://kings-league-api.emigimenezj.workers.dev/static/logos/pio.svg",
+      "url": "",
+      "channel": "https://twitch.tv/rivers_gg",
+      "coach": "???",
+      "socialNetworks": [
+        "https://www.twitch.tv/rivers_gg",
+        "https://twitter.com/PIO_FC"
+      ],
+      "players": [],
+      "president": {
+        "id": "rivers",
+        "name": "Rivers",
+        "image": "https://kings-league-api.emigimenezj.workers.dev/static/presidents/rivers.png",
+        "teamId": "pio-fc"
+      }
+    },
+    "wins": "4",
+    "losses": "6",
+    "goalsScored": "25",
+    "goalsConceded": "24",
+    "goalsDifference": "1"
   },
   {
     "team": {
@@ -258,35 +283,10 @@
       }
     },
     "wins": "3",
-    "losses": "5",
-    "goalsScored": "22",
-    "goalsConceded": "27",
-    "goalsDifference": "-5"
-  },
-  {
-    "team": {
-      "id": "xbuyer-team",
-      "name": "XBUYER TEAM",
-      "image": "https://kings-league-api.emigimenezj.workers.dev/static/logos/xbuyer.svg",
-      "url": "",
-      "channel": "https://www.youtube.com/xbuyer",
-      "coach": "???",
-      "socialNetworks": [
-        "https://www.youtube.com/xbuyer"
-      ],
-      "players": [],
-      "president": {
-        "id": "hnos-buyer",
-        "name": "Hnos. Buyer",
-        "image": "https://kings-league-api.emigimenezj.workers.dev/static/presidents/hnos-buyer.png",
-        "teamId": "xbuyer-team"
-      }
-    },
-    "wins": "3",
-    "losses": "5",
-    "goalsScored": "17",
-    "goalsConceded": "23",
-    "goalsDifference": "-6"
+    "losses": "7",
+    "goalsScored": "26",
+    "goalsConceded": "36",
+    "goalsDifference": "-10"
   },
   {
     "team": {
@@ -310,10 +310,10 @@
         "teamId": "jijantes-fc"
       }
     },
-    "wins": "0",
-    "losses": "8",
-    "goalsScored": "16",
-    "goalsConceded": "32",
-    "goalsDifference": "-16"
+    "wins": "1",
+    "losses": "9",
+    "goalsScored": "22",
+    "goalsConceded": "36",
+    "goalsDifference": "-14"
   }
 ]
