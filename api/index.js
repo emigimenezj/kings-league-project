@@ -1,5 +1,6 @@
 import { Hono } from 'hono';
 import { serveStatic } from 'hono/serve-static.module';
+
 import leaderboard from '../db/leaderboard.json';
 import presidents from '../db/presidents.json';
 import teams from '../db/teams.json';
@@ -8,6 +9,21 @@ import top_scorers from '../db/top_scorers.json';
 
 
 const app = new Hono();
+
+/*
+GET /teams/:id/player-12: Devuelve un jugador 12 de un equipo de la Kings League.
+GET /teams/:id/players/:playerId: Devuelve un jugador de un equipo de la Kings League.
+
+GET /coaches: Devuelve todos los entrenadores de la Kings League.
+GET /coaches/:teamId: Devuelve el entrenador de un equipo de la Kings League.
+
+GET /top-assists: Devuelve los asistentes más destacados de la Kings League.
+GET /top-assists/:rank: Devuelve el asistente más destacado de acuerdo a su posición en el ranking de la Kings League.
+
+GET /schedule: Devuelve el calendario de partidos de la Kings League y el resultado de los partidos jugados.
+
+GET /players-12: Devuelve los jugadores 12 de la Kings League.
+*/
 
 app.get('/', (ctx) => {
 	return ctx.json([
