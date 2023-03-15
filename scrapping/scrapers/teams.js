@@ -135,7 +135,7 @@ async function getTeamsList() {
 
           const availableStats = score !== 0;
           if (!availableStats) playerStats = {}
-          else playerStats.score = score
+          else playerStats.score = Math.round(score)
 
         }
       }
