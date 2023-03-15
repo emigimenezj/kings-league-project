@@ -70,7 +70,7 @@ async function getTeamsList() {
 
       switch (role) {
         case 'presidente':
-          break;
+          continue;
         
         case 'entrenador': {
           image = await saveImage({ url: imageUrl, folder: 'coaches', fileName: `${teamId}-${dorsalName}` });
@@ -81,7 +81,7 @@ async function getTeamsList() {
             dorsalRole,
             image
           }
-          break;
+          continue;
         }
 
         case 'jugador 11': {
