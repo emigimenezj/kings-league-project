@@ -131,7 +131,7 @@ async function getTeamsList() {
           const stats = Object.values(playerStats);
           const score = stats.reduce((rec, stat) => rec + stat) / stats.length;
 
-          const availableStats = score === 0;
+          const availableStats = score !== 0;
           if (!availableStats) playerStats = {}
           else playerStats.score = score
 
