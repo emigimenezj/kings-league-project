@@ -3,7 +3,7 @@ import { writeDBFile } from '../../db/index.js';
 import { SCRAPPING_DATA } from './data.js';
 import { logInfo, logSuccess, logError } from './log.js';
 
-async function scrape(url) {
+export async function scrape(url) {
 	const res = await fetch(url);
 	const html = await res.text();
 	return cheerio.load(html);
