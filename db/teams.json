@@ -980,29 +980,21 @@
         }
       },
       {
-        "id": "los-troncos-fc-8",
-        "fullName": "Sergio Sánchez",
-        "dorsalName": "Sánchez, S.",
-        "dorsalRole": "8",
+        "id": "los-troncos-fc-17",
+        "fullName": "Víctor  Molina",
+        "dorsalName": "Molina, V.",
+        "dorsalRole": "17",
         "role": "Medio",
-        "image": "los-troncos-fc-sanchez-s.webp",
+        "image": "los-troncos-fc-molina-v.webp",
         "clubStats": {
-          "partidos": 2,
-          "goles": 3,
+          "partidos": 5,
+          "goles": 1,
           "asist.": 0,
           "t.amarilla": 0,
           "t.roja": 0,
           "mvp": 0
         },
-        "playerStats": {
-          "velocidad": 65,
-          "físico": 43,
-          "tiro": 75,
-          "pase": 79,
-          "talento": 82,
-          "defensa": 84,
-          "score": 71
-        }
+        "playerStats": {}
       },
       {
         "id": "los-troncos-fc-5",
@@ -1174,10 +1166,10 @@
     ],
     "players": [
       {
-        "id": "saiyans-fc-Saiyans_8",
+        "id": "saiyans-fc-8",
         "fullName": "Pol Almellones",
         "dorsalName": "Pol Alme",
-        "dorsalRole": "Saiyans_8",
+        "dorsalRole": "8",
         "role": "jugador 11",
         "image": "saiyans-fc-pol-alme.webp",
         "clubStats": {
@@ -1460,10 +1452,10 @@
     ],
     "players": [
       {
-        "id": "kunisports-Kunisports_23",
+        "id": "kunisports-23",
         "fullName": "Ferran Corominas",
         "dorsalName": "Coro",
-        "dorsalRole": "Kunisports_23",
+        "dorsalRole": "23",
         "role": "jugador 11",
         "image": "kunisports-coro.webp",
         "clubStats": {
@@ -1891,10 +1883,10 @@
         }
       },
       {
-        "id": "jijantes-fc-Jijantes_9",
+        "id": "jijantes-fc-9",
         "fullName": "Iván Pérez",
         "dorsalName": "Iván",
-        "dorsalRole": "Jijantes_9",
+        "dorsalRole": "9",
         "role": "Delantero",
         "image": "jijantes-fc-ivan.webp",
         "clubStats": {
@@ -2145,10 +2137,10 @@
         }
       },
       {
-        "id": "porcinos-fc-Porcinos_20",
+        "id": "porcinos-fc-20",
         "fullName": "Carlos González",
         "dorsalName": "Carlitos G.",
-        "dorsalRole": "Porcinos_20",
+        "dorsalRole": "20",
         "role": "Medio",
         "image": "porcinos-fc-carlitos-g.webp",
         "clubStats": {
@@ -2212,10 +2204,10 @@
         }
       },
       {
-        "id": "porcinos-fc-Porcinos_17",
+        "id": "porcinos-fc-17",
         "fullName": "Oriol Pons",
         "dorsalName": "Uri Pons",
-        "dorsalRole": "Porcinos_17",
+        "dorsalRole": "17",
         "role": "Delantero",
         "image": "porcinos-fc-uri-pons.webp",
         "clubStats": {
@@ -2875,7 +2867,7 @@
       {
         "id": "aniquiladores-fc-14",
         "fullName": "Fran Hernández",
-        "dorsalName": "F. Hernandéz",
+        "dorsalName": "F. Hernández",
         "dorsalRole": "14",
         "role": "jugador 11",
         "image": "aniquiladores-fc-f-hernandez.webp",
@@ -2992,10 +2984,10 @@
       {
         "id": "aniquiladores-fc-24",
         "fullName": "Pau Mañé",
-        "dorsalName": "Paul Mañé",
+        "dorsalName": "Pau Mañé",
         "dorsalRole": "24",
         "role": "Delantero",
-        "image": "aniquiladores-fc-paul-mane.webp",
+        "image": "aniquiladores-fc-pau-mane.webp",
         "clubStats": {
           "partidos": 9,
           "goles": 1,
@@ -3252,10 +3244,10 @@
         }
       },
       {
-        "id": "pio-fc-Pio_9",
+        "id": "pio-fc-9",
         "fullName": "Ismael Cabello",
         "dorsalName": "I. Cabello",
-        "dorsalRole": "Pio_9",
+        "dorsalRole": "9",
         "role": "Delantero",
         "image": "pio-fc-i-cabello.webp",
         "clubStats": {
