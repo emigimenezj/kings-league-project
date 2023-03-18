@@ -11,7 +11,6 @@ const SCORERS_SELECTORS = {
 export function getTopScorersList($) {
   const $rows = $('table tbody tr');
   const topScorersList = [];
-  const getImage = name => TEAMS.find( team => team.name === name).image
 
   $rows.each((index, el) => {
     const topScorer = {};
@@ -23,7 +22,7 @@ export function getTopScorersList($) {
       topScorer[key] = value;
     }
 
-    const image = getImage(topScorer.team);
+    const { image } = TEAMS.find(team => team.name === topScorer.team);
 
     topScorersList.push({
       ...topScorer,
