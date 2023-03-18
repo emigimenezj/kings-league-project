@@ -12,6 +12,6 @@ for (const key of Object.keys(SCRAPPING_DATA))
 const end = performance.now();
 
 const time = (end - start) / 1000;
-logSuccess(`Scraping phase success in ${time} seconds.`);
+logSuccess(`Scraping phase success in ${time.toFixed(2)} seconds.`);
 
 logInfo('Finishing scraping phase.');

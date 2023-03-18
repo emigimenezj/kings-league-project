@@ -33,6 +33,6 @@ export async function scrapeAndSave(name) {
   } finally {
     const end = performance.now();
     const time = (end - start) / 1000;
-    logInfo(`${nameFormatted} scraped in ${time} seconds.`);
+    logInfo(`${nameFormatted} scraped in ${time.toFixed(2)} seconds.`);
   }
 }
