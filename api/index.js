@@ -11,18 +11,18 @@ import top_scorers from '../db/top_scorers.json';
 const app = new Hono();
 
 /*
-GET /teams/:id/player-12: Devuelve un jugador 12 de un equipo de la Kings League.
-GET /teams/:id/players/:playerId: Devuelve un jugador de un equipo de la Kings League.
+[x] GET /teams/:id/player-12: Devuelve un jugador 12 de un equipo de la Kings League.
+[x] GET /teams/:id/players/:playerId: Devuelve un jugador de un equipo de la Kings League.
 
-GET /coaches: Devuelve todos los entrenadores de la Kings League.
-GET /coaches/:teamId: Devuelve el entrenador de un equipo de la Kings League.
+[x] GET /coaches: Devuelve todos los entrenadores de la Kings League.
+[x] GET /coaches/:teamId: Devuelve el entrenador de un equipo de la Kings League.
 
-GET /top-assists: Devuelve los asistentes más destacados de la Kings League.
-GET /top-assists/:rank: Devuelve el asistente más destacado de acuerdo a su posición en el ranking de la Kings League.
+[ ] GET /top-assists: Devuelve los asistentes más destacados de la Kings League.
+[ ] GET /top-assists/:rank: Devuelve el asistente más destacado de acuerdo a su posición en el ranking de la Kings League.
 
-GET /schedule: Devuelve el calendario de partidos de la Kings League y el resultado de los partidos jugados.
+[ ] GET /schedule: Devuelve el calendario de partidos de la Kings League y el resultado de los partidos jugados.
 
-GET /players-12: Devuelve los jugadores 12 de la Kings League.
+[ ] GET /players-12: Devuelve los jugadores 12 de la Kings League.
 */
 
 app.get('/', (ctx) => {
@@ -32,32 +32,48 @@ app.get('/', (ctx) => {
 			description: 'Returns Kings League leaderboard'
 		},
 		{
-			endpoint: '/presidents',
-			description: 'Returns Kings League presidents'
-		},
-		{
-			endpoint: '/presidents/:id',
-			description: "Returns a specific Kings League's president"
-		},
-		{
 			endpoint: '/teams',
-			description: 'Returns Kings League teams'
+			description: 'Returns all the teams of Kings League'
 		},
 		{
 			endpoint: '/teams/:id',
-			description: "Returns a specific Kings League's team"
+			description: 'Returns a team of Kings League'
+		},
+		{
+			endpoint: '/teams/:id/players',
+			description: 'Returns all the Kings League team players'
+		},
+		{
+			endpoint: '/teams/:teamID/players/:playerID',
+			description: 'Returns a player of a Kings League team'
+		},
+		{
+			endpoint: '/presidents',
+			description: 'Returns all Kings League presidents'
+		},
+		{
+			endpoint: '/presidents/:id',
+			description: 'Returns a president of a Kings League team'
+		},
+		{
+			endpoint: '/coaches',
+			description: 'Returns all Kings League coaches'
+		},
+		{
+			endpoint: '/coaches/:id',
+			description: 'Returns the coach of a Kings League team'
 		},
 		{
 			endpoint: '/mvp',
-			description: 'Returns Kings League most valuable player'
+			description: 'Returns the Kings League most valuable player list (only players who have at least 1 MVP)'
 		},
 		{
 			endpoint: '/top-scorers',
-			description: 'Returns Kings League top scorer players'
+			description: 'Returns the top scorers in the Kings League (top 50)'
 		},
 		{
 			endpoint: '/top-scorers/:rank',
-			description: "Returns the Kings League's player at the rank provided only if he is in the top 50."
+			description: 'Returns the top scorer according to their position in the Kings League ranking (only top 50)'
 		},
 		{
 			endpoint: '/emi',
@@ -69,6 +85,37 @@ app.get('/', (ctx) => {
 app.get('/leaderboard', (ctx) => {
 	return ctx.json(leaderboard);
 });
+
+app.get('/teams', (ctx) => {
+	return ctx.json(teams);
+});
+
+app.get('/teams/:id', (ctx) => {
+	const id = ctx.req.param('id');
+	const team = teams.find(team => team.id === id);
+	
+	return team ? ctx.json(team) : ctx.json({ message: 'Team not found' }, 404);
+});
+
+app.get('/teams/:id/players', (ctx) => {
+	const id = ctx.req.param('id');
+	const { players } = teams.find(team => team.id === id);
+
+	return players ? ctx.json(players) : ctx.json({ message: 'Team not found' }, 404);
+});
+
+app.get('/teams/:teamID/players/:playerID', (ctx) => {
+	const teamID = ctx.req.param('teamID');
+	const playerID = ctx.req.param('playerID');
+
+	const team = teams.find(team => team.id === teamID);
+	const players = team?.players;
+
+	const player = players?.find(player => player.id.split('-').at(-1) === playerID);
+
+	return player ? ctx.json(player) : ctx.json({ message: 'Team or player not found' }, 404);
+
+})
 
 app.get('/presidents', (ctx) => {
 	return ctx.json(presidents);
@@ -83,20 +130,24 @@ app.get('/presidents/:id', (ctx) => {
 		: ctx.json({ message: 'President not found' }, 404);
 });
 
-app.get('/teams', (ctx) => {
-	return ctx.json(teams);
+
+app.get('/coaches', (ctx) => {
+	const coaches = teams.map(team => team.coach);
+
+	return ctx.json(coaches);
 });
 
-app.get('/teams/:id', (ctx) => {
-	const id = ctx.req.param('id');
-	const team = teams.find(team => team.id === id);
-	
-	return team ? ctx.json(team) : ctx.json({ message: 'Team not found' }, 404);
+app.get('/coaches/:teamID', (ctx) => {
+	const teamID = ctx.req.param('teamID');
+	const team = teams.find(team => team.id === teamID);
+
+	const coach = team?.coach;
+
+	return coach ? ctx.json(coach) : ctx.json({ message: 'Team not found' }, 404);
 });
 
-app.get('/mvp', (ctx) => {
-	return ctx.json(mvp);
-});
+
+
 
 app.get('/top-scorers', (ctx) => {
 	return ctx.json(top_scorers);
@@ -108,6 +159,12 @@ app.get('/top-scorers/:rank', (ctx) => {
 
 	return player ? ctx.json(player) : ctx.json({ message: 'Received range is out of limits.'}, 404);
 });
+
+app.get('/mvp', (ctx) => {
+	return ctx.json(mvp);
+});
+
+
 
 app.get('/emi', (ctx) => {
 	return ctx.json({message: 'emi was here :v'});
