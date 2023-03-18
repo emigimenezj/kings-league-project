@@ -52,7 +52,7 @@ async function getTeamsList() {
 
       const fullName = cleanText($(`.${playerStatsClass} h1`).text());
       const dorsalName = cleanText($el.find(PLAYER_SELECTORS.name).text());
-      const dorsalRole = imageUrl.split('/').at(-1).split('.').at(0);      
+      const dorsalRole = imageUrl.split('/').at(-1).split('.').at(0).split('_').at(-1);
 
 
       const $role = $el.find(PLAYER_SELECTORS.role);
@@ -68,8 +68,9 @@ async function getTeamsList() {
       let image = '';
 
       switch (role) {
-        case 'presidente':
+        case 'presidente': {
           continue;
+        }
         
         case 'entrenador': {
           image = await saveImage({ url: imageUrl, folder: 'coaches', fileName: `${teamId}-${dorsalName}` });
@@ -88,10 +89,10 @@ async function getTeamsList() {
           image = await saveImage({ url: imageUrl, folder: 'players', fileName: `${teamId}-${dorsalName}` });
 
           const $clubStats = $('.jugador-11 > div > div > div')
-          .first()
-          .children()
-          .last()
-          .find('> div > div');
+            .first()
+            .children()
+            .last()
+            .find('> div > div');
 
           $clubStats.each((_, elem) => {
             const $statEl = $(elem);
