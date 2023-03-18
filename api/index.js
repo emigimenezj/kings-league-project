@@ -2,10 +2,11 @@ import { Hono } from 'hono';
 import { serveStatic } from 'hono/serve-static.module';
 
 import leaderboard from '../db/leaderboard.json';
-import presidents from '../db/presidents.json';
 import teams from '../db/teams.json';
-import mvp from '../db/mvp.json';
+import presidents from '../db/presidents.json';
 import top_scorers from '../db/top_scorers.json';
+import top_assists from '../db/top_assists.json';
+import mvp from '../db/mvp.json';
 
 
 const app = new Hono();
@@ -17,8 +18,8 @@ const app = new Hono();
 [x] GET /coaches: Devuelve todos los entrenadores de la Kings League.
 [x] GET /coaches/:teamId: Devuelve el entrenador de un equipo de la Kings League.
 
-[ ] GET /top-assists: Devuelve los asistentes más destacados de la Kings League.
-[ ] GET /top-assists/:rank: Devuelve el asistente más destacado de acuerdo a su posición en el ranking de la Kings League.
+[x] GET /top-assists: Devuelve los asistentes más destacados de la Kings League.
+[x] GET /top-assists/:rank: Devuelve el asistente más destacado de acuerdo a su posición en el ranking de la Kings League.
 
 [ ] GET /schedule: Devuelve el calendario de partidos de la Kings League y el resultado de los partidos jugados.
 
@@ -64,16 +65,24 @@ app.get('/', (ctx) => {
 			description: 'Returns the coach of a Kings League team'
 		},
 		{
-			endpoint: '/mvp',
-			description: 'Returns the Kings League most valuable player list (only players who have at least 1 MVP)'
-		},
-		{
 			endpoint: '/top-scorers',
 			description: 'Returns the top scorers in the Kings League (top 50)'
 		},
 		{
 			endpoint: '/top-scorers/:rank',
 			description: 'Returns the top scorer according to their position in the Kings League ranking (only top 50)'
+		},
+		{
+			endpoint: '/top-assists',
+			description: 'Returns the top assistants in the Kings League (top 50)'
+		},
+		{
+			endpoint: '/top-assists/:rank',
+			description: 'Returns the top assistant according to their position in the Kings League ranking (only top 50)'
+		},
+		{
+			endpoint: '/mvp',
+			description: 'Returns the Kings League most valuable player list (only players who have at least 1 MVP)'
 		},
 		{
 			endpoint: '/emi',
@@ -146,9 +155,6 @@ app.get('/coaches/:teamID', (ctx) => {
 	return coach ? ctx.json(coach) : ctx.json({ message: 'Team not found' }, 404);
 });
 
-
-
-
 app.get('/top-scorers', (ctx) => {
 	return ctx.json(top_scorers);
 });
@@ -160,11 +166,20 @@ app.get('/top-scorers/:rank', (ctx) => {
 	return player ? ctx.json(player) : ctx.json({ message: 'Received range is out of limits.'}, 404);
 });
 
+app.get('/top-assists', (ctx) => {
+	return ctx.json(top_assists);
+});
+
+app.get('/top-assists/:rank', (ctx) => {
+	const rank = ~~ctx.req.param('rank');
+	const player = top_assists.find(player => player.rank === rank);
+
+	return player ? ctx.json(player) : ctx.json({ message: 'Received range is out of limits.'}, 404);
+});
+
 app.get('/mvp', (ctx) => {
 	return ctx.json(mvp);
 });
-
-
 
 app.get('/emi', (ctx) => {
 	return ctx.json({message: 'emi was here :v'});
