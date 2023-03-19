@@ -246,6 +246,26 @@
     "name": "Javier Saviola"
   },
   {
+    "teamName": "Aniquiladores FC",
+    "role": "Delantero",
+    "journeys": [
+      "2"
+    ],
+    "name": "David Acedo"
+  },
+  {
+    "teamName": "Jijantes FC",
+    "role": "Delantero",
+    "journeys": [
+      "2",
+      "3",
+      "8",
+      "9",
+      "10"
+    ],
+    "name": "Ibai Gómez"
+  },
+  {
     "teamName": "Los Troncos FC",
     "role": "Medio",
     "journeys": [
@@ -280,26 +300,6 @@
       "2"
     ],
     "name": "Enigma "
-  },
-  {
-    "teamName": "Aniquiladores FC",
-    "role": "Delantero",
-    "journeys": [
-      "2"
-    ],
-    "name": "David Acedo"
-  },
-  {
-    "teamName": "Jijantes FC",
-    "role": "Delantero",
-    "journeys": [
-      "2",
-      "3",
-      "8",
-      "9",
-      "10"
-    ],
-    "name": "Ibai Gómez"
   },
   {
     "teamName": "Ultimate Móstoles",

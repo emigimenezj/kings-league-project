@@ -1,304 +1,6 @@
 [
   {
     "team": {
-      "id": "ultimate-mostoles",
-      "name": "Ultimate Móstoles",
-      "image": "https://kings-league-api.emigimenezj.workers.dev/static/logos/ultimate-mostoles.svg",
-      "url": "",
-      "channel": "https://youtube.com/DjMaRiiO",
-      "coach": {
-        "fullName": "Nacho Castro",
-        "dorsalName": "Nacho Castro",
-        "dorsalRole": "entrenador",
-        "image": "ultimate-mostoles-nacho-castro.webp"
-      },
-      "socialNetworks": [
-        "https://m.youtube.com/user/DjMaRiiO/videos"
-      ],
-      "players": [
-        {
-          "id": "ultimate-mostoles-22",
-          "fullName": "Juanma González",
-          "dorsalName": "Juanma Glez.",
-          "dorsalRole": "22",
-          "role": "jugador 11",
-          "image": "ultimate-mostoles-juanma-glez.webp",
-          "clubStats": {
-            "partidos": 10,
-            "goles": 10,
-            "asist.": 0,
-            "t.amarilla": 0,
-            "t.roja": 0,
-            "mvp": 3
-          },
-          "playerStats": {}
-        },
-        {
-          "id": "ultimate-mostoles-10",
-          "fullName": "Álvaro García",
-          "dorsalName": "Arché",
-          "dorsalRole": "10",
-          "role": "Medio",
-          "image": "ultimate-mostoles-arche.webp",
-          "clubStats": {
-            "partidos": 10,
-            "goles": 8,
-            "asist.": 4,
-            "t.amarilla": 0,
-            "t.roja": 0,
-            "mvp": 1
-          },
-          "playerStats": {
-            "velocidad": 72,
-            "físico": 69,
-            "tiro": 79,
-            "pase": 78,
-            "talento": 77,
-            "defensa": 65,
-            "score": 73
-          }
-        },
-        {
-          "id": "ultimate-mostoles-1",
-          "fullName": "Iu Morral",
-          "dorsalName": "Iu",
-          "dorsalRole": "1",
-          "role": "Portero",
-          "image": "ultimate-mostoles-iu.webp",
-          "clubStats": {
-            "partidos": 6,
-            "goles encajados": 12,
-            "penaltis parados": 0,
-            "t.amarilla": 0,
-            "t.roja": 0,
-            "mvp": 0,
-            "goles": 0,
-            "asist.": 0
-          },
-          "playerStats": {
-            "reflejo": 71,
-            "paradas": 84,
-            "saque": 79,
-            "estirada": 83,
-            "score": 79
-          }
-        },
-        {
-          "id": "ultimate-mostoles-11",
-          "fullName": "Àlex Gutiérrez",
-          "dorsalName": "Guti",
-          "dorsalRole": "11",
-          "role": "Defensa",
-          "image": "ultimate-mostoles-guti.webp",
-          "clubStats": {
-            "partidos": 9,
-            "goles": 4,
-            "asist.": 5,
-            "t.amarilla": 0,
-            "t.roja": 0,
-            "mvp": 1
-          },
-          "playerStats": {
-            "velocidad": 73,
-            "físico": 62,
-            "tiro": 76,
-            "pase": 58,
-            "talento": 74,
-            "defensa": 77,
-            "score": 70
-          }
-        },
-        {
-          "id": "ultimate-mostoles-6",
-          "fullName": "Aleix Lage",
-          "dorsalName": "Aleix",
-          "dorsalRole": "6",
-          "role": "Medio",
-          "image": "ultimate-mostoles-aleix.webp",
-          "clubStats": {
-            "partidos": 10,
-            "goles": 4,
-            "asist.": 4,
-            "t.amarilla": 0,
-            "t.roja": 0,
-            "mvp": 0
-          },
-          "playerStats": {
-            "velocidad": 87,
-            "físico": 64,
-            "tiro": 65,
-            "pase": 72,
-            "talento": 74,
-            "defensa": 70,
-            "score": 72
-          }
-        },
-        {
-          "id": "ultimate-mostoles-19",
-          "fullName": "Llorenç Genesca",
-          "dorsalName": "Llur",
-          "dorsalRole": "19",
-          "role": "Delantero",
-          "image": "ultimate-mostoles-llur.webp",
-          "clubStats": {
-            "partidos": 9,
-            "goles": 0,
-            "asist.": 0,
-            "t.amarilla": 0,
-            "t.roja": 0,
-            "mvp": 0
-          },
-          "playerStats": {
-            "velocidad": 71,
-            "físico": 53,
-            "tiro": 75,
-            "pase": 59,
-            "talento": 66,
-            "defensa": 67,
-            "score": 65
-          }
-        },
-        {
-          "id": "ultimate-mostoles-4",
-          "fullName": "Iker López",
-          "dorsalName": "Iker",
-          "dorsalRole": "4",
-          "role": "Defensa",
-          "image": "ultimate-mostoles-iker.webp",
-          "clubStats": {
-            "partidos": 10,
-            "goles": 1,
-            "asist.": 0,
-            "t.amarilla": 0,
-            "t.roja": 0,
-            "mvp": 0
-          },
-          "playerStats": {
-            "velocidad": 73,
-            "físico": 67,
-            "tiro": 79,
-            "pase": 84,
-            "talento": 69,
-            "defensa": 71,
-            "score": 74
-          }
-        },
-        {
-          "id": "ultimate-mostoles-3",
-          "fullName": "Ian González",
-          "dorsalName": "Ian",
-          "dorsalRole": "3",
-          "role": "Defensa",
-          "image": "ultimate-mostoles-ian.webp",
-          "clubStats": {
-            "partidos": 10,
-            "goles": 1,
-            "asist.": 0,
-            "t.amarilla": 0,
-            "t.roja": 0,
-            "mvp": 0
-          },
-          "playerStats": {
-            "velocidad": 87,
-            "físico": 54,
-            "tiro": 64,
-            "pase": 54,
-            "talento": 74,
-            "defensa": 76,
-            "score": 68
-          }
-        },
-        {
-          "id": "ultimate-mostoles-7",
-          "fullName": "Steven Rodríguez",
-          "dorsalName": "Zea",
-          "dorsalRole": "7",
-          "role": "Delantero",
-          "image": "ultimate-mostoles-zea.webp",
-          "clubStats": {
-            "partidos": 4,
-            "goles": 0,
-            "asist.": 0,
-            "t.amarilla": 0,
-            "t.roja": 0,
-            "mvp": 0
-          },
-          "playerStats": {
-            "velocidad": 72,
-            "físico": 49,
-            "tiro": 72,
-            "pase": 53,
-            "talento": 75,
-            "defensa": 79,
-            "score": 67
-          }
-        },
-        {
-          "id": "ultimate-mostoles-13",
-          "fullName": "Ignacio Berché",
-          "dorsalName": "Nacho",
-          "dorsalRole": "13",
-          "role": "Portero",
-          "image": "ultimate-mostoles-nacho.webp",
-          "clubStats": {
-            "partidos": 6,
-            "goles encajados": 13,
-            "penaltis parados": 0,
-            "t.amarilla": 0,
-            "t.roja": 0,
-            "mvp": 0,
-            "goles": 0,
-            "asist.": 0
-          },
-          "playerStats": {
-            "reflejo": 72,
-            "paradas": 77,
-            "saque": 79,
-            "estirada": 80,
-            "score": 77
-          }
-        },
-        {
-          "id": "ultimate-mostoles-20",
-          "fullName": "Lucca Ribeiro",
-          "dorsalName": "Lucca",
-          "dorsalRole": "20",
-          "role": "Medio",
-          "image": "ultimate-mostoles-lucca.webp",
-          "clubStats": {
-            "partidos": 8,
-            "goles": 0,
-            "asist.": 1,
-            "t.amarilla": 0,
-            "t.roja": 0,
-            "mvp": 0
-          },
-          "playerStats": {
-            "velocidad": 72,
-            "físico": 77,
-            "tiro": 77,
-            "pase": 50,
-            "talento": 77,
-            "defensa": 83,
-            "score": 73
-          }
-        }
-      ],
-      "president": {
-        "id": "djmariio",
-        "name": "DjMaRiiO",
-        "image": "https://kings-league-api.emigimenezj.workers.dev/static/presidents/djmariio.png",
-        "teamId": "ultimate-mostoles"
-      }
-    },
-    "wins": "7",
-    "losses": "3",
-    "goalsScored": "31",
-    "goalsConceded": "25",
-    "goalsDifference": "6"
-  },
-  {
-    "team": {
       "id": "saiyans-fc",
       "name": "Saiyans FC",
       "image": "https://kings-league-api.emigimenezj.workers.dev/static/logos/saiyans-fc.svg",
@@ -589,11 +291,309 @@
         "teamId": "saiyans-fc"
       }
     },
-    "wins": "7",
-    "losses": "3",
-    "goalsScored": "20",
-    "goalsConceded": "16",
-    "goalsDifference": "4"
+    "wins": 7,
+    "losses": 4,
+    "goalsScored": 21,
+    "goalsConceded": 18,
+    "goalsDifference": 3
+  },
+  {
+    "team": {
+      "id": "ultimate-mostoles",
+      "name": "Ultimate Móstoles",
+      "image": "https://kings-league-api.emigimenezj.workers.dev/static/logos/ultimate-mostoles.svg",
+      "url": "",
+      "channel": "https://youtube.com/DjMaRiiO",
+      "coach": {
+        "fullName": "Nacho Castro",
+        "dorsalName": "Nacho Castro",
+        "dorsalRole": "entrenador",
+        "image": "ultimate-mostoles-nacho-castro.webp"
+      },
+      "socialNetworks": [
+        "https://m.youtube.com/user/DjMaRiiO/videos"
+      ],
+      "players": [
+        {
+          "id": "ultimate-mostoles-22",
+          "fullName": "Juanma González",
+          "dorsalName": "Juanma Glez.",
+          "dorsalRole": "22",
+          "role": "jugador 11",
+          "image": "ultimate-mostoles-juanma-glez.webp",
+          "clubStats": {
+            "partidos": 10,
+            "goles": 10,
+            "asist.": 0,
+            "t.amarilla": 0,
+            "t.roja": 0,
+            "mvp": 3
+          },
+          "playerStats": {}
+        },
+        {
+          "id": "ultimate-mostoles-10",
+          "fullName": "Álvaro García",
+          "dorsalName": "Arché",
+          "dorsalRole": "10",
+          "role": "Medio",
+          "image": "ultimate-mostoles-arche.webp",
+          "clubStats": {
+            "partidos": 10,
+            "goles": 8,
+            "asist.": 4,
+            "t.amarilla": 0,
+            "t.roja": 0,
+            "mvp": 1
+          },
+          "playerStats": {
+            "velocidad": 72,
+            "físico": 69,
+            "tiro": 79,
+            "pase": 78,
+            "talento": 77,
+            "defensa": 65,
+            "score": 73
+          }
+        },
+        {
+          "id": "ultimate-mostoles-1",
+          "fullName": "Iu Morral",
+          "dorsalName": "Iu",
+          "dorsalRole": "1",
+          "role": "Portero",
+          "image": "ultimate-mostoles-iu.webp",
+          "clubStats": {
+            "partidos": 6,
+            "goles encajados": 12,
+            "penaltis parados": 0,
+            "t.amarilla": 0,
+            "t.roja": 0,
+            "mvp": 0,
+            "goles": 0,
+            "asist.": 0
+          },
+          "playerStats": {
+            "reflejo": 71,
+            "paradas": 84,
+            "saque": 79,
+            "estirada": 83,
+            "score": 79
+          }
+        },
+        {
+          "id": "ultimate-mostoles-11",
+          "fullName": "Àlex Gutiérrez",
+          "dorsalName": "Guti",
+          "dorsalRole": "11",
+          "role": "Defensa",
+          "image": "ultimate-mostoles-guti.webp",
+          "clubStats": {
+            "partidos": 9,
+            "goles": 4,
+            "asist.": 5,
+            "t.amarilla": 0,
+            "t.roja": 0,
+            "mvp": 1
+          },
+          "playerStats": {
+            "velocidad": 73,
+            "físico": 62,
+            "tiro": 76,
+            "pase": 58,
+            "talento": 74,
+            "defensa": 77,
+            "score": 70
+          }
+        },
+        {
+          "id": "ultimate-mostoles-6",
+          "fullName": "Aleix Lage",
+          "dorsalName": "Aleix",
+          "dorsalRole": "6",
+          "role": "Medio",
+          "image": "ultimate-mostoles-aleix.webp",
+          "clubStats": {
+            "partidos": 10,
+            "goles": 4,
+            "asist.": 4,
+            "t.amarilla": 0,
+            "t.roja": 0,
+            "mvp": 0
+          },
+          "playerStats": {
+            "velocidad": 87,
+            "físico": 64,
+            "tiro": 65,
+            "pase": 72,
+            "talento": 74,
+            "defensa": 70,
+            "score": 72
+          }
+        },
+        {
+          "id": "ultimate-mostoles-19",
+          "fullName": "Llorenç Genesca",
+          "dorsalName": "Llur",
+          "dorsalRole": "19",
+          "role": "Delantero",
+          "image": "ultimate-mostoles-llur.webp",
+          "clubStats": {
+            "partidos": 9,
+            "goles": 0,
+            "asist.": 0,
+            "t.amarilla": 0,
+            "t.roja": 0,
+            "mvp": 0
+          },
+          "playerStats": {
+            "velocidad": 71,
+            "físico": 53,
+            "tiro": 75,
+            "pase": 59,
+            "talento": 66,
+            "defensa": 67,
+            "score": 65
+          }
+        },
+        {
+          "id": "ultimate-mostoles-4",
+          "fullName": "Iker López",
+          "dorsalName": "Iker",
+          "dorsalRole": "4",
+          "role": "Defensa",
+          "image": "ultimate-mostoles-iker.webp",
+          "clubStats": {
+            "partidos": 10,
+            "goles": 1,
+            "asist.": 0,
+            "t.amarilla": 0,
+            "t.roja": 0,
+            "mvp": 0
+          },
+          "playerStats": {
+            "velocidad": 73,
+            "físico": 67,
+            "tiro": 79,
+            "pase": 84,
+            "talento": 69,
+            "defensa": 71,
+            "score": 74
+          }
+        },
+        {
+          "id": "ultimate-mostoles-3",
+          "fullName": "Ian González",
+          "dorsalName": "Ian",
+          "dorsalRole": "3",
+          "role": "Defensa",
+          "image": "ultimate-mostoles-ian.webp",
+          "clubStats": {
+            "partidos": 10,
+            "goles": 1,
+            "asist.": 0,
+            "t.amarilla": 0,
+            "t.roja": 0,
+            "mvp": 0
+          },
+          "playerStats": {
+            "velocidad": 87,
+            "físico": 54,
+            "tiro": 64,
+            "pase": 54,
+            "talento": 74,
+            "defensa": 76,
+            "score": 68
+          }
+        },
+        {
+          "id": "ultimate-mostoles-7",
+          "fullName": "Steven Rodríguez",
+          "dorsalName": "Zea",
+          "dorsalRole": "7",
+          "role": "Delantero",
+          "image": "ultimate-mostoles-zea.webp",
+          "clubStats": {
+            "partidos": 4,
+            "goles": 0,
+            "asist.": 0,
+            "t.amarilla": 0,
+            "t.roja": 0,
+            "mvp": 0
+          },
+          "playerStats": {
+            "velocidad": 72,
+            "físico": 49,
+            "tiro": 72,
+            "pase": 53,
+            "talento": 75,
+            "defensa": 79,
+            "score": 67
+          }
+        },
+        {
+          "id": "ultimate-mostoles-13",
+          "fullName": "Ignacio Berché",
+          "dorsalName": "Nacho",
+          "dorsalRole": "13",
+          "role": "Portero",
+          "image": "ultimate-mostoles-nacho.webp",
+          "clubStats": {
+            "partidos": 6,
+            "goles encajados": 13,
+            "penaltis parados": 0,
+            "t.amarilla": 0,
+            "t.roja": 0,
+            "mvp": 0,
+            "goles": 0,
+            "asist.": 0
+          },
+          "playerStats": {
+            "reflejo": 72,
+            "paradas": 77,
+            "saque": 79,
+            "estirada": 80,
+            "score": 77
+          }
+        },
+        {
+          "id": "ultimate-mostoles-20",
+          "fullName": "Lucca Ribeiro",
+          "dorsalName": "Lucca",
+          "dorsalRole": "20",
+          "role": "Medio",
+          "image": "ultimate-mostoles-lucca.webp",
+          "clubStats": {
+            "partidos": 8,
+            "goles": 0,
+            "asist.": 1,
+            "t.amarilla": 0,
+            "t.roja": 0,
+            "mvp": 0
+          },
+          "playerStats": {
+            "velocidad": 72,
+            "físico": 77,
+            "tiro": 77,
+            "pase": 50,
+            "talento": 77,
+            "defensa": 83,
+            "score": 73
+          }
+        }
+      ],
+      "president": {
+        "id": "djmariio",
+        "name": "DjMaRiiO",
+        "image": "https://kings-league-api.emigimenezj.workers.dev/static/presidents/djmariio.png",
+        "teamId": "ultimate-mostoles"
+      }
+    },
+    "wins": 8,
+    "losses": 3,
+    "goalsScored": 34,
+    "goalsConceded": 27,
+    "goalsDifference": 7
   },
   {
     "team": {
@@ -872,304 +872,11 @@
         "teamId": "porcinos-fc"
       }
     },
-    "wins": "6",
-    "losses": "4",
-    "goalsScored": "32",
-    "goalsConceded": "23",
-    "goalsDifference": "9"
-  },
-  {
-    "team": {
-      "id": "los-troncos-fc",
-      "name": "Los Troncos FC",
-      "image": "https://kings-league-api.emigimenezj.workers.dev/static/logos/los-troncos.png",
-      "url": "",
-      "channel": "https://twitch.tv/perxitaa",
-      "coach": {
-        "fullName": "Pol Font",
-        "dorsalName": "Pol Font",
-        "dorsalRole": "entrenador",
-        "image": "los-troncos-fc-pol-font.webp"
-      },
-      "socialNetworks": [
-        "https://www.twitch.tv/perxitaa",
-        "https://www.instagram.com/troncosfc.oficial/",
-        "https://twitter.com/lostroncosfc_/",
-        "https://www.tiktok.com/@lostroncosfc_"
-      ],
-      "players": [
-        {
-          "id": "los-troncos-fc-21",
-          "fullName": "Carles Planas",
-          "dorsalName": "C. Planas",
-          "dorsalRole": "21",
-          "role": "jugador 11",
-          "image": "los-troncos-fc-c-planas.webp",
-          "clubStats": {
-            "partidos": 7,
-            "goles": 0,
-            "asist.": 4,
-            "t.amarilla": 0,
-            "t.roja": 0,
-            "mvp": 0
-          },
-          "playerStats": {}
-        },
-        {
-          "id": "los-troncos-fc-9",
-          "fullName": "Edgar Álvaro",
-          "dorsalName": "Álvaro, E.",
-          "dorsalRole": "9",
-          "role": "Delantero",
-          "image": "los-troncos-fc-alvaro-e.webp",
-          "clubStats": {
-            "partidos": 10,
-            "goles": 11,
-            "asist.": 1,
-            "t.amarilla": 0,
-            "t.roja": 0,
-            "mvp": 2
-          },
-          "playerStats": {
-            "velocidad": 73,
-            "físico": 82,
-            "tiro": 81,
-            "pase": 55,
-            "talento": 85,
-            "defensa": 70,
-            "score": 74
-          }
-        },
-        {
-          "id": "los-troncos-fc-13",
-          "fullName": "Pol Lechuga",
-          "dorsalName": "Lechuga, P.",
-          "dorsalRole": "13",
-          "role": "Portero",
-          "image": "los-troncos-fc-lechuga-p.webp",
-          "clubStats": {
-            "partidos": 10,
-            "goles encajados": 26,
-            "penaltis parados": 1,
-            "t.amarilla": 0,
-            "t.roja": 0,
-            "mvp": 1,
-            "goles": 1,
-            "asist.": 0
-          },
-          "playerStats": {
-            "reflejo": 81,
-            "paradas": 84,
-            "saque": 70,
-            "estirada": 60,
-            "score": 74
-          }
-        },
-        {
-          "id": "los-troncos-fc-4",
-          "fullName": "David Soriano",
-          "dorsalName": "Soriano, D.",
-          "dorsalRole": "4",
-          "role": "Defensa",
-          "image": "los-troncos-fc-soriano-d.webp",
-          "clubStats": {
-            "partidos": 10,
-            "goles": 1,
-            "asist.": 1,
-            "t.amarilla": 0,
-            "t.roja": 0,
-            "mvp": 0
-          },
-          "playerStats": {
-            "velocidad": 71,
-            "físico": 70,
-            "tiro": 80,
-            "pase": 78,
-            "talento": 56,
-            "defensa": 57,
-            "score": 69
-          }
-        },
-        {
-          "id": "los-troncos-fc-17",
-          "fullName": "Víctor  Molina",
-          "dorsalName": "Molina, V.",
-          "dorsalRole": "17",
-          "role": "Medio",
-          "image": "los-troncos-fc-molina-v.webp",
-          "clubStats": {
-            "partidos": 5,
-            "goles": 1,
-            "asist.": 0,
-            "t.amarilla": 0,
-            "t.roja": 0,
-            "mvp": 0
-          },
-          "playerStats": {}
-        },
-        {
-          "id": "los-troncos-fc-5",
-          "fullName": "Noel López",
-          "dorsalName": "Noel L.",
-          "dorsalRole": "5",
-          "role": "Medio",
-          "image": "los-troncos-fc-noel-l.webp",
-          "clubStats": {
-            "partidos": 8,
-            "goles": 0,
-            "asist.": 2,
-            "t.amarilla": 0,
-            "t.roja": 0,
-            "mvp": 0
-          },
-          "playerStats": {
-            "velocidad": 73,
-            "físico": 68,
-            "tiro": 79,
-            "pase": 70,
-            "talento": 89,
-            "defensa": 67,
-            "score": 74
-          }
-        },
-        {
-          "id": "los-troncos-fc-10",
-          "fullName": "Xavier Molas",
-          "dorsalName": "Molas, X.",
-          "dorsalRole": "10",
-          "role": "Medio",
-          "image": "los-troncos-fc-molas-x.webp",
-          "clubStats": {
-            "partidos": 10,
-            "goles": 4,
-            "asist.": 2,
-            "t.amarilla": 0,
-            "t.roja": 0,
-            "mvp": 0
-          },
-          "playerStats": {
-            "velocidad": 73,
-            "físico": 72,
-            "tiro": 76,
-            "pase": 84,
-            "talento": 81,
-            "defensa": 78,
-            "score": 77
-          }
-        },
-        {
-          "id": "los-troncos-fc-7",
-          "fullName": "Raúl Martínez",
-          "dorsalName": "Martínez, R.",
-          "dorsalRole": "7",
-          "role": "Delantero",
-          "image": "los-troncos-fc-martinez-r.webp",
-          "clubStats": {
-            "partidos": 8,
-            "goles": 1,
-            "asist.": 0,
-            "t.amarilla": 0,
-            "t.roja": 0,
-            "mvp": 0
-          },
-          "playerStats": {
-            "velocidad": 73,
-            "físico": 50,
-            "tiro": 70,
-            "pase": 76,
-            "talento": 84,
-            "defensa": 73,
-            "score": 71
-          }
-        },
-        {
-          "id": "los-troncos-fc-11",
-          "fullName": "Dorkis Pérez",
-          "dorsalName": "Dorkis P.",
-          "dorsalRole": "11",
-          "role": "Delantero",
-          "image": "los-troncos-fc-dorkis-p.webp",
-          "clubStats": {
-            "partidos": 10,
-            "goles": 0,
-            "asist.": 1,
-            "t.amarilla": 0,
-            "t.roja": 0,
-            "mvp": 0
-          },
-          "playerStats": {
-            "velocidad": 72,
-            "físico": 54,
-            "tiro": 78,
-            "pase": 54,
-            "talento": 71,
-            "defensa": 72,
-            "score": 67
-          }
-        },
-        {
-          "id": "los-troncos-fc-6",
-          "fullName": "Iván Nuevo",
-          "dorsalName": "Nuevo, I.",
-          "dorsalRole": "6",
-          "role": "Medio",
-          "image": "los-troncos-fc-nuevo-i.webp",
-          "clubStats": {
-            "partidos": 9,
-            "goles": 1,
-            "asist.": 1,
-            "t.amarilla": 0,
-            "t.roja": 0,
-            "mvp": 0
-          },
-          "playerStats": {
-            "velocidad": 70,
-            "físico": 63,
-            "tiro": 80,
-            "pase": 61,
-            "talento": 83,
-            "defensa": 73,
-            "score": 72
-          }
-        },
-        {
-          "id": "los-troncos-fc-1",
-          "fullName": "Marc Arús",
-          "dorsalName": "Arus, M.",
-          "dorsalRole": "1",
-          "role": "Portero",
-          "image": "los-troncos-fc-arus-m.webp",
-          "clubStats": {
-            "partidos": 3,
-            "goles encajados": 4,
-            "penaltis parados": 1,
-            "t.amarilla": 0,
-            "t.roja": 0,
-            "mvp": 0,
-            "goles": 0,
-            "asist.": 0
-          },
-          "playerStats": {
-            "reflejo": 62,
-            "paradas": 70,
-            "saque": 60,
-            "estirada": 73,
-            "score": 66
-          }
-        }
-      ],
-      "president": {
-        "id": "perxitaa",
-        "name": "Perxitaa",
-        "image": "https://kings-league-api.emigimenezj.workers.dev/static/presidents/perxitaa.png",
-        "teamId": "los-troncos-fc"
-      }
-    },
-    "wins": "6",
-    "losses": "4",
-    "goalsScored": "35",
-    "goalsConceded": "33",
-    "goalsDifference": "2"
+    "wins": 7,
+    "losses": 4,
+    "goalsScored": 37,
+    "goalsConceded": 26,
+    "goalsDifference": 11
   },
   {
     "team": {
@@ -1463,11 +1170,11 @@
         "teamId": "kunisports"
       }
     },
-    "wins": "6",
-    "losses": "4",
-    "goalsScored": "19",
-    "goalsConceded": "21",
-    "goalsDifference": "-2"
+    "wins": 7,
+    "losses": 4,
+    "goalsScored": 23,
+    "goalsConceded": 22,
+    "goalsDifference": 1
   },
   {
     "team": {
@@ -1766,11 +1473,304 @@
         "teamId": "el-barrio"
       }
     },
-    "wins": "5",
-    "losses": "5",
-    "goalsScored": "30",
-    "goalsConceded": "20",
-    "goalsDifference": "10"
+    "wins": 5,
+    "losses": 6,
+    "goalsScored": 33,
+    "goalsConceded": 25,
+    "goalsDifference": 8
+  },
+  {
+    "team": {
+      "id": "los-troncos-fc",
+      "name": "Los Troncos FC",
+      "image": "https://kings-league-api.emigimenezj.workers.dev/static/logos/los-troncos.png",
+      "url": "",
+      "channel": "https://twitch.tv/perxitaa",
+      "coach": {
+        "fullName": "Pol Font",
+        "dorsalName": "Pol Font",
+        "dorsalRole": "entrenador",
+        "image": "los-troncos-fc-pol-font.webp"
+      },
+      "socialNetworks": [
+        "https://www.twitch.tv/perxitaa",
+        "https://www.instagram.com/troncosfc.oficial/",
+        "https://twitter.com/lostroncosfc_/",
+        "https://www.tiktok.com/@lostroncosfc_"
+      ],
+      "players": [
+        {
+          "id": "los-troncos-fc-21",
+          "fullName": "Carles Planas",
+          "dorsalName": "C. Planas",
+          "dorsalRole": "21",
+          "role": "jugador 11",
+          "image": "los-troncos-fc-c-planas.webp",
+          "clubStats": {
+            "partidos": 7,
+            "goles": 0,
+            "asist.": 4,
+            "t.amarilla": 0,
+            "t.roja": 0,
+            "mvp": 0
+          },
+          "playerStats": {}
+        },
+        {
+          "id": "los-troncos-fc-9",
+          "fullName": "Edgar Álvaro",
+          "dorsalName": "Álvaro, E.",
+          "dorsalRole": "9",
+          "role": "Delantero",
+          "image": "los-troncos-fc-alvaro-e.webp",
+          "clubStats": {
+            "partidos": 10,
+            "goles": 11,
+            "asist.": 1,
+            "t.amarilla": 0,
+            "t.roja": 0,
+            "mvp": 2
+          },
+          "playerStats": {
+            "velocidad": 73,
+            "físico": 82,
+            "tiro": 81,
+            "pase": 55,
+            "talento": 85,
+            "defensa": 70,
+            "score": 74
+          }
+        },
+        {
+          "id": "los-troncos-fc-13",
+          "fullName": "Pol Lechuga",
+          "dorsalName": "Lechuga, P.",
+          "dorsalRole": "13",
+          "role": "Portero",
+          "image": "los-troncos-fc-lechuga-p.webp",
+          "clubStats": {
+            "partidos": 10,
+            "goles encajados": 26,
+            "penaltis parados": 1,
+            "t.amarilla": 0,
+            "t.roja": 0,
+            "mvp": 1,
+            "goles": 1,
+            "asist.": 0
+          },
+          "playerStats": {
+            "reflejo": 81,
+            "paradas": 84,
+            "saque": 70,
+            "estirada": 60,
+            "score": 74
+          }
+        },
+        {
+          "id": "los-troncos-fc-4",
+          "fullName": "David Soriano",
+          "dorsalName": "Soriano, D.",
+          "dorsalRole": "4",
+          "role": "Defensa",
+          "image": "los-troncos-fc-soriano-d.webp",
+          "clubStats": {
+            "partidos": 10,
+            "goles": 1,
+            "asist.": 1,
+            "t.amarilla": 0,
+            "t.roja": 0,
+            "mvp": 0
+          },
+          "playerStats": {
+            "velocidad": 71,
+            "físico": 70,
+            "tiro": 80,
+            "pase": 78,
+            "talento": 56,
+            "defensa": 57,
+            "score": 69
+          }
+        },
+        {
+          "id": "los-troncos-fc-17",
+          "fullName": "Víctor  Molina",
+          "dorsalName": "Molina, V.",
+          "dorsalRole": "17",
+          "role": "Medio",
+          "image": "los-troncos-fc-molina-v.webp",
+          "clubStats": {
+            "partidos": 5,
+            "goles": 1,
+            "asist.": 0,
+            "t.amarilla": 0,
+            "t.roja": 0,
+            "mvp": 0
+          },
+          "playerStats": {}
+        },
+        {
+          "id": "los-troncos-fc-5",
+          "fullName": "Noel López",
+          "dorsalName": "Noel L.",
+          "dorsalRole": "5",
+          "role": "Medio",
+          "image": "los-troncos-fc-noel-l.webp",
+          "clubStats": {
+            "partidos": 8,
+            "goles": 0,
+            "asist.": 2,
+            "t.amarilla": 0,
+            "t.roja": 0,
+            "mvp": 0
+          },
+          "playerStats": {
+            "velocidad": 73,
+            "físico": 68,
+            "tiro": 79,
+            "pase": 70,
+            "talento": 89,
+            "defensa": 67,
+            "score": 74
+          }
+        },
+        {
+          "id": "los-troncos-fc-10",
+          "fullName": "Xavier Molas",
+          "dorsalName": "Molas, X.",
+          "dorsalRole": "10",
+          "role": "Medio",
+          "image": "los-troncos-fc-molas-x.webp",
+          "clubStats": {
+            "partidos": 10,
+            "goles": 4,
+            "asist.": 2,
+            "t.amarilla": 0,
+            "t.roja": 0,
+            "mvp": 0
+          },
+          "playerStats": {
+            "velocidad": 73,
+            "físico": 72,
+            "tiro": 76,
+            "pase": 84,
+            "talento": 81,
+            "defensa": 78,
+            "score": 77
+          }
+        },
+        {
+          "id": "los-troncos-fc-7",
+          "fullName": "Raúl Martínez",
+          "dorsalName": "Martínez, R.",
+          "dorsalRole": "7",
+          "role": "Delantero",
+          "image": "los-troncos-fc-martinez-r.webp",
+          "clubStats": {
+            "partidos": 8,
+            "goles": 1,
+            "asist.": 0,
+            "t.amarilla": 0,
+            "t.roja": 0,
+            "mvp": 0
+          },
+          "playerStats": {
+            "velocidad": 73,
+            "físico": 50,
+            "tiro": 70,
+            "pase": 76,
+            "talento": 84,
+            "defensa": 73,
+            "score": 71
+          }
+        },
+        {
+          "id": "los-troncos-fc-11",
+          "fullName": "Dorkis Pérez",
+          "dorsalName": "Dorkis P.",
+          "dorsalRole": "11",
+          "role": "Delantero",
+          "image": "los-troncos-fc-dorkis-p.webp",
+          "clubStats": {
+            "partidos": 10,
+            "goles": 0,
+            "asist.": 1,
+            "t.amarilla": 0,
+            "t.roja": 0,
+            "mvp": 0
+          },
+          "playerStats": {
+            "velocidad": 72,
+            "físico": 54,
+            "tiro": 78,
+            "pase": 54,
+            "talento": 71,
+            "defensa": 72,
+            "score": 67
+          }
+        },
+        {
+          "id": "los-troncos-fc-6",
+          "fullName": "Iván Nuevo",
+          "dorsalName": "Nuevo, I.",
+          "dorsalRole": "6",
+          "role": "Medio",
+          "image": "los-troncos-fc-nuevo-i.webp",
+          "clubStats": {
+            "partidos": 9,
+            "goles": 1,
+            "asist.": 1,
+            "t.amarilla": 0,
+            "t.roja": 0,
+            "mvp": 0
+          },
+          "playerStats": {
+            "velocidad": 70,
+            "físico": 63,
+            "tiro": 80,
+            "pase": 61,
+            "talento": 83,
+            "defensa": 73,
+            "score": 72
+          }
+        },
+        {
+          "id": "los-troncos-fc-1",
+          "fullName": "Marc Arús",
+          "dorsalName": "Arus, M.",
+          "dorsalRole": "1",
+          "role": "Portero",
+          "image": "los-troncos-fc-arus-m.webp",
+          "clubStats": {
+            "partidos": 3,
+            "goles encajados": 4,
+            "penaltis parados": 1,
+            "t.amarilla": 0,
+            "t.roja": 0,
+            "mvp": 0,
+            "goles": 0,
+            "asist.": 0
+          },
+          "playerStats": {
+            "reflejo": 62,
+            "paradas": 70,
+            "saque": 60,
+            "estirada": 73,
+            "score": 66
+          }
+        }
+      ],
+      "president": {
+        "id": "perxitaa",
+        "name": "Perxitaa",
+        "image": "https://kings-league-api.emigimenezj.workers.dev/static/presidents/perxitaa.png",
+        "teamId": "los-troncos-fc"
+      }
+    },
+    "wins": 7,
+    "losses": 4,
+    "goalsScored": 40,
+    "goalsConceded": 34,
+    "goalsDifference": 6
   },
   {
     "team": {
@@ -2064,11 +2064,11 @@
         "teamId": "xbuyer-team"
       }
     },
-    "wins": "5",
-    "losses": "5",
-    "goalsScored": "23",
-    "goalsConceded": "24",
-    "goalsDifference": "-1"
+    "wins": 6,
+    "losses": 5,
+    "goalsScored": 25,
+    "goalsConceded": 25,
+    "goalsDifference": 0
   },
   {
     "team": {
@@ -2367,11 +2367,11 @@
         "teamId": "1k"
       }
     },
-    "wins": "5",
-    "losses": "5",
-    "goalsScored": "30",
-    "goalsConceded": "31",
-    "goalsDifference": "-1"
+    "wins": 5,
+    "losses": 6,
+    "goalsScored": 32,
+    "goalsConceded": 34,
+    "goalsDifference": "-2"
   },
   {
     "team": {
@@ -2665,10 +2665,10 @@
         "teamId": "aniquiladores-fc"
       }
     },
-    "wins": "5",
-    "losses": "5",
-    "goalsScored": "24",
-    "goalsConceded": "28",
+    "wins": 5,
+    "losses": 6,
+    "goalsScored": 24,
+    "goalsConceded": 28,
     "goalsDifference": "-4"
   },
   {
@@ -2956,11 +2956,11 @@
         "teamId": "pio-fc"
       }
     },
-    "wins": "4",
-    "losses": "6",
-    "goalsScored": "25",
-    "goalsConceded": "24",
-    "goalsDifference": "1"
+    "wins": 4,
+    "losses": 7,
+    "goalsScored": 25,
+    "goalsConceded": 24,
+    "goalsDifference": 1
   },
   {
     "team": {
@@ -3257,11 +3257,11 @@
         "teamId": "rayo-barcelona"
       }
     },
-    "wins": "3",
-    "losses": "7",
-    "goalsScored": "26",
-    "goalsConceded": "36",
-    "goalsDifference": "-10"
+    "wins": 3,
+    "losses": 8,
+    "goalsScored": 27,
+    "goalsConceded": 40,
+    "goalsDifference": "-13"
   },
   {
     "team": {
@@ -3550,10 +3550,10 @@
         "teamId": "jijantes-fc"
       }
     },
-    "wins": "1",
-    "losses": "9",
-    "goalsScored": "22",
-    "goalsConceded": "36",
-    "goalsDifference": "-14"
+    "wins": 1,
+    "losses": 10,
+    "goalsScored": 23,
+    "goalsConceded": 41,
+    "goalsDifference": "-18"
   }
 ]
