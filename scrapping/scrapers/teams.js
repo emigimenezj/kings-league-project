@@ -13,6 +13,27 @@ const PLAYER_SELECTORS = {
   image: '.el-image'
 }
 
+const PLAYER_STATS_MAPPER = {
+  partidos: 'matches',
+  goles: 'goals',
+  'goles encajados': 'concededGoals',
+  'penaltis parados': 'savedPenalties',
+  't.amarilla': 'yellowCards',
+  't.roja': 'redCards',
+  mvp: 'mvp',
+  'asist.': 'assists',
+  reflejo: 'reflex',
+  paradas: 'save',
+  saque: 'kickoff',
+  estirada: 'stretch',
+  velocidad: 'speed',
+  físico: 'physique',
+  tiro: 'shooting',
+  pase: 'passing',
+  talento: 'talent',
+  defensa: 'defense'
+}
+
 async function getTeamsList() {
   const teams = [];
 
@@ -98,9 +119,11 @@ async function getTeamsList() {
             const $statEl = $(elem);
             const statTitle = cleanText($statEl.find('.el-meta').text()).toLowerCase();
             const statValue = cleanText($statEl.find('.el-title').text());
-            clubStats[statTitle] = Number(statValue);
+
+            const key = PLAYER_STATS_MAPPER[statTitle];
+            clubStats[key] = ~~statValue;
           });
-          break;
+          continue;
         }
         
         default: {
@@ -109,26 +132,30 @@ async function getTeamsList() {
 
           const isGoalkeeper = role === 'Portero';
 
-          const $clubStats = $(
-            `.${playerStatsClass} .league-${isGoalkeeper?'goalk':'player'}`
-          ).find('> div > div');
+          const $clubStats = $(`.${playerStatsClass} .league-${isGoalkeeper?'goalk':'player'}`)
+                              .find('> div > div');
 
-          const $playerStats = $(
-            `.${playerStatsClass} .data-${isGoalkeeper?'goalk':'player'}`
-          ).find('> div > div');
+          const $playerStats = $(`.${playerStatsClass} .data-${isGoalkeeper?'goalk':'player'}`)
+                              .find('> div > div');
 
           $clubStats.each((_, elem) => {
             const $statEl = $(elem);
             const statTitle = cleanText($statEl.find('.el-meta').text()).toLowerCase();
             const statValue = cleanText($statEl.find('.el-title').text());
-            clubStats[statTitle] = Number(statValue);
+
+            const key = PLAYER_STATS_MAPPER[statTitle];
+
+            clubStats[key] = ~~statValue;
           });
 
           $playerStats.each((_, elem) => {
             const $statEl = $(elem);
             const statTitle = cleanText($statEl.find('.el-meta').text()).toLowerCase();
             const statValue = cleanText($statEl.find('.el-title').text());
-            playerStats[statTitle] = Number(statValue);
+
+            const key = PLAYER_STATS_MAPPER[statTitle];
+
+            playerStats[key] = ~~statValue;
           });
 
           const stats = Object.values(playerStats);
