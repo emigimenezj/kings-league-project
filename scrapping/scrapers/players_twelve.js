@@ -30,7 +30,9 @@ export function getPlayerTwelveList($) {
     const journeys = $el
       .data(PLAYER_TWELVE_SELECTORS.journeys)
       .toString()
-      .split(' ');
+      .split(' ')
+      .filter(Boolean)
+      .map(s => ~~s);
 
     playerTwelveList.push({
       ...playerTwelve,
