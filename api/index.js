@@ -2,10 +2,6 @@ import { Hono } from 'hono';
 import { serveStatic } from 'hono/serve-static.module';
 
 import leaderboard from '../db/leaderboard.json';
-import teams from '../db/teams.json';
-import presidents from '../db/presidents.json';
-import top_scorers from '../db/top_scorers.json';
-import top_assists from '../db/top_assists.json';
 import mvp from '../db/mvp.json';
 import player_twelve from '../db/player_twelve.json';
 
@@ -30,7 +26,7 @@ const app = new Hono();
 
 [ ] GET /schedule: Devuelve el calendario de partidos de la Kings League y el resultado de los partidos jugados.
 
-[ ] GET /players-12: Devuelve los jugadores 12 de la Kings League.
+[x] GET /players-12: Devuelve los jugadores 12 de la Kings League.
 */
 
 app.get('/', (ctx) => {
@@ -41,55 +37,60 @@ app.get('/', (ctx) => {
 		},
 		{
 			endpoint: '/teams',
-			description: 'Returns all the teams of Kings League'
-		},
-		{
-			endpoint: '/teams/:id',
-			description: 'Returns a team of Kings League'
-		},
-		{
-			endpoint: '/teams/:id/players',
-			description: 'Returns all the Kings League team players'
-		},
-		{
-			endpoint: '/teams/:teamID/players/:playerID',
-			description: 'Returns a player of a Kings League team'
+			description: 'Returns all the teams of Kings League',
+			subroutes: {
+				endpoint: '/teams/:id',
+				description: 'Returns a team of Kings League',
+				subroutes: {
+					endpoint: '/teams/:id/players',
+					description: 'Returns all the Kings League team players',
+					subroutes: {
+						endpoint: '/teams/:teamID/players/:playerID',
+						description: 'Returns a player of a Kings League team'
+					},
+				},
+			},
 		},
 		{
 			endpoint: '/presidents',
-			description: 'Returns all Kings League presidents'
+			description: 'Returns all Kings League presidents',
+			subroutes: {
+				endpoint: '/presidents/:id',
+				description: 'Returns a president of a Kings League team'
+			},
 		},
-		{
-			endpoint: '/presidents/:id',
-			description: 'Returns a president of a Kings League team'
-		},
+		
 		{
 			endpoint: '/coaches',
-			description: 'Returns all Kings League coaches'
-		},
-		{
-			endpoint: '/coaches/:id',
-			description: 'Returns the coach of a Kings League team'
+			description: 'Returns all Kings League coaches',
+			subroutes: {
+				endpoint: '/coaches/:id',
+				description: 'Returns the coach of a Kings League team'
+			},
 		},
 		{
 			endpoint: '/top-scorers',
-			description: 'Returns the top scorers in the Kings League (top 50)'
-		},
-		{
-			endpoint: '/top-scorers/:rank',
-			description: 'Returns the top scorer according to their position in the Kings League ranking (only top 50)'
+			description: 'Returns the top scorers in the Kings League (top 50)',
+			subroutes: {
+				endpoint: '/top-scorers/:rank',
+				description: 'Returns the top scorer according to their position in the Kings League ranking (only top 50)'
+			},
 		},
 		{
 			endpoint: '/top-assists',
-			description: 'Returns the top assistants in the Kings League (top 50)'
-		},
-		{
-			endpoint: '/top-assists/:rank',
-			description: 'Returns the top assistant according to their position in the Kings League ranking (only top 50)'
+			description: 'Returns the top assistants in the Kings League (top 50)',
+			subroutes: {
+				endpoint: '/top-assists/:rank',
+				description: 'Returns the top assistant according to their position in the Kings League ranking (only top 50)'
+			},
 		},
 		{
 			endpoint: '/mvp',
 			description: 'Returns the Kings League most valuable player list (only players who have at least 1 MVP)'
+		},
+		{
+			endpoint: '/players-12',
+			description: 'Returns all the players 12 of the Kings League'
 		},
 		{
 			endpoint: '/emi',
@@ -108,11 +109,8 @@ app.route('/coaches', coachesRoute);
 app.route('/top-scorers', topScorersRoute);
 app.route('/top-assists', topAssistsRoute);
 
-app.get('/teams/:id', (ctx) => {
-	const id = ctx.req.param('id');
-	const team = teams.find(team => team.id === id);
-	
-	return team ? ctx.json(team) : ctx.json({ message: 'Team not found' }, 404);
+app.get('/mvp', (ctx) => {
+	return ctx.json(mvp);
 });
 
 app.get('/players-12', (ctx) => {
