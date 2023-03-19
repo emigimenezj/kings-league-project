@@ -11,6 +11,7 @@ import { teamsRoute } from './routes/teams';
 import { presidentsRoute } from './routes/presidents';
 import { coachesRoute } from './routes/coaches';
 import { topScorersRoute } from './routes/top_scorers';
+import { topAssistsRoute } from './routes/top_assists';
 
 
 const app = new Hono();
@@ -103,6 +104,7 @@ app.route('/teams', teamsRoute);
 app.route('/presidents', presidentsRoute);
 app.route('/coaches', coachesRoute);
 app.route('/top-scorers', topScorersRoute);
+app.route('/top-assists', topAssistsRoute);
 
 app.get('/teams/:id', (ctx) => {
 	const id = ctx.req.param('id');
