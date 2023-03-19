@@ -12,7 +12,7 @@ import { topScorersRoute } from './routes/top_scorers';
 import { topAssistsRoute } from './routes/top_assists';
 
 
-const app = new Hono();
+const api = new Hono();
 
 /*
 [x] GET /teams/:id/player-12: Devuelve un jugador 12 de un equipo de la Kings League.
@@ -29,7 +29,7 @@ const app = new Hono();
 [x] GET /players-12: Devuelve los jugadores 12 de la Kings League.
 */
 
-app.get('/', (ctx) => {
+api.get('/', (ctx) => {
 	return ctx.json([
 		{
 			endpoint: '/leaderboard',
@@ -99,31 +99,31 @@ app.get('/', (ctx) => {
 	]);
 });
 
-app.get('/leaderboard', (ctx) => {
+api.get('/leaderboard', (ctx) => {
 	return ctx.json(leaderboard);
 });
 
-app.route('/teams', teamsRoute);
-app.route('/presidents', presidentsRoute);
-app.route('/coaches', coachesRoute);
-app.route('/top-scorers', topScorersRoute);
-app.route('/top-assists', topAssistsRoute);
+api.route('/teams', teamsRoute);
+api.route('/presidents', presidentsRoute);
+api.route('/coaches', coachesRoute);
+api.route('/top-scorers', topScorersRoute);
+api.route('/top-assists', topAssistsRoute);
 
-app.get('/mvp', (ctx) => {
+api.get('/mvp', (ctx) => {
 	return ctx.json(mvp);
 });
 
-app.get('/players-12', (ctx) => {
+api.get('/players-12', (ctx) => {
 	return ctx.json(player_twelve);
 });
 
-app.get('/emi', (ctx) => {
+api.get('/emi', (ctx) => {
 	return ctx.json({message: 'emi was here :v'});
 })
 
-app.get('/static/*', serveStatic({ root: './' }));
+api.get('/static/*', serveStatic({ root: './' }));
 
-app.notFound((ctx) => {
+api.notFound((ctx) => {
 	const url = ctx.req.url;
 	const { pathname } = new URL(url);
 	
@@ -133,4 +133,4 @@ app.notFound((ctx) => {
 	return ctx.json({ message: 'Not Found'}, 404);
 });
 
-export default app;
+export default api;
