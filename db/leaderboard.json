@@ -17,23 +17,6 @@
       ],
       "players": [
         {
-          "id": "saiyans-fc-8",
-          "fullName": "Pol Almellones",
-          "dorsalName": "Pol Alme",
-          "dorsalRole": "8",
-          "role": "jugador 11",
-          "image": "saiyans-fc-pol-alme.webp",
-          "clubStats": {
-            "partidos": 7,
-            "goles": 0,
-            "asist.": 1,
-            "t.amarilla": 0,
-            "t.roja": 0,
-            "mvp": 0
-          },
-          "playerStats": {}
-        },
-        {
           "id": "saiyans-fc-1",
           "fullName": "Marc Briones",
           "dorsalName": "Briones",
@@ -41,20 +24,20 @@
           "role": "Portero",
           "image": "saiyans-fc-briones.webp",
           "clubStats": {
-            "partidos": 9,
-            "goles encajados": 11,
-            "penaltis parados": 0,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 9,
+            "concededGoals": 11,
+            "savedPenalties": 0,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 3,
-            "goles": 0,
-            "asist.": 0
+            "goals": 0,
+            "assists": 0
           },
           "playerStats": {
-            "reflejo": 82,
-            "paradas": 81,
-            "saque": 80,
-            "estirada": 84,
+            "reflex": 82,
+            "save": 81,
+            "kickoff": 80,
+            "stretch": 84,
             "score": 82
           }
         },
@@ -66,20 +49,20 @@
           "role": "Delantero",
           "image": "saiyans-fc-gio-ferinu.webp",
           "clubStats": {
-            "partidos": 8,
-            "goles": 2,
-            "asist.": 2,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 8,
+            "goals": 2,
+            "assists": 2,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0
           },
           "playerStats": {
-            "velocidad": 71,
-            "físico": 67,
-            "tiro": 74,
-            "pase": 75,
-            "talento": 85,
-            "defensa": 77,
+            "speed": 71,
+            "physique": 67,
+            "shooting": 74,
+            "passing": 75,
+            "talent": 85,
+            "defense": 77,
             "score": 75
           }
         },
@@ -91,20 +74,20 @@
           "role": "Defensa",
           "image": "saiyans-fc-campu.webp",
           "clubStats": {
-            "partidos": 10,
-            "goles": 1,
-            "asist.": 2,
-            "t.amarilla": 0,
-            "t.roja": 1,
+            "matches": 10,
+            "goals": 1,
+            "assists": 2,
+            "yellowCards": 0,
+            "redCards": 1,
             "mvp": 0
           },
           "playerStats": {
-            "velocidad": 70,
-            "físico": 53,
-            "tiro": 80,
-            "pase": 78,
-            "talento": 78,
-            "defensa": 83,
+            "speed": 70,
+            "physique": 53,
+            "shooting": 80,
+            "passing": 78,
+            "talent": 78,
+            "defense": 83,
             "score": 74
           }
         },
@@ -116,20 +99,20 @@
           "role": "Medio",
           "image": "saiyans-fc-temo.webp",
           "clubStats": {
-            "partidos": 10,
-            "goles": 1,
-            "asist.": 0,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 10,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0
           },
           "playerStats": {
-            "velocidad": 72,
-            "físico": 45,
-            "tiro": 75,
-            "pase": 74,
-            "talento": 73,
-            "defensa": 70,
+            "speed": 72,
+            "physique": 45,
+            "shooting": 75,
+            "passing": 74,
+            "talent": 73,
+            "defense": 70,
             "score": 68
           }
         },
@@ -141,20 +124,20 @@
           "role": "Medio",
           "image": "saiyans-fc-c-valle.webp",
           "clubStats": {
-            "partidos": 10,
-            "goles": 1,
-            "asist.": 0,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 10,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0
           },
           "playerStats": {
-            "velocidad": 71,
-            "físico": 52,
-            "tiro": 76,
-            "pase": 86,
-            "talento": 78,
-            "defensa": 66,
+            "speed": 71,
+            "physique": 52,
+            "shooting": 76,
+            "passing": 86,
+            "talent": 78,
+            "defense": 66,
             "score": 72
           }
         },
@@ -166,20 +149,20 @@
           "role": "Defensa",
           "image": "saiyans-fc-v-torres.webp",
           "clubStats": {
-            "partidos": 10,
-            "goles": 0,
-            "asist.": 2,
-            "t.amarilla": 0,
-            "t.roja": 1,
+            "matches": 10,
+            "goals": 0,
+            "assists": 2,
+            "yellowCards": 0,
+            "redCards": 1,
             "mvp": 0
           },
           "playerStats": {
-            "velocidad": 71,
-            "físico": 39,
-            "tiro": 74,
-            "pase": 73,
-            "talento": 69,
-            "defensa": 60,
+            "speed": 71,
+            "physique": 39,
+            "shooting": 74,
+            "passing": 73,
+            "talent": 69,
+            "defense": 60,
             "score": 64
           }
         },
@@ -191,20 +174,20 @@
           "role": "Medio",
           "image": "saiyans-fc-feliu.webp",
           "clubStats": {
-            "partidos": 10,
-            "goles": 3,
-            "asist.": 2,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 10,
+            "goals": 3,
+            "assists": 2,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 1
           },
           "playerStats": {
-            "velocidad": 72,
-            "físico": 64,
-            "tiro": 83,
-            "pase": 60,
-            "talento": 82,
-            "defensa": 84,
+            "speed": 72,
+            "physique": 64,
+            "shooting": 83,
+            "passing": 60,
+            "talent": 82,
+            "defense": 84,
             "score": 74
           }
         },
@@ -216,20 +199,20 @@
           "role": "Delantero",
           "image": "saiyans-fc-david-alba.webp",
           "clubStats": {
-            "partidos": 10,
-            "goles": 0,
-            "asist.": 1,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 10,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0
           },
           "playerStats": {
-            "velocidad": 75,
-            "físico": 75,
-            "tiro": 80,
-            "pase": 65,
-            "talento": 73,
-            "defensa": 64,
+            "speed": 75,
+            "physique": 75,
+            "shooting": 80,
+            "passing": 65,
+            "talent": 73,
+            "defense": 64,
             "score": 72
           }
         },
@@ -241,20 +224,20 @@
           "role": "Medio",
           "image": "saiyans-fc-r-carbo.webp",
           "clubStats": {
-            "partidos": 10,
-            "goles": 8,
-            "asist.": 2,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 10,
+            "goals": 8,
+            "assists": 2,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 2
           },
           "playerStats": {
-            "velocidad": 71,
-            "físico": 49,
-            "tiro": 63,
-            "pase": 67,
-            "talento": 66,
-            "defensa": 62,
+            "speed": 71,
+            "physique": 49,
+            "shooting": 63,
+            "passing": 67,
+            "talent": 66,
+            "defense": 62,
             "score": 63
           }
         },
@@ -266,20 +249,20 @@
           "role": "Portero",
           "image": "saiyans-fc-fajardo.webp",
           "clubStats": {
-            "partidos": 1,
-            "goles encajados": 5,
-            "penaltis parados": 0,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 1,
+            "concededGoals": 5,
+            "savedPenalties": 0,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0,
-            "goles": 0,
-            "asist.": 0
+            "goals": 0,
+            "assists": 0
           },
           "playerStats": {
-            "reflejo": 61,
-            "paradas": 60,
-            "saque": 74,
-            "estirada": 63,
+            "reflex": 61,
+            "save": 60,
+            "kickoff": 74,
+            "stretch": 63,
             "score": 65
           }
         }
@@ -315,23 +298,6 @@
       ],
       "players": [
         {
-          "id": "ultimate-mostoles-22",
-          "fullName": "Juanma González",
-          "dorsalName": "Juanma Glez.",
-          "dorsalRole": "22",
-          "role": "jugador 11",
-          "image": "ultimate-mostoles-juanma-glez.webp",
-          "clubStats": {
-            "partidos": 10,
-            "goles": 10,
-            "asist.": 0,
-            "t.amarilla": 0,
-            "t.roja": 0,
-            "mvp": 3
-          },
-          "playerStats": {}
-        },
-        {
           "id": "ultimate-mostoles-10",
           "fullName": "Álvaro García",
           "dorsalName": "Arché",
@@ -339,20 +305,20 @@
           "role": "Medio",
           "image": "ultimate-mostoles-arche.webp",
           "clubStats": {
-            "partidos": 10,
-            "goles": 8,
-            "asist.": 4,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 10,
+            "goals": 8,
+            "assists": 4,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 1
           },
           "playerStats": {
-            "velocidad": 72,
-            "físico": 69,
-            "tiro": 79,
-            "pase": 78,
-            "talento": 77,
-            "defensa": 65,
+            "speed": 72,
+            "physique": 69,
+            "shooting": 79,
+            "passing": 78,
+            "talent": 77,
+            "defense": 65,
             "score": 73
           }
         },
@@ -364,20 +330,20 @@
           "role": "Portero",
           "image": "ultimate-mostoles-iu.webp",
           "clubStats": {
-            "partidos": 6,
-            "goles encajados": 12,
-            "penaltis parados": 0,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 6,
+            "concededGoals": 12,
+            "savedPenalties": 0,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0,
-            "goles": 0,
-            "asist.": 0
+            "goals": 0,
+            "assists": 0
           },
           "playerStats": {
-            "reflejo": 71,
-            "paradas": 84,
-            "saque": 79,
-            "estirada": 83,
+            "reflex": 71,
+            "save": 84,
+            "kickoff": 79,
+            "stretch": 83,
             "score": 79
           }
         },
@@ -389,20 +355,20 @@
           "role": "Defensa",
           "image": "ultimate-mostoles-guti.webp",
           "clubStats": {
-            "partidos": 9,
-            "goles": 4,
-            "asist.": 5,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 9,
+            "goals": 4,
+            "assists": 5,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 1
           },
           "playerStats": {
-            "velocidad": 73,
-            "físico": 62,
-            "tiro": 76,
-            "pase": 58,
-            "talento": 74,
-            "defensa": 77,
+            "speed": 73,
+            "physique": 62,
+            "shooting": 76,
+            "passing": 58,
+            "talent": 74,
+            "defense": 77,
             "score": 70
           }
         },
@@ -414,20 +380,20 @@
           "role": "Medio",
           "image": "ultimate-mostoles-aleix.webp",
           "clubStats": {
-            "partidos": 10,
-            "goles": 4,
-            "asist.": 4,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 10,
+            "goals": 4,
+            "assists": 4,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0
           },
           "playerStats": {
-            "velocidad": 87,
-            "físico": 64,
-            "tiro": 65,
-            "pase": 72,
-            "talento": 74,
-            "defensa": 70,
+            "speed": 87,
+            "physique": 64,
+            "shooting": 65,
+            "passing": 72,
+            "talent": 74,
+            "defense": 70,
             "score": 72
           }
         },
@@ -439,20 +405,20 @@
           "role": "Delantero",
           "image": "ultimate-mostoles-llur.webp",
           "clubStats": {
-            "partidos": 9,
-            "goles": 0,
-            "asist.": 0,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 9,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0
           },
           "playerStats": {
-            "velocidad": 71,
-            "físico": 53,
-            "tiro": 75,
-            "pase": 59,
-            "talento": 66,
-            "defensa": 67,
+            "speed": 71,
+            "physique": 53,
+            "shooting": 75,
+            "passing": 59,
+            "talent": 66,
+            "defense": 67,
             "score": 65
           }
         },
@@ -464,20 +430,20 @@
           "role": "Defensa",
           "image": "ultimate-mostoles-iker.webp",
           "clubStats": {
-            "partidos": 10,
-            "goles": 1,
-            "asist.": 0,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 10,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0
           },
           "playerStats": {
-            "velocidad": 73,
-            "físico": 67,
-            "tiro": 79,
-            "pase": 84,
-            "talento": 69,
-            "defensa": 71,
+            "speed": 73,
+            "physique": 67,
+            "shooting": 79,
+            "passing": 84,
+            "talent": 69,
+            "defense": 71,
             "score": 74
           }
         },
@@ -489,20 +455,20 @@
           "role": "Defensa",
           "image": "ultimate-mostoles-ian.webp",
           "clubStats": {
-            "partidos": 10,
-            "goles": 1,
-            "asist.": 0,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 10,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0
           },
           "playerStats": {
-            "velocidad": 87,
-            "físico": 54,
-            "tiro": 64,
-            "pase": 54,
-            "talento": 74,
-            "defensa": 76,
+            "speed": 87,
+            "physique": 54,
+            "shooting": 64,
+            "passing": 54,
+            "talent": 74,
+            "defense": 76,
             "score": 68
           }
         },
@@ -514,20 +480,20 @@
           "role": "Delantero",
           "image": "ultimate-mostoles-zea.webp",
           "clubStats": {
-            "partidos": 4,
-            "goles": 0,
-            "asist.": 0,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 4,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0
           },
           "playerStats": {
-            "velocidad": 72,
-            "físico": 49,
-            "tiro": 72,
-            "pase": 53,
-            "talento": 75,
-            "defensa": 79,
+            "speed": 72,
+            "physique": 49,
+            "shooting": 72,
+            "passing": 53,
+            "talent": 75,
+            "defense": 79,
             "score": 67
           }
         },
@@ -539,20 +505,20 @@
           "role": "Portero",
           "image": "ultimate-mostoles-nacho.webp",
           "clubStats": {
-            "partidos": 6,
-            "goles encajados": 13,
-            "penaltis parados": 0,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 6,
+            "concededGoals": 13,
+            "savedPenalties": 0,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0,
-            "goles": 0,
-            "asist.": 0
+            "goals": 0,
+            "assists": 0
           },
           "playerStats": {
-            "reflejo": 72,
-            "paradas": 77,
-            "saque": 79,
-            "estirada": 80,
+            "reflex": 72,
+            "save": 77,
+            "kickoff": 79,
+            "stretch": 80,
             "score": 77
           }
         },
@@ -564,20 +530,20 @@
           "role": "Medio",
           "image": "ultimate-mostoles-lucca.webp",
           "clubStats": {
-            "partidos": 8,
-            "goles": 0,
-            "asist.": 1,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 8,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0
           },
           "playerStats": {
-            "velocidad": 72,
-            "físico": 77,
-            "tiro": 77,
-            "pase": 50,
-            "talento": 77,
-            "defensa": 83,
+            "speed": 72,
+            "physique": 77,
+            "shooting": 77,
+            "passing": 50,
+            "talent": 77,
+            "defense": 83,
             "score": 73
           }
         }
@@ -614,23 +580,6 @@
       ],
       "players": [
         {
-          "id": "porcinos-fc-8",
-          "fullName": "Javier Espinosa",
-          "dorsalName": "Espinosa",
-          "dorsalRole": "8",
-          "role": "jugador 11",
-          "image": "porcinos-fc-espinosa.webp",
-          "clubStats": {
-            "partidos": 9,
-            "goles": 5,
-            "asist.": 5,
-            "t.amarilla": 0,
-            "t.roja": 0,
-            "mvp": 1
-          },
-          "playerStats": {}
-        },
-        {
           "id": "porcinos-fc-13",
           "fullName": "Jose Manuel Segovia",
           "dorsalName": "J. Segovia",
@@ -638,20 +587,20 @@
           "role": "Portero",
           "image": "porcinos-fc-j-segovia.webp",
           "clubStats": {
-            "partidos": 10,
-            "goles encajados": 22,
-            "penaltis parados": 1,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 10,
+            "concededGoals": 22,
+            "savedPenalties": 1,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 1,
-            "goles": 0,
-            "asist.": 0
+            "goals": 0,
+            "assists": 0
           },
           "playerStats": {
-            "reflejo": 85,
-            "paradas": 92,
-            "saque": 86,
-            "estirada": 86,
+            "reflex": 85,
+            "save": 92,
+            "kickoff": 86,
+            "stretch": 86,
             "score": 87
           }
         },
@@ -663,20 +612,20 @@
           "role": "Defensa",
           "image": "porcinos-fc-g-cichero.webp",
           "clubStats": {
-            "partidos": 10,
-            "goles": 7,
-            "asist.": 1,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 10,
+            "goals": 7,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 1
           },
           "playerStats": {
-            "velocidad": 73,
-            "físico": 49,
-            "tiro": 66,
-            "pase": 75,
-            "talento": 76,
-            "defensa": 74,
+            "speed": 73,
+            "physique": 49,
+            "shooting": 66,
+            "passing": 75,
+            "talent": 76,
+            "defense": 74,
             "score": 69
           }
         },
@@ -688,20 +637,20 @@
           "role": "Defensa",
           "image": "porcinos-fc-david-ll.webp",
           "clubStats": {
-            "partidos": 9,
-            "goles": 0,
-            "asist.": 0,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 9,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0
           },
           "playerStats": {
-            "velocidad": 70,
-            "físico": 48,
-            "tiro": 80,
-            "pase": 62,
-            "talento": 81,
-            "defensa": 75,
+            "speed": 70,
+            "physique": 48,
+            "shooting": 80,
+            "passing": 62,
+            "talent": 81,
+            "defense": 75,
             "score": 69
           }
         },
@@ -713,20 +662,20 @@
           "role": "Medio",
           "image": "porcinos-fc-toti.webp",
           "clubStats": {
-            "partidos": 10,
-            "goles": 1,
-            "asist.": 1,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 10,
+            "goals": 1,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0
           },
           "playerStats": {
-            "velocidad": 72,
-            "físico": 58,
-            "tiro": 80,
-            "pase": 69,
-            "talento": 78,
-            "defensa": 73,
+            "speed": 72,
+            "physique": 58,
+            "shooting": 80,
+            "passing": 69,
+            "talent": 78,
+            "defense": 73,
             "score": 72
           }
         },
@@ -738,11 +687,11 @@
           "role": "Medio",
           "image": "porcinos-fc-carlitos-g.webp",
           "clubStats": {
-            "partidos": 3,
-            "goles": 0,
-            "asist.": 0,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 3,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0
           },
           "playerStats": {}
@@ -755,20 +704,20 @@
           "role": "Delantero",
           "image": "porcinos-fc-killian.webp",
           "clubStats": {
-            "partidos": 10,
-            "goles": 2,
-            "asist.": 1,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 10,
+            "goals": 2,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0
           },
           "playerStats": {
-            "velocidad": 72,
-            "físico": 70,
-            "tiro": 87,
-            "pase": 69,
-            "talento": 78,
-            "defensa": 73,
+            "speed": 72,
+            "physique": 70,
+            "shooting": 87,
+            "passing": 69,
+            "talent": 78,
+            "defense": 73,
             "score": 75
           }
         },
@@ -780,20 +729,20 @@
           "role": "Delantero",
           "image": "porcinos-fc-j-blanco.webp",
           "clubStats": {
-            "partidos": 10,
-            "goles": 4,
-            "asist.": 1,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 10,
+            "goals": 4,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0
           },
           "playerStats": {
-            "velocidad": 73,
-            "físico": 54,
-            "tiro": 65,
-            "pase": 66,
-            "talento": 71,
-            "defensa": 65,
+            "speed": 73,
+            "physique": 54,
+            "shooting": 65,
+            "passing": 66,
+            "talent": 71,
+            "defense": 65,
             "score": 66
           }
         },
@@ -805,11 +754,11 @@
           "role": "Delantero",
           "image": "porcinos-fc-uri-pons.webp",
           "clubStats": {
-            "partidos": 6,
-            "goles": 1,
-            "asist.": 1,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 6,
+            "goals": 1,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0
           },
           "playerStats": {}
@@ -822,20 +771,20 @@
           "role": "Medio",
           "image": "porcinos-fc-lao.webp",
           "clubStats": {
-            "partidos": 10,
-            "goles": 2,
-            "asist.": 1,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 10,
+            "goals": 2,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 1
           },
           "playerStats": {
-            "velocidad": 73,
-            "físico": 69,
-            "tiro": 89,
-            "pase": 65,
-            "talento": 74,
-            "defensa": 77,
+            "speed": 73,
+            "physique": 69,
+            "shooting": 89,
+            "passing": 65,
+            "talent": 74,
+            "defense": 77,
             "score": 75
           }
         },
@@ -847,20 +796,20 @@
           "role": "Portero",
           "image": "porcinos-fc-sergi.webp",
           "clubStats": {
-            "partidos": 2,
-            "goles encajados": 0,
-            "penaltis parados": 0,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 2,
+            "concededGoals": 0,
+            "savedPenalties": 0,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0,
-            "goles": 0,
-            "asist.": 0
+            "goals": 0,
+            "assists": 0
           },
           "playerStats": {
-            "reflejo": 70,
-            "paradas": 73,
-            "saque": 81,
-            "estirada": 71,
+            "reflex": 70,
+            "save": 73,
+            "kickoff": 81,
+            "stretch": 71,
             "score": 74
           }
         }
@@ -896,23 +845,6 @@
       ],
       "players": [
         {
-          "id": "kunisports-23",
-          "fullName": "Ferran Corominas",
-          "dorsalName": "Coro",
-          "dorsalRole": "23",
-          "role": "jugador 11",
-          "image": "kunisports-coro.webp",
-          "clubStats": {
-            "partidos": 10,
-            "goles": 7,
-            "asist.": 6,
-            "t.amarilla": 0,
-            "t.roja": 0,
-            "mvp": 1
-          },
-          "playerStats": {}
-        },
-        {
           "id": "kunisports-11",
           "fullName": "Carlos Torrentbó",
           "dorsalName": "Torrentbó",
@@ -920,20 +852,20 @@
           "role": "Delantero",
           "image": "kunisports-torrentbo.webp",
           "clubStats": {
-            "partidos": 10,
-            "goles": 4,
-            "asist.": 1,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 10,
+            "goals": 4,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 3
           },
           "playerStats": {
-            "velocidad": 73,
-            "físico": 59,
-            "tiro": 73,
-            "pase": 76,
-            "talento": 75,
-            "defensa": 72,
+            "speed": 73,
+            "physique": 59,
+            "shooting": 73,
+            "passing": 76,
+            "talent": 75,
+            "defense": 72,
             "score": 71
           }
         },
@@ -945,20 +877,20 @@
           "role": "Portero",
           "image": "kunisports-victor.webp",
           "clubStats": {
-            "partidos": 9,
-            "goles encajados": 14,
-            "penaltis parados": 1,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 9,
+            "concededGoals": 14,
+            "savedPenalties": 1,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 1,
-            "goles": 0,
-            "asist.": 0
+            "goals": 0,
+            "assists": 0
           },
           "playerStats": {
-            "reflejo": 83,
-            "paradas": 92,
-            "saque": 86,
-            "estirada": 87,
+            "reflex": 83,
+            "save": 92,
+            "kickoff": 86,
+            "stretch": 87,
             "score": 87
           }
         },
@@ -970,20 +902,20 @@
           "role": "Defensa",
           "image": "kunisports-guerrero.webp",
           "clubStats": {
-            "partidos": 9,
-            "goles": 2,
-            "asist.": 0,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 9,
+            "goals": 2,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0
           },
           "playerStats": {
-            "velocidad": 71,
-            "físico": 55,
-            "tiro": 82,
-            "pase": 77,
-            "talento": 83,
-            "defensa": 83,
+            "speed": 71,
+            "physique": 55,
+            "shooting": 82,
+            "passing": 77,
+            "talent": 83,
+            "defense": 83,
             "score": 75
           }
         },
@@ -995,20 +927,20 @@
           "role": "Medio",
           "image": "kunisports-joan-ines.webp",
           "clubStats": {
-            "partidos": 8,
-            "goles": 2,
-            "asist.": 2,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 8,
+            "goals": 2,
+            "assists": 2,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0
           },
           "playerStats": {
-            "velocidad": 72,
-            "físico": 60,
-            "tiro": 78,
-            "pase": 64,
-            "talento": 64,
-            "defensa": 63,
+            "speed": 72,
+            "physique": 60,
+            "shooting": 78,
+            "passing": 64,
+            "talent": 64,
+            "defense": 63,
             "score": 67
           }
         },
@@ -1020,20 +952,20 @@
           "role": "Portero",
           "image": "kunisports-rode.webp",
           "clubStats": {
-            "partidos": 2,
-            "goles encajados": 4,
-            "penaltis parados": 0,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 2,
+            "concededGoals": 4,
+            "savedPenalties": 0,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0,
-            "goles": 0,
-            "asist.": 0
+            "goals": 0,
+            "assists": 0
           },
           "playerStats": {
-            "reflejo": 81,
-            "paradas": 84,
-            "saque": 74,
-            "estirada": 76,
+            "reflex": 81,
+            "save": 84,
+            "kickoff": 74,
+            "stretch": 76,
             "score": 79
           }
         },
@@ -1045,20 +977,20 @@
           "role": "Defensa",
           "image": "kunisports-ruggeri.webp",
           "clubStats": {
-            "partidos": 10,
-            "goles": 1,
-            "asist.": 5,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 10,
+            "goals": 1,
+            "assists": 5,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0
           },
           "playerStats": {
-            "velocidad": 70,
-            "físico": 56,
-            "tiro": 68,
-            "pase": 68,
-            "talento": 81,
-            "defensa": 85,
+            "speed": 70,
+            "physique": 56,
+            "shooting": 68,
+            "passing": 68,
+            "talent": 81,
+            "defense": 85,
             "score": 71
           }
         },
@@ -1070,20 +1002,20 @@
           "role": "Defensa",
           "image": "kunisports-nacho-j.webp",
           "clubStats": {
-            "partidos": 7,
-            "goles": 0,
-            "asist.": 0,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 7,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0
           },
           "playerStats": {
-            "velocidad": 72,
-            "físico": 51,
-            "tiro": 70,
-            "pase": 79,
-            "talento": 64,
-            "defensa": 64,
+            "speed": 72,
+            "physique": 51,
+            "shooting": 70,
+            "passing": 79,
+            "talent": 64,
+            "defense": 64,
             "score": 67
           }
         },
@@ -1095,20 +1027,20 @@
           "role": "Delantero",
           "image": "kunisports-hidalgo.webp",
           "clubStats": {
-            "partidos": 9,
-            "goles": 0,
-            "asist.": 1,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 9,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0
           },
           "playerStats": {
-            "velocidad": 72,
-            "físico": 56,
-            "tiro": 71,
-            "pase": 65,
-            "talento": 68,
-            "defensa": 74,
+            "speed": 72,
+            "physique": 56,
+            "shooting": 71,
+            "passing": 65,
+            "talent": 68,
+            "defense": 74,
             "score": 68
           }
         },
@@ -1120,20 +1052,20 @@
           "role": "Delantero",
           "image": "kunisports-lluc.webp",
           "clubStats": {
-            "partidos": 8,
-            "goles": 1,
-            "asist.": 0,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 8,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0
           },
           "playerStats": {
-            "velocidad": 69,
-            "físico": 57,
-            "tiro": 61,
-            "pase": 67,
-            "talento": 78,
-            "defensa": 77,
+            "speed": 69,
+            "physique": 57,
+            "shooting": 61,
+            "passing": 67,
+            "talent": 78,
+            "defense": 77,
             "score": 68
           }
         },
@@ -1145,20 +1077,20 @@
           "role": "Defensa",
           "image": "kunisports-miki.webp",
           "clubStats": {
-            "partidos": 10,
-            "goles": 0,
-            "asist.": 0,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 10,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0
           },
           "playerStats": {
-            "velocidad": 70,
-            "físico": 53,
-            "tiro": 86,
-            "pase": 58,
-            "talento": 55,
-            "defensa": 69,
+            "speed": 70,
+            "physique": 53,
+            "shooting": 86,
+            "passing": 58,
+            "talent": 55,
+            "defense": 69,
             "score": 65
           }
         }
@@ -1197,25 +1129,6 @@
       ],
       "players": [
         {
-          "id": "el-barrio-1",
-          "fullName": "José Juan Figueiras",
-          "dorsalName": "José Juan",
-          "dorsalRole": "1",
-          "role": "jugador 11",
-          "image": "el-barrio-jose-juan.webp",
-          "clubStats": {
-            "partidos": 10,
-            "goles": 0,
-            "asist.": 0,
-            "goles encajados": 19,
-            "penaltis parados": 0,
-            "t.amarilla": 0,
-            "t.roja": 0,
-            "mvp": 0
-          },
-          "playerStats": {}
-        },
-        {
           "id": "el-barrio-10",
           "fullName": "Jacobo Fernández",
           "dorsalName": "Jacobo",
@@ -1223,20 +1136,20 @@
           "role": "Delantero",
           "image": "el-barrio-jacobo.webp",
           "clubStats": {
-            "partidos": 10,
-            "goles": 6,
-            "asist.": 4,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 10,
+            "goals": 6,
+            "assists": 4,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 1
           },
           "playerStats": {
-            "velocidad": 86,
-            "físico": 68,
-            "tiro": 84,
-            "pase": 81,
-            "talento": 84,
-            "defensa": 67,
+            "speed": 86,
+            "physique": 68,
+            "shooting": 84,
+            "passing": 81,
+            "talent": 84,
+            "defense": 67,
             "score": 78
           }
         },
@@ -1248,20 +1161,20 @@
           "role": "Defensa",
           "image": "el-barrio-mase.webp",
           "clubStats": {
-            "partidos": 5,
-            "goles": 0,
-            "asist.": 1,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 5,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0
           },
           "playerStats": {
-            "velocidad": 71,
-            "físico": 76,
-            "tiro": 78,
-            "pase": 83,
-            "talento": 74,
-            "defensa": 79,
+            "speed": 71,
+            "physique": 76,
+            "shooting": 78,
+            "passing": 83,
+            "talent": 74,
+            "defense": 79,
             "score": 77
           }
         },
@@ -1273,20 +1186,20 @@
           "role": "Delantero",
           "image": "el-barrio-beguer.webp",
           "clubStats": {
-            "partidos": 9,
-            "goles": 5,
-            "asist.": 3,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 9,
+            "goals": 5,
+            "assists": 3,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0
           },
           "playerStats": {
-            "velocidad": 73,
-            "físico": 57,
-            "tiro": 84,
-            "pase": 66,
-            "talento": 86,
-            "defensa": 71,
+            "speed": 73,
+            "physique": 57,
+            "shooting": 84,
+            "passing": 66,
+            "talent": 86,
+            "defense": 71,
             "score": 73
           }
         },
@@ -1298,20 +1211,20 @@
           "role": "Medio",
           "image": "el-barrio-ros.webp",
           "clubStats": {
-            "partidos": 10,
-            "goles": 2,
-            "asist.": 3,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 10,
+            "goals": 2,
+            "assists": 3,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0
           },
           "playerStats": {
-            "velocidad": 72,
-            "físico": 78,
-            "tiro": 86,
-            "pase": 75,
-            "talento": 83,
-            "defensa": 80,
+            "speed": 72,
+            "physique": 78,
+            "shooting": 86,
+            "passing": 75,
+            "talent": 83,
+            "defense": 80,
             "score": 79
           }
         },
@@ -1323,20 +1236,20 @@
           "role": "Medio",
           "image": "el-barrio-ubon.webp",
           "clubStats": {
-            "partidos": 10,
-            "goles": 11,
-            "asist.": 1,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 10,
+            "goals": 11,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 4
           },
           "playerStats": {
-            "velocidad": 69,
-            "físico": 52,
-            "tiro": 78,
-            "pase": 73,
-            "talento": 81,
-            "defensa": 85,
+            "speed": 69,
+            "physique": 52,
+            "shooting": 78,
+            "passing": 73,
+            "talent": 81,
+            "defense": 85,
             "score": 73
           }
         },
@@ -1348,20 +1261,20 @@
           "role": "Defensa",
           "image": "el-barrio-pau-zz.webp",
           "clubStats": {
-            "partidos": 10,
-            "goles": 1,
-            "asist.": 3,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 10,
+            "goals": 1,
+            "assists": 3,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 1
           },
           "playerStats": {
-            "velocidad": 72,
-            "físico": 56,
-            "tiro": 76,
-            "pase": 68,
-            "talento": 74,
-            "defensa": 76,
+            "speed": 72,
+            "physique": 56,
+            "shooting": 76,
+            "passing": 68,
+            "talent": 74,
+            "defense": 76,
             "score": 70
           }
         },
@@ -1373,20 +1286,20 @@
           "role": "Delantero",
           "image": "el-barrio-olae.webp",
           "clubStats": {
-            "partidos": 10,
-            "goles": 0,
-            "asist.": 0,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 10,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0
           },
           "playerStats": {
-            "velocidad": 81,
-            "físico": 70,
-            "tiro": 75,
-            "pase": 77,
-            "talento": 80,
-            "defensa": 67,
+            "speed": 81,
+            "physique": 70,
+            "shooting": 75,
+            "passing": 77,
+            "talent": 80,
+            "defense": 67,
             "score": 75
           }
         },
@@ -1398,20 +1311,20 @@
           "role": "Delantero",
           "image": "el-barrio-o-boada.webp",
           "clubStats": {
-            "partidos": 8,
-            "goles": 3,
-            "asist.": 0,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 8,
+            "goals": 3,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0
           },
           "playerStats": {
-            "velocidad": 72,
-            "físico": 53,
-            "tiro": 80,
-            "pase": 63,
-            "talento": 79,
-            "defensa": 73,
+            "speed": 72,
+            "physique": 53,
+            "shooting": 80,
+            "passing": 63,
+            "talent": 79,
+            "defense": 73,
             "score": 70
           }
         },
@@ -1423,20 +1336,20 @@
           "role": "Medio",
           "image": "el-barrio-baranera.webp",
           "clubStats": {
-            "partidos": 8,
-            "goles": 0,
-            "asist.": 0,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 8,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0
           },
           "playerStats": {
-            "velocidad": 73,
-            "físico": 60,
-            "tiro": 62,
-            "pase": 69,
-            "talento": 74,
-            "defensa": 68,
+            "speed": 73,
+            "physique": 60,
+            "shooting": 62,
+            "passing": 69,
+            "talent": 74,
+            "defense": 68,
             "score": 68
           }
         },
@@ -1448,20 +1361,20 @@
           "role": "Medio",
           "image": "el-barrio-capilla.webp",
           "clubStats": {
-            "partidos": 7,
-            "goles": 0,
-            "asist.": 0,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 7,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0
           },
           "playerStats": {
-            "velocidad": 73,
-            "físico": 40,
-            "tiro": 78,
-            "pase": 70,
-            "talento": 77,
-            "defensa": 78,
+            "speed": 73,
+            "physique": 40,
+            "shooting": 78,
+            "passing": 70,
+            "talent": 77,
+            "defense": 78,
             "score": 69
           }
         }
@@ -1500,23 +1413,6 @@
       ],
       "players": [
         {
-          "id": "los-troncos-fc-21",
-          "fullName": "Carles Planas",
-          "dorsalName": "C. Planas",
-          "dorsalRole": "21",
-          "role": "jugador 11",
-          "image": "los-troncos-fc-c-planas.webp",
-          "clubStats": {
-            "partidos": 7,
-            "goles": 0,
-            "asist.": 4,
-            "t.amarilla": 0,
-            "t.roja": 0,
-            "mvp": 0
-          },
-          "playerStats": {}
-        },
-        {
           "id": "los-troncos-fc-9",
           "fullName": "Edgar Álvaro",
           "dorsalName": "Álvaro, E.",
@@ -1524,20 +1420,20 @@
           "role": "Delantero",
           "image": "los-troncos-fc-alvaro-e.webp",
           "clubStats": {
-            "partidos": 10,
-            "goles": 11,
-            "asist.": 1,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 10,
+            "goals": 11,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 2
           },
           "playerStats": {
-            "velocidad": 73,
-            "físico": 82,
-            "tiro": 81,
-            "pase": 55,
-            "talento": 85,
-            "defensa": 70,
+            "speed": 73,
+            "physique": 82,
+            "shooting": 81,
+            "passing": 55,
+            "talent": 85,
+            "defense": 70,
             "score": 74
           }
         },
@@ -1549,20 +1445,20 @@
           "role": "Portero",
           "image": "los-troncos-fc-lechuga-p.webp",
           "clubStats": {
-            "partidos": 10,
-            "goles encajados": 26,
-            "penaltis parados": 1,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 10,
+            "concededGoals": 26,
+            "savedPenalties": 1,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 1,
-            "goles": 1,
-            "asist.": 0
+            "goals": 1,
+            "assists": 0
           },
           "playerStats": {
-            "reflejo": 81,
-            "paradas": 84,
-            "saque": 70,
-            "estirada": 60,
+            "reflex": 81,
+            "save": 84,
+            "kickoff": 70,
+            "stretch": 60,
             "score": 74
           }
         },
@@ -1574,20 +1470,20 @@
           "role": "Defensa",
           "image": "los-troncos-fc-soriano-d.webp",
           "clubStats": {
-            "partidos": 10,
-            "goles": 1,
-            "asist.": 1,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 10,
+            "goals": 1,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0
           },
           "playerStats": {
-            "velocidad": 71,
-            "físico": 70,
-            "tiro": 80,
-            "pase": 78,
-            "talento": 56,
-            "defensa": 57,
+            "speed": 71,
+            "physique": 70,
+            "shooting": 80,
+            "passing": 78,
+            "talent": 56,
+            "defense": 57,
             "score": 69
           }
         },
@@ -1599,11 +1495,11 @@
           "role": "Medio",
           "image": "los-troncos-fc-molina-v.webp",
           "clubStats": {
-            "partidos": 5,
-            "goles": 1,
-            "asist.": 0,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 5,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0
           },
           "playerStats": {}
@@ -1616,20 +1512,20 @@
           "role": "Medio",
           "image": "los-troncos-fc-noel-l.webp",
           "clubStats": {
-            "partidos": 8,
-            "goles": 0,
-            "asist.": 2,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 8,
+            "goals": 0,
+            "assists": 2,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0
           },
           "playerStats": {
-            "velocidad": 73,
-            "físico": 68,
-            "tiro": 79,
-            "pase": 70,
-            "talento": 89,
-            "defensa": 67,
+            "speed": 73,
+            "physique": 68,
+            "shooting": 79,
+            "passing": 70,
+            "talent": 89,
+            "defense": 67,
             "score": 74
           }
         },
@@ -1641,20 +1537,20 @@
           "role": "Medio",
           "image": "los-troncos-fc-molas-x.webp",
           "clubStats": {
-            "partidos": 10,
-            "goles": 4,
-            "asist.": 2,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 10,
+            "goals": 4,
+            "assists": 2,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0
           },
           "playerStats": {
-            "velocidad": 73,
-            "físico": 72,
-            "tiro": 76,
-            "pase": 84,
-            "talento": 81,
-            "defensa": 78,
+            "speed": 73,
+            "physique": 72,
+            "shooting": 76,
+            "passing": 84,
+            "talent": 81,
+            "defense": 78,
             "score": 77
           }
         },
@@ -1666,20 +1562,20 @@
           "role": "Delantero",
           "image": "los-troncos-fc-martinez-r.webp",
           "clubStats": {
-            "partidos": 8,
-            "goles": 1,
-            "asist.": 0,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 8,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0
           },
           "playerStats": {
-            "velocidad": 73,
-            "físico": 50,
-            "tiro": 70,
-            "pase": 76,
-            "talento": 84,
-            "defensa": 73,
+            "speed": 73,
+            "physique": 50,
+            "shooting": 70,
+            "passing": 76,
+            "talent": 84,
+            "defense": 73,
             "score": 71
           }
         },
@@ -1691,20 +1587,20 @@
           "role": "Delantero",
           "image": "los-troncos-fc-dorkis-p.webp",
           "clubStats": {
-            "partidos": 10,
-            "goles": 0,
-            "asist.": 1,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 10,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0
           },
           "playerStats": {
-            "velocidad": 72,
-            "físico": 54,
-            "tiro": 78,
-            "pase": 54,
-            "talento": 71,
-            "defensa": 72,
+            "speed": 72,
+            "physique": 54,
+            "shooting": 78,
+            "passing": 54,
+            "talent": 71,
+            "defense": 72,
             "score": 67
           }
         },
@@ -1716,20 +1612,20 @@
           "role": "Medio",
           "image": "los-troncos-fc-nuevo-i.webp",
           "clubStats": {
-            "partidos": 9,
-            "goles": 1,
-            "asist.": 1,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 9,
+            "goals": 1,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0
           },
           "playerStats": {
-            "velocidad": 70,
-            "físico": 63,
-            "tiro": 80,
-            "pase": 61,
-            "talento": 83,
-            "defensa": 73,
+            "speed": 70,
+            "physique": 63,
+            "shooting": 80,
+            "passing": 61,
+            "talent": 83,
+            "defense": 73,
             "score": 72
           }
         },
@@ -1741,20 +1637,20 @@
           "role": "Portero",
           "image": "los-troncos-fc-arus-m.webp",
           "clubStats": {
-            "partidos": 3,
-            "goles encajados": 4,
-            "penaltis parados": 1,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 3,
+            "concededGoals": 4,
+            "savedPenalties": 1,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0,
-            "goles": 0,
-            "asist.": 0
+            "goals": 0,
+            "assists": 0
           },
           "playerStats": {
-            "reflejo": 62,
-            "paradas": 70,
-            "saque": 60,
-            "estirada": 73,
+            "reflex": 62,
+            "save": 70,
+            "kickoff": 60,
+            "stretch": 73,
             "score": 66
           }
         }
@@ -1790,23 +1686,6 @@
       ],
       "players": [
         {
-          "id": "xbuyer-team-10",
-          "fullName": "Carlos Castro",
-          "dorsalName": "C. Castro",
-          "dorsalRole": "10",
-          "role": "jugador 11",
-          "image": "xbuyer-team-c-castro.webp",
-          "clubStats": {
-            "partidos": 10,
-            "goles": 7,
-            "asist.": 1,
-            "t.amarilla": 0,
-            "t.roja": 0,
-            "mvp": 2
-          },
-          "playerStats": {}
-        },
-        {
           "id": "xbuyer-team-13",
           "fullName": "Adrià Gutiérrez",
           "dorsalName": "Capi",
@@ -1814,20 +1693,20 @@
           "role": "Portero",
           "image": "xbuyer-team-capi.webp",
           "clubStats": {
-            "partidos": 10,
-            "goles encajados": 23,
-            "penaltis parados": 0,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 10,
+            "concededGoals": 23,
+            "savedPenalties": 0,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0,
-            "goles": 0,
-            "asist.": 0
+            "goals": 0,
+            "assists": 0
           },
           "playerStats": {
-            "reflejo": 82,
-            "paradas": 74,
-            "saque": 75,
-            "estirada": 84,
+            "reflex": 82,
+            "save": 74,
+            "kickoff": 75,
+            "stretch": 84,
             "score": 79
           }
         },
@@ -1839,20 +1718,20 @@
           "role": "Delantero",
           "image": "xbuyer-team-poch.webp",
           "clubStats": {
-            "partidos": 10,
-            "goles": 7,
-            "asist.": 3,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 10,
+            "goals": 7,
+            "assists": 3,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 2
           },
           "playerStats": {
-            "velocidad": 68,
-            "físico": 53,
-            "tiro": 84,
-            "pase": 79,
-            "talento": 79,
-            "defensa": 73,
+            "speed": 68,
+            "physique": 53,
+            "shooting": 84,
+            "passing": 79,
+            "talent": 79,
+            "defense": 73,
             "score": 73
           }
         },
@@ -1864,20 +1743,20 @@
           "role": "Medio",
           "image": "xbuyer-team-inaki.webp",
           "clubStats": {
-            "partidos": 10,
-            "goles": 1,
-            "asist.": 0,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 10,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0
           },
           "playerStats": {
-            "velocidad": 73,
-            "físico": 64,
-            "tiro": 79,
-            "pase": 75,
-            "talento": 70,
-            "defensa": 70,
+            "speed": 73,
+            "physique": 64,
+            "shooting": 79,
+            "passing": 75,
+            "talent": 70,
+            "defense": 70,
             "score": 72
           }
         },
@@ -1889,20 +1768,20 @@
           "role": "Defensa",
           "image": "xbuyer-team-dani.webp",
           "clubStats": {
-            "partidos": 10,
-            "goles": 0,
-            "asist.": 1,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 10,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0
           },
           "playerStats": {
-            "velocidad": 64,
-            "físico": 69,
-            "tiro": 79,
-            "pase": 55,
-            "talento": 75,
-            "defensa": 83,
+            "speed": 64,
+            "physique": 69,
+            "shooting": 79,
+            "passing": 55,
+            "talent": 75,
+            "defense": 83,
             "score": 71
           }
         },
@@ -1914,20 +1793,20 @@
           "role": "Delantero",
           "image": "xbuyer-team-granero.webp",
           "clubStats": {
-            "partidos": 10,
-            "goles": 0,
-            "asist.": 1,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 10,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0
           },
           "playerStats": {
-            "velocidad": 72,
-            "físico": 62,
-            "tiro": 70,
-            "pase": 65,
-            "talento": 56,
-            "defensa": 72,
+            "speed": 72,
+            "physique": 62,
+            "shooting": 70,
+            "passing": 65,
+            "talent": 56,
+            "defense": 72,
             "score": 66
           }
         },
@@ -1939,20 +1818,20 @@
           "role": "Medio",
           "image": "xbuyer-team-goran.webp",
           "clubStats": {
-            "partidos": 10,
-            "goles": 0,
-            "asist.": 1,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 10,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0
           },
           "playerStats": {
-            "velocidad": 92,
-            "físico": 61,
-            "tiro": 72,
-            "pase": 51,
-            "talento": 71,
-            "defensa": 60,
+            "speed": 92,
+            "physique": 61,
+            "shooting": 72,
+            "passing": 51,
+            "talent": 71,
+            "defense": 60,
             "score": 68
           }
         },
@@ -1964,20 +1843,20 @@
           "role": "Defensa",
           "image": "xbuyer-team-banuls.webp",
           "clubStats": {
-            "partidos": 10,
-            "goles": 1,
-            "asist.": 1,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 10,
+            "goals": 1,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0
           },
           "playerStats": {
-            "velocidad": 71,
-            "físico": 58,
-            "tiro": 81,
-            "pase": 76,
-            "talento": 76,
-            "defensa": 80,
+            "speed": 71,
+            "physique": 58,
+            "shooting": 81,
+            "passing": 76,
+            "talent": 76,
+            "defense": 80,
             "score": 74
           }
         },
@@ -1989,20 +1868,20 @@
           "role": "Medio",
           "image": "xbuyer-team-franc.webp",
           "clubStats": {
-            "partidos": 5,
-            "goles": 0,
-            "asist.": 0,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 5,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0
           },
           "playerStats": {
-            "velocidad": 64,
-            "físico": 46,
-            "tiro": 77,
-            "pase": 87,
-            "talento": 81,
-            "defensa": 74,
+            "speed": 64,
+            "physique": 46,
+            "shooting": 77,
+            "passing": 87,
+            "talent": 81,
+            "defense": 74,
             "score": 72
           }
         },
@@ -2014,20 +1893,20 @@
           "role": "Delantero",
           "image": "xbuyer-team-b-sierra.webp",
           "clubStats": {
-            "partidos": 10,
-            "goles": 0,
-            "asist.": 2,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 10,
+            "goals": 0,
+            "assists": 2,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0
           },
           "playerStats": {
-            "velocidad": 73,
-            "físico": 66,
-            "tiro": 66,
-            "pase": 77,
-            "talento": 77,
-            "defensa": 75,
+            "speed": 73,
+            "physique": 66,
+            "shooting": 66,
+            "passing": 77,
+            "talent": 77,
+            "defense": 75,
             "score": 72
           }
         },
@@ -2039,20 +1918,20 @@
           "role": "Portero",
           "image": "xbuyer-team-sep.webp",
           "clubStats": {
-            "partidos": 0,
-            "goles encajados": 0,
-            "penaltis parados": 0,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 0,
+            "concededGoals": 0,
+            "savedPenalties": 0,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0,
-            "goles": 0,
-            "asist.": 0
+            "goals": 0,
+            "assists": 0
           },
           "playerStats": {
-            "reflejo": 60,
-            "paradas": 74,
-            "saque": 60,
-            "estirada": 60,
+            "reflex": 60,
+            "save": 74,
+            "kickoff": 60,
+            "stretch": 60,
             "score": 64
           }
         }
@@ -2091,25 +1970,6 @@
       ],
       "players": [
         {
-          "id": "1k-1",
-          "fullName": "Ricardo López",
-          "dorsalName": "Ricardo",
-          "dorsalRole": "1",
-          "role": "jugador 11",
-          "image": "1k-ricardo.webp",
-          "clubStats": {
-            "partidos": 10,
-            "goles": 0,
-            "asist.": 2,
-            "goles encajados": 29,
-            "penaltis parados": 2,
-            "t.amarilla": 0,
-            "t.roja": 0,
-            "mvp": 1
-          },
-          "playerStats": {}
-        },
-        {
           "id": "1k-0",
           "fullName": "Román Alegre",
           "dorsalName": "Román",
@@ -2117,20 +1977,20 @@
           "role": "Defensa",
           "image": "1k-roman.webp",
           "clubStats": {
-            "partidos": 10,
-            "goles": 2,
-            "asist.": 3,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 10,
+            "goals": 2,
+            "assists": 3,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0
           },
           "playerStats": {
-            "velocidad": 73,
-            "físico": 71,
-            "tiro": 68,
-            "pase": 76,
-            "talento": 86,
-            "defensa": 66,
+            "speed": 73,
+            "physique": 71,
+            "shooting": 68,
+            "passing": 76,
+            "talent": 86,
+            "defense": 66,
             "score": 73
           }
         },
@@ -2142,20 +2002,20 @@
           "role": "Delantero",
           "image": "1k-sorroche.webp",
           "clubStats": {
-            "partidos": 10,
-            "goles": 2,
-            "asist.": 3,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 10,
+            "goals": 2,
+            "assists": 3,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 1
           },
           "playerStats": {
-            "velocidad": 93,
-            "físico": 74,
-            "tiro": 87,
-            "pase": 58,
-            "talento": 78,
-            "defensa": 73,
+            "speed": 93,
+            "physique": 74,
+            "shooting": 87,
+            "passing": 58,
+            "talent": 78,
+            "defense": 73,
             "score": 77
           }
         },
@@ -2167,20 +2027,20 @@
           "role": "Delantero",
           "image": "1k-marino.webp",
           "clubStats": {
-            "partidos": 10,
-            "goles": 3,
-            "asist.": 0,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 10,
+            "goals": 3,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0
           },
           "playerStats": {
-            "velocidad": 73,
-            "físico": 59,
-            "tiro": 81,
-            "pase": 83,
-            "talento": 68,
-            "defensa": 69,
+            "speed": 73,
+            "physique": 59,
+            "shooting": 81,
+            "passing": 83,
+            "talent": 68,
+            "defense": 69,
             "score": 72
           }
         },
@@ -2192,20 +2052,20 @@
           "role": "Defensa",
           "image": "1k-ledo.webp",
           "clubStats": {
-            "partidos": 10,
-            "goles": 1,
-            "asist.": 1,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 10,
+            "goals": 1,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0
           },
           "playerStats": {
-            "velocidad": 67,
-            "físico": 51,
-            "tiro": 70,
-            "pase": 72,
-            "talento": 81,
-            "defensa": 70,
+            "speed": 67,
+            "physique": 51,
+            "shooting": 70,
+            "passing": 72,
+            "talent": 81,
+            "defense": 70,
             "score": 69
           }
         },
@@ -2217,20 +2077,20 @@
           "role": "Defensa",
           "image": "1k-sauras.webp",
           "clubStats": {
-            "partidos": 10,
-            "goles": 1,
-            "asist.": 0,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 10,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0
           },
           "playerStats": {
-            "velocidad": 73,
-            "físico": 69,
-            "tiro": 69,
-            "pase": 62,
-            "talento": 65,
-            "defensa": 82,
+            "speed": 73,
+            "physique": 69,
+            "shooting": 69,
+            "passing": 62,
+            "talent": 65,
+            "defense": 82,
             "score": 70
           }
         },
@@ -2242,20 +2102,20 @@
           "role": "Defensa",
           "image": "1k-bruno.webp",
           "clubStats": {
-            "partidos": 10,
-            "goles": 0,
-            "asist.": 0,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 10,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0
           },
           "playerStats": {
-            "velocidad": 66,
-            "físico": 51,
-            "tiro": 77,
-            "pase": 76,
-            "talento": 78,
-            "defensa": 84,
+            "speed": 66,
+            "physique": 51,
+            "shooting": 77,
+            "passing": 76,
+            "talent": 78,
+            "defense": 84,
             "score": 72
           }
         },
@@ -2267,20 +2127,20 @@
           "role": "Medio",
           "image": "1k-pluvins.webp",
           "clubStats": {
-            "partidos": 10,
-            "goles": 3,
-            "asist.": 2,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 10,
+            "goals": 3,
+            "assists": 2,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0
           },
           "playerStats": {
-            "velocidad": 72,
-            "físico": 58,
-            "tiro": 78,
-            "pase": 70,
-            "talento": 87,
-            "defensa": 71,
+            "speed": 72,
+            "physique": 58,
+            "shooting": 78,
+            "passing": 70,
+            "talent": 87,
+            "defense": 71,
             "score": 73
           }
         },
@@ -2292,20 +2152,20 @@
           "role": "Medio",
           "image": "1k-rivero.webp",
           "clubStats": {
-            "partidos": 10,
-            "goles": 3,
-            "asist.": 0,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 10,
+            "goals": 3,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0
           },
           "playerStats": {
-            "velocidad": 73,
-            "físico": 64,
-            "tiro": 82,
-            "pase": 60,
-            "talento": 87,
-            "defensa": 75,
+            "speed": 73,
+            "physique": 64,
+            "shooting": 82,
+            "passing": 60,
+            "talent": 87,
+            "defense": 75,
             "score": 74
           }
         },
@@ -2317,20 +2177,20 @@
           "role": "Delantero",
           "image": "1k-lautaro.webp",
           "clubStats": {
-            "partidos": 9,
-            "goles": 0,
-            "asist.": 2,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 9,
+            "goals": 0,
+            "assists": 2,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0
           },
           "playerStats": {
-            "velocidad": 79,
-            "físico": 59,
-            "tiro": 75,
-            "pase": 70,
-            "talento": 69,
-            "defensa": 70,
+            "speed": 79,
+            "physique": 59,
+            "shooting": 75,
+            "passing": 70,
+            "talent": 69,
+            "defense": 70,
             "score": 70
           }
         },
@@ -2342,20 +2202,20 @@
           "role": "Delantero",
           "image": "1k-gunter.webp",
           "clubStats": {
-            "partidos": 10,
-            "goles": 1,
-            "asist.": 1,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 10,
+            "goals": 1,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0
           },
           "playerStats": {
-            "velocidad": 71,
-            "físico": 76,
-            "tiro": 83,
-            "pase": 55,
-            "talento": 78,
-            "defensa": 71,
+            "speed": 71,
+            "physique": 76,
+            "shooting": 83,
+            "passing": 55,
+            "talent": 78,
+            "defense": 71,
             "score": 72
           }
         }
@@ -2391,23 +2251,6 @@
       ],
       "players": [
         {
-          "id": "aniquiladores-fc-14",
-          "fullName": "Fran Hernández",
-          "dorsalName": "F. Hernández",
-          "dorsalRole": "14",
-          "role": "jugador 11",
-          "image": "aniquiladores-fc-f-hernandez.webp",
-          "clubStats": {
-            "partidos": 9,
-            "goles": 6,
-            "asist.": 4,
-            "t.amarilla": 0,
-            "t.roja": 0,
-            "mvp": 4
-          },
-          "playerStats": {}
-        },
-        {
           "id": "aniquiladores-fc-25",
           "fullName": "Daniel Pérez",
           "dorsalName": "Daniel P.",
@@ -2415,20 +2258,20 @@
           "role": "Portero",
           "image": "aniquiladores-fc-daniel-p.webp",
           "clubStats": {
-            "partidos": 10,
-            "goles encajados": 26,
-            "penaltis parados": 0,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 10,
+            "concededGoals": 26,
+            "savedPenalties": 0,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 1,
-            "goles": 1,
-            "asist.": 0
+            "goals": 1,
+            "assists": 0
           },
           "playerStats": {
-            "reflejo": 90,
-            "paradas": 83,
-            "saque": 84,
-            "estirada": 86,
+            "reflex": 90,
+            "save": 83,
+            "kickoff": 84,
+            "stretch": 86,
             "score": 86
           }
         },
@@ -2440,20 +2283,20 @@
           "role": "Medio",
           "image": "aniquiladores-fc-galvany.webp",
           "clubStats": {
-            "partidos": 10,
-            "goles": 1,
-            "asist.": 1,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 10,
+            "goals": 1,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0
           },
           "playerStats": {
-            "velocidad": 73,
-            "físico": 63,
-            "tiro": 86,
-            "pase": 87,
-            "talento": 81,
-            "defensa": 90,
+            "speed": 73,
+            "physique": 63,
+            "shooting": 86,
+            "passing": 87,
+            "talent": 81,
+            "defense": 90,
             "score": 80
           }
         },
@@ -2465,20 +2308,20 @@
           "role": "Defensa",
           "image": "aniquiladores-fc-andres.webp",
           "clubStats": {
-            "partidos": 5,
-            "goles": 0,
-            "asist.": 0,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 5,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0
           },
           "playerStats": {
-            "velocidad": 74,
-            "físico": 69,
-            "tiro": 69,
-            "pase": 71,
-            "talento": 63,
-            "defensa": 77,
+            "speed": 74,
+            "physique": 69,
+            "shooting": 69,
+            "passing": 71,
+            "talent": 63,
+            "defense": 77,
             "score": 71
           }
         },
@@ -2490,20 +2333,20 @@
           "role": "Medio",
           "image": "aniquiladores-fc-bernat.webp",
           "clubStats": {
-            "partidos": 10,
-            "goles": 2,
-            "asist.": 2,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 10,
+            "goals": 2,
+            "assists": 2,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0
           },
           "playerStats": {
-            "velocidad": 73,
-            "físico": 64,
-            "tiro": 82,
-            "pase": 94,
-            "talento": 79,
-            "defensa": 64,
+            "speed": 73,
+            "physique": 64,
+            "shooting": 82,
+            "passing": 94,
+            "talent": 79,
+            "defense": 64,
             "score": 76
           }
         },
@@ -2515,20 +2358,20 @@
           "role": "Delantero",
           "image": "aniquiladores-fc-pau-mane.webp",
           "clubStats": {
-            "partidos": 9,
-            "goles": 1,
-            "asist.": 2,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 9,
+            "goals": 1,
+            "assists": 2,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0
           },
           "playerStats": {
-            "velocidad": 83,
-            "físico": 69,
-            "tiro": 82,
-            "pase": 77,
-            "talento": 80,
-            "defensa": 69,
+            "speed": 83,
+            "physique": 69,
+            "shooting": 82,
+            "passing": 77,
+            "talent": 80,
+            "defense": 69,
             "score": 77
           }
         },
@@ -2540,20 +2383,20 @@
           "role": "Defensa",
           "image": "aniquiladores-fc-jorquera.webp",
           "clubStats": {
-            "partidos": 10,
-            "goles": 0,
-            "asist.": 0,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 10,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0
           },
           "playerStats": {
-            "velocidad": 74,
-            "físico": 69,
-            "tiro": 70,
-            "pase": 83,
-            "talento": 66,
-            "defensa": 71,
+            "speed": 74,
+            "physique": 69,
+            "shooting": 70,
+            "passing": 83,
+            "talent": 66,
+            "defense": 71,
             "score": 72
           }
         },
@@ -2565,20 +2408,20 @@
           "role": "Medio",
           "image": "aniquiladores-fc-gilles-v.webp",
           "clubStats": {
-            "partidos": 10,
-            "goles": 4,
-            "asist.": 1,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 10,
+            "goals": 4,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0
           },
           "playerStats": {
-            "velocidad": 82,
-            "físico": 58,
-            "tiro": 65,
-            "pase": 81,
-            "talento": 81,
-            "defensa": 73,
+            "speed": 82,
+            "physique": 58,
+            "shooting": 65,
+            "passing": 81,
+            "talent": 81,
+            "defense": 73,
             "score": 73
           }
         },
@@ -2590,20 +2433,20 @@
           "role": "Defensa",
           "image": "aniquiladores-fc-jadir.webp",
           "clubStats": {
-            "partidos": 5,
-            "goles": 0,
-            "asist.": 0,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 5,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0
           },
           "playerStats": {
-            "velocidad": 72,
-            "físico": 55,
-            "tiro": 67,
-            "pase": 57,
-            "talento": 58,
-            "defensa": 68,
+            "speed": 72,
+            "physique": 55,
+            "shooting": 67,
+            "passing": 57,
+            "talent": 58,
+            "defense": 68,
             "score": 63
           }
         },
@@ -2615,20 +2458,20 @@
           "role": "Medio",
           "image": "aniquiladores-fc-roger.webp",
           "clubStats": {
-            "partidos": 10,
-            "goles": 3,
-            "asist.": 0,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 10,
+            "goals": 3,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0
           },
           "playerStats": {
-            "velocidad": 71,
-            "físico": 75,
-            "tiro": 73,
-            "pase": 73,
-            "talento": 85,
-            "defensa": 68,
+            "speed": 71,
+            "physique": 75,
+            "shooting": 73,
+            "passing": 73,
+            "talent": 85,
+            "defense": 68,
             "score": 74
           }
         },
@@ -2640,20 +2483,20 @@
           "role": "Portero",
           "image": "aniquiladores-fc-xmorales.webp",
           "clubStats": {
-            "partidos": 2,
-            "goles encajados": 2,
-            "penaltis parados": 0,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 2,
+            "concededGoals": 2,
+            "savedPenalties": 0,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0,
-            "goles": 0,
-            "asist.": 0
+            "goals": 0,
+            "assists": 0
           },
           "playerStats": {
-            "reflejo": 83,
-            "paradas": 83,
-            "saque": 76,
-            "estirada": 74,
+            "reflex": 83,
+            "save": 83,
+            "kickoff": 76,
+            "stretch": 74,
             "score": 79
           }
         }
@@ -2690,23 +2533,6 @@
       ],
       "players": [
         {
-          "id": "pio-fc-4",
-          "fullName": "Albert Lopo",
-          "dorsalName": "Lopo",
-          "dorsalRole": "4",
-          "role": "jugador 11",
-          "image": "pio-fc-lopo.webp",
-          "clubStats": {
-            "partidos": 10,
-            "goles": 6,
-            "asist.": 3,
-            "t.amarilla": 0,
-            "t.roja": 0,
-            "mvp": 3
-          },
-          "playerStats": {}
-        },
-        {
           "id": "pio-fc-1",
           "fullName": "Jorge Ibáñez",
           "dorsalName": "Jorge",
@@ -2714,20 +2540,20 @@
           "role": "Portero",
           "image": "pio-fc-jorge.webp",
           "clubStats": {
-            "partidos": 10,
-            "goles encajados": 21,
-            "penaltis parados": 1,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 10,
+            "concededGoals": 21,
+            "savedPenalties": 1,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0,
-            "goles": 1,
-            "asist.": 0
+            "goals": 1,
+            "assists": 0
           },
           "playerStats": {
-            "reflejo": 84,
-            "paradas": 83,
-            "saque": 82,
-            "estirada": 78,
+            "reflex": 84,
+            "save": 83,
+            "kickoff": 82,
+            "stretch": 78,
             "score": 82
           }
         },
@@ -2739,20 +2565,20 @@
           "role": "Defensa",
           "image": "pio-fc-carlitos.webp",
           "clubStats": {
-            "partidos": 10,
-            "goles": 4,
-            "asist.": 2,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 10,
+            "goals": 4,
+            "assists": 2,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 1
           },
           "playerStats": {
-            "velocidad": 73,
-            "físico": 64,
-            "tiro": 77,
-            "pase": 71,
-            "talento": 81,
-            "defensa": 85,
+            "speed": 73,
+            "physique": 64,
+            "shooting": 77,
+            "passing": 71,
+            "talent": 81,
+            "defense": 85,
             "score": 75
           }
         },
@@ -2764,20 +2590,20 @@
           "role": "Medio",
           "image": "pio-fc-pau-fer.webp",
           "clubStats": {
-            "partidos": 10,
-            "goles": 3,
-            "asist.": 2,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 10,
+            "goals": 3,
+            "assists": 2,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0
           },
           "playerStats": {
-            "velocidad": 71,
-            "físico": 62,
-            "tiro": 71,
-            "pase": 82,
-            "talento": 75,
-            "defensa": 82,
+            "speed": 71,
+            "physique": 62,
+            "shooting": 71,
+            "passing": 82,
+            "talent": 75,
+            "defense": 82,
             "score": 74
           }
         },
@@ -2789,11 +2615,11 @@
           "role": "Delantero",
           "image": "pio-fc-i-cabello.webp",
           "clubStats": {
-            "partidos": 4,
-            "goles": 0,
-            "asist.": 0,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 4,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0
           },
           "playerStats": {}
@@ -2806,20 +2632,20 @@
           "role": "Medio",
           "image": "pio-fc-b-juarez.webp",
           "clubStats": {
-            "partidos": 6,
-            "goles": 0,
-            "asist.": 0,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 6,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0
           },
           "playerStats": {
-            "velocidad": 71,
-            "físico": 65,
-            "tiro": 75,
-            "pase": 55,
-            "talento": 71,
-            "defensa": 77,
+            "speed": 71,
+            "physique": 65,
+            "shooting": 75,
+            "passing": 55,
+            "talent": 71,
+            "defense": 77,
             "score": 69
           }
         },
@@ -2831,20 +2657,20 @@
           "role": "Defensa",
           "image": "pio-fc-turner.webp",
           "clubStats": {
-            "partidos": 3,
-            "goles": 0,
-            "asist.": 0,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 3,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0
           },
           "playerStats": {
-            "velocidad": 73,
-            "físico": 59,
-            "tiro": 72,
-            "pase": 77,
-            "talento": 80,
-            "defensa": 80,
+            "speed": 73,
+            "physique": 59,
+            "shooting": 72,
+            "passing": 77,
+            "talent": 80,
+            "defense": 80,
             "score": 74
           }
         },
@@ -2856,20 +2682,20 @@
           "role": "Delantero",
           "image": "pio-fc-adri.webp",
           "clubStats": {
-            "partidos": 3,
-            "goles": 1,
-            "asist.": 0,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 3,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0
           },
           "playerStats": {
-            "velocidad": 70,
-            "físico": 45,
-            "tiro": 80,
-            "pase": 89,
-            "talento": 82,
-            "defensa": 81,
+            "speed": 70,
+            "physique": 45,
+            "shooting": 80,
+            "passing": 89,
+            "talent": 82,
+            "defense": 81,
             "score": 75
           }
         },
@@ -2881,20 +2707,20 @@
           "role": "Medio",
           "image": "pio-fc-cokita.webp",
           "clubStats": {
-            "partidos": 10,
-            "goles": 1,
-            "asist.": 6,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 10,
+            "goals": 1,
+            "assists": 6,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0
           },
           "playerStats": {
-            "velocidad": 67,
-            "físico": 47,
-            "tiro": 79,
-            "pase": 75,
-            "talento": 80,
-            "defensa": 71,
+            "speed": 67,
+            "physique": 47,
+            "shooting": 79,
+            "passing": 75,
+            "talent": 80,
+            "defense": 71,
             "score": 70
           }
         },
@@ -2906,20 +2732,20 @@
           "role": "Medio",
           "image": "pio-fc-a-ropero.webp",
           "clubStats": {
-            "partidos": 10,
-            "goles": 1,
-            "asist.": 1,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 10,
+            "goals": 1,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0
           },
           "playerStats": {
-            "velocidad": 72,
-            "físico": 57,
-            "tiro": 82,
-            "pase": 72,
-            "talento": 72,
-            "defensa": 68,
+            "speed": 72,
+            "physique": 57,
+            "shooting": 82,
+            "passing": 72,
+            "talent": 72,
+            "defense": 68,
             "score": 71
           }
         },
@@ -2931,20 +2757,20 @@
           "role": "Defensa",
           "image": "pio-fc-santiago.webp",
           "clubStats": {
-            "partidos": 2,
-            "goles": 0,
-            "asist.": 0,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 2,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0
           },
           "playerStats": {
-            "velocidad": 67,
-            "físico": 46,
-            "tiro": 71,
-            "pase": 74,
-            "talento": 78,
-            "defensa": 70,
+            "speed": 67,
+            "physique": 46,
+            "shooting": 71,
+            "passing": 74,
+            "talent": 78,
+            "defense": 70,
             "score": 68
           }
         }
@@ -2983,23 +2809,6 @@
       ],
       "players": [
         {
-          "id": "rayo-barcelona-45",
-          "fullName": "Pol Marcó",
-          "dorsalName": "Poloteli",
-          "dorsalRole": "45",
-          "role": "jugador 11",
-          "image": "rayo-barcelona-poloteli.webp",
-          "clubStats": {
-            "partidos": 7,
-            "goles": 0,
-            "asist.": 0,
-            "t.amarilla": 0,
-            "t.roja": 0,
-            "mvp": 0
-          },
-          "playerStats": {}
-        },
-        {
           "id": "rayo-barcelona-10",
           "fullName": "Marc Pelaz",
           "dorsalName": "Pelaz",
@@ -3007,20 +2816,20 @@
           "role": "Medio",
           "image": "rayo-barcelona-pelaz.webp",
           "clubStats": {
-            "partidos": 10,
-            "goles": 10,
-            "asist.": 1,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 10,
+            "goals": 10,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 1
           },
           "playerStats": {
-            "velocidad": 71,
-            "físico": 59,
-            "tiro": 76,
-            "pase": 78,
-            "talento": 86,
-            "defensa": 72,
+            "speed": 71,
+            "physique": 59,
+            "shooting": 76,
+            "passing": 78,
+            "talent": 86,
+            "defense": 72,
             "score": 74
           }
         },
@@ -3032,20 +2841,20 @@
           "role": "Portero",
           "image": "rayo-barcelona-canet.webp",
           "clubStats": {
-            "partidos": 10,
-            "goles encajados": 34,
-            "penaltis parados": 0,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 10,
+            "concededGoals": 34,
+            "savedPenalties": 0,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0,
-            "goles": 0,
-            "asist.": 1
+            "goals": 0,
+            "assists": 1
           },
           "playerStats": {
-            "reflejo": 84,
-            "paradas": 95,
-            "saque": 84,
-            "estirada": 85,
+            "reflex": 84,
+            "save": 95,
+            "kickoff": 84,
+            "stretch": 85,
             "score": 87
           }
         },
@@ -3057,20 +2866,20 @@
           "role": "Delantero",
           "image": "rayo-barcelona-guillem-zz.webp",
           "clubStats": {
-            "partidos": 10,
-            "goles": 3,
-            "asist.": 1,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 10,
+            "goals": 3,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0
           },
           "playerStats": {
-            "velocidad": 69,
-            "físico": 52,
-            "tiro": 84,
-            "pase": 63,
-            "talento": 81,
-            "defensa": 80,
+            "speed": 69,
+            "physique": 52,
+            "shooting": 84,
+            "passing": 63,
+            "talent": 81,
+            "defense": 80,
             "score": 72
           }
         },
@@ -3082,20 +2891,20 @@
           "role": "Defensa",
           "image": "rayo-barcelona-m-reyes.webp",
           "clubStats": {
-            "partidos": 10,
-            "goles": 4,
-            "asist.": 2,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 10,
+            "goals": 4,
+            "assists": 2,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0
           },
           "playerStats": {
-            "velocidad": 66,
-            "físico": 53,
-            "tiro": 76,
-            "pase": 72,
-            "talento": 73,
-            "defensa": 69,
+            "speed": 66,
+            "physique": 53,
+            "shooting": 76,
+            "passing": 72,
+            "talent": 73,
+            "defense": 69,
             "score": 68
           }
         },
@@ -3107,20 +2916,20 @@
           "role": "Medio",
           "image": "rayo-barcelona-franky-p.webp",
           "clubStats": {
-            "partidos": 10,
-            "goles": 1,
-            "asist.": 6,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 10,
+            "goals": 1,
+            "assists": 6,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0
           },
           "playerStats": {
-            "velocidad": 73,
-            "físico": 71,
-            "tiro": 74,
-            "pase": 66,
-            "talento": 82,
-            "defensa": 78,
+            "speed": 73,
+            "physique": 71,
+            "shooting": 74,
+            "passing": 66,
+            "talent": 82,
+            "defense": 78,
             "score": 74
           }
         },
@@ -3132,20 +2941,20 @@
           "role": "Medio",
           "image": "rayo-barcelona-dani-p.webp",
           "clubStats": {
-            "partidos": 10,
-            "goles": 0,
-            "asist.": 3,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 10,
+            "goals": 0,
+            "assists": 3,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0
           },
           "playerStats": {
-            "velocidad": 96,
-            "físico": 75,
-            "tiro": 78,
-            "pase": 88,
-            "talento": 66,
-            "defensa": 62,
+            "speed": 96,
+            "physique": 75,
+            "shooting": 78,
+            "passing": 88,
+            "talent": 66,
+            "defense": 62,
             "score": 78
           }
         },
@@ -3157,20 +2966,20 @@
           "role": "Defensa",
           "image": "rayo-barcelona-alejandro.webp",
           "clubStats": {
-            "partidos": 10,
-            "goles": 0,
-            "asist.": 0,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 10,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0
           },
           "playerStats": {
-            "velocidad": 72,
-            "físico": 51,
-            "tiro": 57,
-            "pase": 70,
-            "talento": 68,
-            "defensa": 74,
+            "speed": 72,
+            "physique": 51,
+            "shooting": 57,
+            "passing": 70,
+            "talent": 68,
+            "defense": 74,
             "score": 65
           }
         },
@@ -3182,20 +2991,20 @@
           "role": "Delantero",
           "image": "rayo-barcelona-biboum-m.webp",
           "clubStats": {
-            "partidos": 10,
-            "goles": 3,
-            "asist.": 0,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 10,
+            "goals": 3,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0
           },
           "playerStats": {
-            "velocidad": 72,
-            "físico": 58,
-            "tiro": 80,
-            "pase": 88,
-            "talento": 68,
-            "defensa": 70,
+            "speed": 72,
+            "physique": 58,
+            "shooting": 80,
+            "passing": 88,
+            "talent": 68,
+            "defense": 70,
             "score": 73
           }
         },
@@ -3207,20 +3016,20 @@
           "role": "Medio",
           "image": "rayo-barcelona-jonathan.webp",
           "clubStats": {
-            "partidos": 7,
-            "goles": 0,
-            "asist.": 1,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 7,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0
           },
           "playerStats": {
-            "velocidad": 85,
-            "físico": 73,
-            "tiro": 80,
-            "pase": 60,
-            "talento": 62,
-            "defensa": 62,
+            "speed": 85,
+            "physique": 73,
+            "shooting": 80,
+            "passing": 60,
+            "talent": 62,
+            "defense": 62,
             "score": 70
           }
         },
@@ -3232,20 +3041,20 @@
           "role": "Delantero",
           "image": "rayo-barcelona-alex-race.webp",
           "clubStats": {
-            "partidos": 10,
-            "goles": 1,
-            "asist.": 0,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 10,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0
           },
           "playerStats": {
-            "velocidad": 69,
-            "físico": 56,
-            "tiro": 73,
-            "pase": 57,
-            "talento": 81,
-            "defensa": 87,
+            "speed": 69,
+            "physique": 56,
+            "shooting": 73,
+            "passing": 57,
+            "talent": 81,
+            "defense": 87,
             "score": 71
           }
         }
@@ -3284,23 +3093,6 @@
       ],
       "players": [
         {
-          "id": "jijantes-fc-26",
-          "fullName": "Jonathan Soriano",
-          "dorsalName": "Soriano",
-          "dorsalRole": "26",
-          "role": "jugador 11",
-          "image": "jijantes-fc-soriano.webp",
-          "clubStats": {
-            "partidos": 6,
-            "goles": 4,
-            "asist.": 1,
-            "t.amarilla": 0,
-            "t.roja": 0,
-            "mvp": 1
-          },
-          "playerStats": {}
-        },
-        {
           "id": "jijantes-fc-8",
           "fullName": "Lluis Alsina",
           "dorsalName": "Alsina",
@@ -3308,20 +3100,20 @@
           "role": "Medio",
           "image": "jijantes-fc-alsina.webp",
           "clubStats": {
-            "partidos": 8,
-            "goles": 2,
-            "asist.": 1,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 8,
+            "goals": 2,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0
           },
           "playerStats": {
-            "velocidad": 93,
-            "físico": 74,
-            "tiro": 87,
-            "pase": 76,
-            "talento": 84,
-            "defensa": 73,
+            "speed": 93,
+            "physique": 74,
+            "shooting": 87,
+            "passing": 76,
+            "talent": 84,
+            "defense": 73,
             "score": 81
           }
         },
@@ -3333,20 +3125,20 @@
           "role": "Portero",
           "image": "jijantes-fc-pol.webp",
           "clubStats": {
-            "partidos": 9,
-            "goles encajados": 30,
-            "penaltis parados": 1,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 9,
+            "concededGoals": 30,
+            "savedPenalties": 1,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 2,
-            "goles": 0,
-            "asist.": 1
+            "goals": 0,
+            "assists": 1
           },
           "playerStats": {
-            "reflejo": 86,
-            "paradas": 87,
-            "saque": 84,
-            "estirada": 94,
+            "reflex": 86,
+            "save": 87,
+            "kickoff": 84,
+            "stretch": 94,
             "score": 88
           }
         },
@@ -3358,20 +3150,20 @@
           "role": "Defensa",
           "image": "jijantes-fc-jay.webp",
           "clubStats": {
-            "partidos": 6,
-            "goles": 0,
-            "asist.": 1,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 6,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0
           },
           "playerStats": {
-            "velocidad": 86,
-            "físico": 82,
-            "tiro": 74,
-            "pase": 66,
-            "talento": 76,
-            "defensa": 77,
+            "speed": 86,
+            "physique": 82,
+            "shooting": 74,
+            "passing": 66,
+            "talent": 76,
+            "defense": 77,
             "score": 77
           }
         },
@@ -3383,20 +3175,20 @@
           "role": "Medio",
           "image": "jijantes-fc-quero.webp",
           "clubStats": {
-            "partidos": 8,
-            "goles": 0,
-            "asist.": 0,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 8,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0
           },
           "playerStats": {
-            "velocidad": 83,
-            "físico": 67,
-            "tiro": 73,
-            "pase": 86,
-            "talento": 83,
-            "defensa": 74,
+            "speed": 83,
+            "physique": 67,
+            "shooting": 73,
+            "passing": 86,
+            "talent": 83,
+            "defense": 74,
             "score": 78
           }
         },
@@ -3408,20 +3200,20 @@
           "role": "Defensa",
           "image": "jijantes-fc-arnau-mv.webp",
           "clubStats": {
-            "partidos": 9,
-            "goles": 0,
-            "asist.": 1,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 9,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0
           },
           "playerStats": {
-            "velocidad": 74,
-            "físico": 62,
-            "tiro": 81,
-            "pase": 60,
-            "talento": 68,
-            "defensa": 82,
+            "speed": 74,
+            "physique": 62,
+            "shooting": 81,
+            "passing": 60,
+            "talent": 68,
+            "defense": 82,
             "score": 71
           }
         },
@@ -3433,11 +3225,11 @@
           "role": "Delantero",
           "image": "jijantes-fc-ivan.webp",
           "clubStats": {
-            "partidos": 4,
-            "goles": 5,
-            "asist.": 0,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 4,
+            "goals": 5,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 1
           },
           "playerStats": {}
@@ -3450,20 +3242,20 @@
           "role": "Medio",
           "image": "jijantes-fc-maca.webp",
           "clubStats": {
-            "partidos": 10,
-            "goles": 1,
-            "asist.": 2,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 10,
+            "goals": 1,
+            "assists": 2,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0
           },
           "playerStats": {
-            "velocidad": 72,
-            "físico": 77,
-            "tiro": 72,
-            "pase": 72,
-            "talento": 87,
-            "defensa": 75,
+            "speed": 72,
+            "physique": 77,
+            "shooting": 72,
+            "passing": 72,
+            "talent": 87,
+            "defense": 75,
             "score": 76
           }
         },
@@ -3475,20 +3267,20 @@
           "role": "Defensa",
           "image": "jijantes-fc-noel.webp",
           "clubStats": {
-            "partidos": 6,
-            "goles": 1,
-            "asist.": 0,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 6,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0
           },
           "playerStats": {
-            "velocidad": 72,
-            "físico": 62,
-            "tiro": 71,
-            "pase": 64,
-            "talento": 72,
-            "defensa": 68,
+            "speed": 72,
+            "physique": 62,
+            "shooting": 71,
+            "passing": 64,
+            "talent": 72,
+            "defense": 68,
             "score": 68
           }
         },
@@ -3500,20 +3292,20 @@
           "role": "Delantero",
           "image": "jijantes-fc-dorado.webp",
           "clubStats": {
-            "partidos": 10,
-            "goles": 1,
-            "asist.": 0,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 10,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0
           },
           "playerStats": {
-            "velocidad": 72,
-            "físico": 52,
-            "tiro": 80,
-            "pase": 71,
-            "talento": 78,
-            "defensa": 58,
+            "speed": 72,
+            "physique": 52,
+            "shooting": 80,
+            "passing": 71,
+            "talent": 78,
+            "defense": 58,
             "score": 69
           }
         },
@@ -3525,20 +3317,20 @@
           "role": "Portero",
           "image": "jijantes-fc-mario.webp",
           "clubStats": {
-            "partidos": 1,
-            "goles encajados": 5,
-            "penaltis parados": 0,
-            "t.amarilla": 0,
-            "t.roja": 0,
+            "matches": 1,
+            "concededGoals": 5,
+            "savedPenalties": 0,
+            "yellowCards": 0,
+            "redCards": 0,
             "mvp": 0,
-            "goles": 0,
-            "asist.": 0
+            "goals": 0,
+            "assists": 0
           },
           "playerStats": {
-            "reflejo": 71,
-            "paradas": 73,
-            "saque": 62,
-            "estirada": 80,
+            "reflex": 71,
+            "save": 73,
+            "kickoff": 62,
+            "stretch": 80,
             "score": 72
           }
         }

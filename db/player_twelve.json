@@ -3,7 +3,7 @@
     "teamName": "Kunisports",
     "role": "Delantero",
     "journeys": [
-      "10"
+      10
     ],
     "name": "M. Del Castillo"
   },
@@ -11,7 +11,7 @@
     "teamName": "Saiyans FC",
     "role": "Delantero",
     "journeys": [
-      "9"
+      9
     ],
     "name": "Fernandão "
   },
@@ -19,7 +19,7 @@
     "teamName": "Aniquiladores FC",
     "role": "Delantero",
     "journeys": [
-      "9"
+      9
     ],
     "name": "Ezequiel Calvente"
   },
@@ -27,7 +27,7 @@
     "teamName": "Porcinos FC",
     "role": "Medio",
     "journeys": [
-      "8"
+      8
     ],
     "name": "Ronaldinho "
   },
@@ -35,39 +35,35 @@
     "teamName": "Kunisports",
     "role": "Medio",
     "journeys": [
-      "8"
+      8
     ],
     "name": "Walter Montillo"
   },
   {
     "teamName": "Ultimate Móstoles",
     "role": "Defensa",
-    "journeys": [
-      ""
-    ],
+    "journeys": [],
     "name": "Diego de la Mata"
   },
   {
     "teamName": "Rayo de Barcelona",
     "role": "Medio",
     "journeys": [
-      "7"
+      7
     ],
     "name": "Mandi Sosa"
   },
   {
     "teamName": "Los Troncos FC",
     "role": "Delantero",
-    "journeys": [
-      ""
-    ],
+    "journeys": [],
     "name": "Carlos Omabegho"
   },
   {
     "teamName": "Kunisports",
     "role": "Medio",
     "journeys": [
-      "6"
+      6
     ],
     "name": "Augusto Fdez."
   },
@@ -75,11 +71,11 @@
     "teamName": "PIO FC",
     "role": "Medio",
     "journeys": [
-      "6",
-      "7",
-      "8",
-      "9",
-      "10"
+      6,
+      7,
+      8,
+      9,
+      10
     ],
     "name": "Carlos Corvo"
   },
@@ -87,10 +83,10 @@
     "teamName": "El Barrio",
     "role": "Defensa",
     "journeys": [
-      "6",
-      "7",
-      "8",
-      "10"
+      6,
+      7,
+      8,
+      10
     ],
     "name": "Martín Mantovani"
   },
@@ -98,8 +94,8 @@
     "teamName": "Aniquiladores FC",
     "role": "Medio",
     "journeys": [
-      "6",
-      "7"
+      6,
+      7
     ],
     "name": "Walter Erviti"
   },
@@ -107,9 +103,9 @@
     "teamName": "XBUYER TEAM",
     "role": "Delantero",
     "journeys": [
-      "5",
-      "6",
-      "7"
+      5,
+      6,
+      7
     ],
     "name": "Fabián Orellana"
   },
@@ -117,7 +113,7 @@
     "teamName": "Saiyans FC",
     "role": "Defensa",
     "journeys": [
-      "5"
+      5
     ],
     "name": "Joseba García"
   },
@@ -125,7 +121,7 @@
     "teamName": "PIO FC",
     "role": "Defensa",
     "journeys": [
-      "5"
+      5
     ],
     "name": "David García"
   },
@@ -133,7 +129,7 @@
     "teamName": "Jijantes FC",
     "role": "Defensa",
     "journeys": [
-      "5"
+      5
     ],
     "name": "Antonio Barragán"
   },
@@ -141,9 +137,9 @@
     "teamName": "Jijantes FC",
     "role": "Medio",
     "journeys": [
-      "4",
-      "6",
-      "7"
+      4,
+      6,
+      7
     ],
     "name": "Joel Huertas"
   },
@@ -151,9 +147,9 @@
     "teamName": "El Barrio",
     "role": "Defensa",
     "journeys": [
-      "4",
-      "5",
-      "9"
+      4,
+      5,
+      9
     ],
     "name": "Nico Pareja"
   },
@@ -161,10 +157,10 @@
     "teamName": "Aniquiladores FC",
     "role": "Medio",
     "journeys": [
-      "4",
-      "5",
-      "8",
-      "10"
+      4,
+      5,
+      8,
+      10
     ],
     "name": "Nadir Louah"
   },
@@ -172,8 +168,8 @@
     "teamName": "Kunisports",
     "role": "Delantero",
     "journeys": [
-      "3",
-      "4"
+      3,
+      4
     ],
     "name": "Kun Agüero"
   },
@@ -181,27 +177,25 @@
     "teamName": "XBUYER TEAM",
     "role": "Medio",
     "journeys": [
-      "3",
-      "4",
-      "8",
-      "9",
-      "10"
+      3,
+      4,
+      8,
+      9,
+      10
     ],
     "name": "Fouad El Amrani"
   },
   {
     "teamName": "Jijantes FC",
     "role": "Medio",
-    "journeys": [
-      ""
-    ],
+    "journeys": [],
     "name": "Pitu Comadevall"
   },
   {
     "teamName": "El Barrio",
     "role": "Delantero",
     "journeys": [
-      "3"
+      3
     ],
     "name": "Papi Gavi"
   },
@@ -209,7 +203,7 @@
     "teamName": "Aniquiladores FC",
     "role": "Medio",
     "journeys": [
-      "3"
+      3
     ],
     "name": "Goku "
   },
@@ -217,8 +211,8 @@
     "teamName": "Saiyans FC",
     "role": "Medio",
     "journeys": [
-      "3",
-      "7"
+      3,
+      7
     ],
     "name": "Cristian Saldaña"
   },
@@ -226,14 +220,14 @@
     "teamName": "Porcinos FC",
     "role": "Delantero",
     "journeys": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "6",
-      "7",
-      "9",
-      "10"
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      9,
+      10
     ],
     "name": "Hugo Fraile"
   },
@@ -241,15 +235,23 @@
     "teamName": "Kunisports",
     "role": "Medio",
     "journeys": [
-      "2"
+      2
     ],
     "name": "Javier Saviola"
+  },
+  {
+    "teamName": "XBUYER TEAM",
+    "role": "Medio",
+    "journeys": [
+      2
+    ],
+    "name": "Enigma "
   },
   {
     "teamName": "Aniquiladores FC",
     "role": "Delantero",
     "journeys": [
-      "2"
+      2
     ],
     "name": "David Acedo"
   },
@@ -257,11 +259,11 @@
     "teamName": "Jijantes FC",
     "role": "Delantero",
     "journeys": [
-      "2",
-      "3",
-      "8",
-      "9",
-      "10"
+      2,
+      3,
+      8,
+      9,
+      10
     ],
     "name": "Ibai Gómez"
   },
@@ -269,7 +271,7 @@
     "teamName": "Los Troncos FC",
     "role": "Medio",
     "journeys": [
-      "2"
+      2
     ],
     "name": "Víctor Sánchez"
   },
@@ -277,9 +279,9 @@
     "teamName": "PIO FC",
     "role": "Medio",
     "journeys": [
-      "2",
-      "3",
-      "4"
+      2,
+      3,
+      4
     ],
     "name": "Javi Márquez"
   },
@@ -287,31 +289,23 @@
     "teamName": "Ultimate Móstoles",
     "role": "Medio",
     "journeys": [
-      "2",
-      "4",
-      "5"
+      2,
+      4,
+      5
     ],
     "name": "Rubén de la Red"
-  },
-  {
-    "teamName": "XBUYER TEAM",
-    "role": "Medio",
-    "journeys": [
-      "2"
-    ],
-    "name": "Enigma "
   },
   {
     "teamName": "Ultimate Móstoles",
     "role": "Delantero",
     "journeys": [
-      "1",
-      "3",
-      "6",
-      "7",
-      "8",
-      "9",
-      "10"
+      1,
+      3,
+      6,
+      7,
+      8,
+      9,
+      10
     ],
     "name": "Sergio García"
   },
@@ -319,16 +313,16 @@
     "teamName": "1K FC",
     "role": "Delantero",
     "journeys": [
-      "1",
-      "2",
-      "3",
-      "4",
-      "5",
-      "6",
-      "7",
-      "8",
-      "9",
-      "10"
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
     ],
     "name": "Alberto Bueno"
   },
@@ -336,9 +330,9 @@
     "teamName": "Kunisports",
     "role": "Defensa",
     "journeys": [
-      "1",
-      "5",
-      "9"
+      1,
+      5,
+      9
     ],
     "name": "Javi Chica"
   },
@@ -346,15 +340,15 @@
     "teamName": "Rayo de Barcelona",
     "role": "Defensa",
     "journeys": [
-      "1",
-      "2",
-      "3",
-      "4",
-      "5",
-      "6",
-      "8",
-      "9",
-      "10"
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      8,
+      9,
+      10
     ],
     "name": "Dídac Vilà"
   },
@@ -362,7 +356,7 @@
     "teamName": "PIO FC",
     "role": "Delantero",
     "journeys": [
-      "1"
+      1
     ],
     "name": "Borja Criado"
   },
@@ -370,7 +364,7 @@
     "teamName": "Aniquiladores FC",
     "role": "Delantero",
     "journeys": [
-      "1"
+      1
     ],
     "name": "Jordi Campoy"
   },
@@ -378,7 +372,7 @@
     "teamName": "Jijantes FC",
     "role": "Medio",
     "journeys": [
-      "1"
+      1
     ],
     "name": "Nando Quesada"
   },
@@ -386,14 +380,14 @@
     "teamName": "Los Troncos FC",
     "role": "Medio",
     "journeys": [
-      "1",
-      "3",
-      "4",
-      "5",
-      "6",
-      "8",
-      "9",
-      "10"
+      1,
+      3,
+      4,
+      5,
+      6,
+      8,
+      9,
+      10
     ],
     "name": "Joan Verdú"
   },
@@ -401,8 +395,8 @@
     "teamName": "El Barrio",
     "role": "Delantero",
     "journeys": [
-      "1",
-      "2"
+      1,
+      2
     ],
     "name": "Jorge Gómez"
   },
@@ -410,12 +404,12 @@
     "teamName": "Saiyans FC",
     "role": "Defensa",
     "journeys": [
-      "1",
-      "2",
-      "4",
-      "6",
-      "8",
-      "10"
+      1,
+      2,
+      4,
+      6,
+      8,
+      10
     ],
     "name": "Joan Capdevila"
   },
@@ -423,7 +417,7 @@
     "teamName": "Porcinos FC",
     "role": "Delantero",
     "journeys": [
-      "1"
+      1
     ],
     "name": "Chicharito "
   }
