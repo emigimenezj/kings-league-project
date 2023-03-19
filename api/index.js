@@ -10,6 +10,7 @@ import mvp from '../db/mvp.json';
 import { teamsRoute } from './routes/teams';
 import { presidentsRoute } from './routes/presidents';
 import { coachesRoute } from './routes/coaches';
+import { topScorersRoute } from './routes/top_scorers';
 
 
 const app = new Hono();
@@ -101,6 +102,7 @@ app.get('/leaderboard', (ctx) => {
 app.route('/teams', teamsRoute);
 app.route('/presidents', presidentsRoute);
 app.route('/coaches', coachesRoute);
+app.route('/top-scorers', topScorersRoute);
 
 app.get('/teams/:id', (ctx) => {
 	const id = ctx.req.param('id');
