@@ -2,6 +2,7 @@ import { getLeaderboardList } from '../scrapers/leaderboard.js';
 import { getMvpList } from '../scrapers/mvp.js';
 import { getTopScorersList } from '../scrapers/top_scorers.js';
 import { getAssistsList } from '../scrapers/top_assists.js';
+import { getPlayerTwelveList } from '../scrapers/players_twelve.js';
 
 export const SCRAPPING_DATA = {
   leaderboard: {
@@ -19,5 +20,9 @@ export const SCRAPPING_DATA = {
   top_assists: {
     url: 'https://kingsleague.pro/estadisticas/asistencias/',
     scraper: getAssistsList
+  },
+  player_twelve: {
+    url: 'https://kingsleague.pro/jugador-12/',
+    scraper: getPlayerTwelveList
   }
 }
