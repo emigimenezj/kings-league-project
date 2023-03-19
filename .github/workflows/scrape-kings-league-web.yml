@@ -21,7 +21,7 @@ jobs:
       - name: NPM dependency installation
         run: npm install
       - name: Scrapping Kings League web
-        run: node scrapping/leaderboard.js
+        run: node run scrape
       - name: Adding new changes to staging area
         run: |
           git config --global user.email "${GITHUB_ACTOR}"
