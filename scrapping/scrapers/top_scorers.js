@@ -19,7 +19,7 @@ export function getTopScorersList($) {
       const selector = SCORERS_SELECTORS[key];
       const value = cleanText($(el).find(selector).text());
 
-      topScorer[key] = value;
+      topScorer[key] = /^\d+$/.test(value) ? ~~value : value;
     }
 
     const { image } = TEAMS.find(team => team.name === topScorer.team);

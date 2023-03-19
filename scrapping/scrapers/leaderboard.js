@@ -26,7 +26,7 @@ export function getLeaderboardList($) {
 			const selector = LEADERBOARD_SELECTORS[key];
 			const value = cleanText($(el).find(selector).text());
 
-			leaderboardForTeam[key] = value;
+			leaderboardForTeam[key] = /^\d+$/.test(value) ? ~~value : value;
 		}
 
 		const team = getTeam(leaderboardForTeam.team);

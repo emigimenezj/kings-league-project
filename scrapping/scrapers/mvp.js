@@ -20,7 +20,7 @@ export function getMvpList($) {
       const selector = MVP_SELECTORS[key];
       const value = cleanText($(el).find(selector).text());
 
-      mvpPlayer[key] = value;
+      mvpPlayer[key] = /^\d+$/.test(value) ? ~~value : value;
     }
 
     const image = getImage(mvpPlayer.team);

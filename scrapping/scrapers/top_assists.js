@@ -19,7 +19,7 @@ export function getAssistsList($) {
       const selector = ASSISTANTS_SELECTORS[key];
       const value = cleanText($(el).find(selector).text());
 
-      topAssistant[key] = value;
+      topAssistant[key] = /^\d+$/.test(value) ? ~~value : value;
     }
 
     const { image } = TEAMS.find(team => team.name === topAssistant.team);
