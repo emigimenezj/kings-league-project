@@ -7,6 +7,8 @@ import presidents from '../db/presidents.json';
 import top_scorers from '../db/top_scorers.json';
 import top_assists from '../db/top_assists.json';
 import mvp from '../db/mvp.json';
+import player_twelve from '../db/player_twelve.json';
+
 import { teamsRoute } from './routes/teams';
 import { presidentsRoute } from './routes/presidents';
 import { coachesRoute } from './routes/coaches';
@@ -113,79 +115,8 @@ app.get('/teams/:id', (ctx) => {
 	return team ? ctx.json(team) : ctx.json({ message: 'Team not found' }, 404);
 });
 
-app.get('/teams/:id/players', (ctx) => {
-	const id = ctx.req.param('id');
-	const { players } = teams.find(team => team.id === id);
-
-	return players ? ctx.json(players) : ctx.json({ message: 'Team not found' }, 404);
-});
-
-app.get('/teams/:teamID/players/:playerID', (ctx) => {
-	const teamID = ctx.req.param('teamID');
-	const playerID = ctx.req.param('playerID');
-
-	const team = teams.find(team => team.id === teamID);
-	const players = team?.players;
-
-	const player = players?.find(player => player.id.split('-').at(-1) === playerID);
-
-	return player ? ctx.json(player) : ctx.json({ message: 'Team or player not found' }, 404);
-
-})
-
-app.get('/presidents', (ctx) => {
-	return ctx.json(presidents);
-});
-
-app.get('/presidents/:id', (ctx) => {
-	const { id } = ctx.req.param();
-	const targetPresident = presidents.find(p => p.id === id);
-
-	return targetPresident
-		? ctx.json(targetPresident)
-		: ctx.json({ message: 'President not found' }, 404);
-});
-
-
-app.get('/coaches', (ctx) => {
-	const coaches = teams.map(team => team.coach);
-
-	return ctx.json(coaches);
-});
-
-app.get('/coaches/:teamID', (ctx) => {
-	const teamID = ctx.req.param('teamID');
-	const team = teams.find(team => team.id === teamID);
-
-	const coach = team?.coach;
-
-	return coach ? ctx.json(coach) : ctx.json({ message: 'Team not found' }, 404);
-});
-
-app.get('/top-scorers', (ctx) => {
-	return ctx.json(top_scorers);
-});
-
-app.get('/top-scorers/:rank', (ctx) => {
-	const rank = ~~ctx.req.param('rank');
-	const player = top_scorers.find(player => player.rank === rank);
-
-	return player ? ctx.json(player) : ctx.json({ message: 'Received range is out of limits.'}, 404);
-});
-
-app.get('/top-assists', (ctx) => {
-	return ctx.json(top_assists);
-});
-
-app.get('/top-assists/:rank', (ctx) => {
-	const rank = ~~ctx.req.param('rank');
-	const player = top_assists.find(player => player.rank === rank);
-
-	return player ? ctx.json(player) : ctx.json({ message: 'Received range is out of limits.'}, 404);
-});
-
-app.get('/mvp', (ctx) => {
-	return ctx.json(mvp);
+app.get('/players-12', (ctx) => {
+	return ctx.json(player_twelve);
 });
 
 app.get('/emi', (ctx) => {
